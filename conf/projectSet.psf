@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<psf version="2.0">
+<provider id="org.eclipse.egit.core.GitProvider"/>
+<workingSets editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" id="1313579535418_2" label="OperaDSL" name="OperaDSL">
+<item elementID="=de.abg.jreichert.operadsl" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=de.abg.jreichert.operadsl.generator" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=de.abg.jreichert.operadsl.tests" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=de.abg.jreichert.operadsl.ui" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSets>
+<workingSets editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" id="1313579546591_3" label="MisterWongDSL" name="MisterWongDSL">
+<item elementID="=de.abg.jreichert.wongdsl" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=de.abg.jreichert.wongdsl.generator" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=de.abg.jreichert.wongdsl.tests" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=de.abg.jreichert.wongdsl.ui" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSets>
+</psf>
