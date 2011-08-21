@@ -1,0 +1,87 @@
+grammar de.abg.jreichert.OperaDSL 
+hidden(WS)
+
+import "http://www.eclipse.org/emf/2002/Ecore" as ecore
+
+generate operaDSL "http://www.abg.de/jreichert/OperaDSL"
+
+BookmarkFile :
+	'Opera' 'Hotlist' 'version' version=Version NL // Opera Hotlist version 2.0
+	options = Options NL // Options: encoding = utf8, version=3
+	(elements += Element NL+)*
+;
+
+Options :
+	'Options' ':' 
+		'encoding' '=' encoding=ID 
+		',' 'version' '=' INT
+;
+
+Version :
+	INT ('.' INT)?
+;
+
+Element :
+	Folder|Link
+;
+
+Folder :
+'#FOLDER' NL
+	'ID' '=' id = INT NL
+	'NAME' '=' name = StringWithoutQuotes NL
+	'CREATED' '=' created = INT NL
+	('TARGET' '=' target = StringWithoutQuotes NL)?
+	('MOVE_IS_COPY' '=' moveIsCopy = YESORNO NL)?
+	('SEPARATOR_ALLOWED' '=' separatorAllowed = YESORNO NL)?
+	('TRASH' 'FOLDER' '=' trashFolder = YESORNO NL)?
+	('DELETABLE' '=' deletable=YESORNO NL)?
+	('EXPANDED' '=' expanded = YESORNO NL)?
+	('ACTIVE' '=' active = YESORNO NL)?
+	('PARTNERID' '=' partnerId = StringWithoutQuotes NL)?
+	('DESCRIPTION' '=' description = StringWithoutQuotes NL)?
+	'UNIQUEID' '=' uniqueId = StringWithoutQuotes NL // ('A'..'Z'|'0'..'9')+
+	(elements += Element NL+)*
+	'-'
+;
+
+YESORNO :
+	('YES'|'NO')
+;
+
+Link :
+'#URL' NL
+	'ID' '=' id = INT NL
+	('NAME' '=' name = StringWithoutQuotes NL)?
+	('URL' '=' url = StringWithoutQuotes NL)?
+	('DISPLAY' 'URL' '=' displayUrl=StringWithoutQuotes NL)?
+	'CREATED' '=' created = INT NL
+	('ON' 'PERSONALBAR' '=' onPersonalBar=YESORNO NL)?
+	('PERSONALBAR_POS' '=' personalBarPos=INT NL)?
+	('IN' 'PANEL' '=' inPanel=YESORNO NL)?
+	('PANEL_POS' '=' panelPos=INT NL)?
+	('VISITED' '=' visited = INT NL)?
+	('DESCRIPTION' '=' description = StringWithoutQuotes NL)?
+	'UNIQUEID' '=' uniqueId = StringWithoutQuotes // ('A'..'Z'|'0'..'9')+
+	(NL 'PARTNERID' '=' partnerId = StringWithoutQuotes)?
+;
+
+StringWithoutQuotes hidden() : 
+	(WS|ID|'ID'|'NAME'|'DISPLAY'|'URL'|'CREATED'|
+		'ON'|'PERSONALBAR_POS'|'PERSONALBAR'|'VISITED'|
+		'IN'|'PANEL'|
+		'TARGET'|'MOVE_IS_COPY'|'SEPARATOR_ALLOWED'|
+		'TRASH'|'FOLDER'|'DELETABLE'|'EXPANDED'|'ACTIVE'|
+		'PARTNERID'|'DESCRIPTION'|'YES'|'NO'|'UNIQUEID'|
+		'Opera'|'Hotlist'|'version'|
+		'Options'|'encoding'|
+		INT|ANY_OTHER|
+		'#FOLDER'|'#URL'|HASH|		
+		'='|','|'.'|'-'|':'|'/')+
+;
+
+terminal HASH: '#' ID;
+terminal WS: (' '|'\t')+;
+terminal NL: ('\r'|'\n')+;
+terminal ID : '^'?('a'..'z'|'A'..'Z'|'_') ('a'..'z'|'A'..'Z'|'_'|'0'..'9')*;
+terminal INT returns ecore::EInt: ('0'..'9')+;
+terminal ANY_OTHER: .;
