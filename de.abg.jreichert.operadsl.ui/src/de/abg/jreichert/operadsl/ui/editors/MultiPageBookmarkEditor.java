@@ -36,7 +36,7 @@ public class MultiPageBookmarkEditor extends FormEditor implements
 	
 	@Override
 	protected void createPages() {
-		createXtextPage();
+		//createXtextPage();
 		createFormPage();
 	}
 
