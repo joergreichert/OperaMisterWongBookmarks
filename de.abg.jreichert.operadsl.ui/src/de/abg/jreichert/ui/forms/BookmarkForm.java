@@ -385,6 +385,7 @@ public class BookmarkForm extends FormPage {
 		managedForm.getToolkit().adapt(btnNext, true, true);
 		btnNext.setText(Messages.BookmarkForm_btnNext_text);
 		m_bindingContext = initDataBindings();
+		tabFolder.setSelection(0);
 	}
 
 	void refreshBookmarkForm() {
