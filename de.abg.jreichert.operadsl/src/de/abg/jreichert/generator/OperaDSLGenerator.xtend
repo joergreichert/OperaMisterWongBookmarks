@@ -19,7 +19,7 @@ class OperaDSLGenerator implements IGenerator {
 	
 	override void doGenerate(Resource resource, IFileSystemAccess fsa) {
 		for(file : resource.allContentsIterable.filter(typeof(BookmarkFile)))
-			fsa.generateFile(file.eResource.URI.lastSegment + ".txt", addressFile(file))
+			fsa.generateFile(file.eResource.URI.trimFileExtension.lastSegment + "_opera.txt", addressFile(file))
 	}
 	
 	def addressFile(BookmarkFile file) {
@@ -31,7 +31,7 @@ class OperaDSLGenerator implements IGenerator {
 		sb.toString
 	}
 	
-	def dispatch Object print(StringBuilder sb, Collection<String> spaces, Folder folder) {
+	def dispatch void print(StringBuilder sb, Collection<String> spaces, Folder folder) {
 		for (space : spaces) 
 			sb.append(space) 
 		sb.append("* Folder " + folder.name + "\n");
@@ -40,17 +40,14 @@ class OperaDSLGenerator implements IGenerator {
 		newSpaces.add("  ")
 		for (element : folder.elements.sortByTypeAndName)
 			print(sb, newSpaces, element)
-		null
 	}
 
-	def dispatch Object print(StringBuilder sb, Collection<String> spaces, Link link) {
+	def dispatch void print(StringBuilder sb, Collection<String> spaces, Link link) {
 		for (space : spaces) 
 			sb.append(space) 
 		sb.append("* " + link.name + ": " + link.url + "\n");
-		null 
 	}
 
-	def dispatch Object print(StringBuilder sb, Collection<String> spaces, Element folder) {
-		null
+	def dispatch void print(StringBuilder sb, Collection<String> spaces, Element folder) {
 	}
 }

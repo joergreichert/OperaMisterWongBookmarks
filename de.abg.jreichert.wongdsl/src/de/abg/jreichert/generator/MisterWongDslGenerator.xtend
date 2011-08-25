@@ -13,18 +13,25 @@ import de.abg.jreichert.misterWongDsl.BookmarkFile
 import java.util.ArrayList
 import java.util.Collection
 import de.abg.jreichert.misterWongDsl.Link
+import org.eclipse.emf.common.util.URI
+import org.eclipse.xtext.EcoreUtil2
+import de.abg.jreichert.misterWongDsl.MisterWongDslFactory
+import java.util.Collections
+import java.io.IOException
 
 
 class MisterWongDslGenerator implements IGenerator {
 	
-override void doGenerate(Resource resource, IFileSystemAccess fsa) {
-		for(file : resource.allContentsIterable.filter(typeof(BookmarkFile)))
-			fsa.generateFile(file.eResource.URI.lastSegment + ".txt", addressFile(file))
+	override void doGenerate(Resource resource, IFileSystemAccess fsa) {
+		for(file : resource.allContentsIterable.filter(typeof(BookmarkFile))) {
+			fsa.generateFile(file.eResource.URI.trimFileExtension.lastSegment + "_wong.txt", addressFile(file))
+			mdsdFiltered(resource)
+		}
 	}
 	
 	def addressFile(BookmarkFile file) '''
 		«FOR link : file.links.sortByName» 
-			* Link «link.name»
+			* Link «link.name»: «link.url»
 		«ENDFOR»	
 	'''
 	
@@ -45,6 +52,30 @@ override void doGenerate(Resource resource, IFileSystemAccess fsa) {
 			} else {
 				a.name.toLowerCase.compareTo(b.name.toLowerCase)
 			}
+		}
+	}
+	
+	def mdsdFiltered(Resource resource) {
+		try {
+			val newUriStr = resource.URI.path
+				.replace(".wong", "_filtered.wong")
+				.replace("/resource", "")
+				.replace("src", "src-gen")
+			val newUri = URI::createPlatformResourceURI(newUriStr, true)
+			val newRes = resource.resourceSet.createResource(newUri)
+			val root = resource.allContentsIterable.filter(typeof(BookmarkFile)).head
+			val newRoot = MisterWongDslFactory::eINSTANCE.createBookmarkFile
+			newRoot.name = root.name
+			newRoot.header = root.header
+			newRoot.links.addAll(
+				root.links.filter(link | 
+					link.tags.split(" ").contains("modellgetriebene_entwicklung")
+				).map(link | EcoreUtil2::clone(link))
+			)
+			newRes.contents.add(newRoot)
+			newRes.save(Collections::EMPTY_MAP)
+		} catch(IOException ioe) {
+			ioe.printStackTrace
 		}
 	}
 }
