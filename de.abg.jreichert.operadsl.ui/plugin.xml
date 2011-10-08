@@ -3,7 +3,7 @@
 
 <plugin>
 
-    <extension
+    <!--extension
             point="org.eclipse.ui.editors">
         <editor
             class="de.abg.jreichert.ui.OperaDSLExecutableExtensionFactory:org.eclipse.xtext.ui.editor.XtextEditor"
@@ -14,15 +14,7 @@
             id="de.abg.jreichert.OperaDSL"
             name="OperaDSL Editor">
         </editor>
-        <editor
-              class="de.abg.jreichert.operadsl.ui.editors.MultiPageBookmarkEditor"
-              contributorClass="de.abg.jreichert.operadsl.ui.editors.MultiPageBookmarkEditorContributor"
-              extensions="adr"
-              icon="icons/opera.png"
-              id="de.abg.jreichert.operadsl.ui.editors.MultiPageBookmarkEditor"
-              name="Bookmark Multi-page Editor">
-        </editor>
-    </extension>
+    </extension-->
     <extension
         point="org.eclipse.ui.handlers">
         <handler

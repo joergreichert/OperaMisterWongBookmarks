@@ -19,6 +19,7 @@ Require-Bundle: de.abg.jreichert.wongdsl;visibility:=reexport,
 Import-Package: org.apache.log4j,
  org.apache.commons.logging
 Bundle-RequiredExecutionEnvironment: J2SE-1.5
-Export-Package: de.abg.jreichert.ui.contentassist.antlr,
+Export-Package: de.abg.jreichert.ui,
+ de.abg.jreichert.ui.contentassist.antlr,
  de.abg.jreichert.ui.internal
 Bundle-Activator: de.abg.jreichert.ui.internal.MisterWongDslActivator

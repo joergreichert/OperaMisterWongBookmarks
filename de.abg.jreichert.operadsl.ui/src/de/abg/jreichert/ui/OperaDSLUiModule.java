@@ -4,7 +4,6 @@
 package de.abg.jreichert.ui;
 
 import org.eclipse.ui.plugin.AbstractUIPlugin;
-import org.eclipse.xtext.ui.editor.XtextEditor;
 
 /**
  * Use this class to register components to be used within the IDE.

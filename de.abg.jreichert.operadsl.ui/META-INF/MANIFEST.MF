@@ -35,7 +35,8 @@ Require-Bundle: de.abg.jreichert.operadsl;visibility:=reexport,
 Import-Package: org.apache.log4j,
  org.apache.commons.logging
 Bundle-RequiredExecutionEnvironment: J2SE-1.5
-Export-Package: de.abg.jreichert.ui.contentassist.antlr,
+Export-Package: de.abg.jreichert.ui,
+ de.abg.jreichert.ui.contentassist.antlr,
  de.abg.jreichert.ui.internal
 Bundle-Activator: de.abg.jreichert.ui.internal.OperaDSLActivator
 Bundle-ClassPath: .,swing2swt.jar,org.pushingpixels.trident_1.2.0.v20100204-1500.jar,org.eclipse.e4.xwt_0.9.1.SNAPSHOT.jar,org.eclipse.e4.xwt.forms_0.9.1.SNAPSHOT.jar
