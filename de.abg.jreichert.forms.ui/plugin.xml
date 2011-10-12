@@ -7,9 +7,9 @@
             name="Opera Bookmarks Multipage Editor"
             extensions="adr"
             icon="icons/opera.png"
-            contributorClass="org.eclipse.ui.editors.text.TextEditorActionContributor"
+            contributorClass="de.abg.jreichert.forms.ui.internal.OperaExecutableExtensionFactory:de.abg.jreichert.forms.ui.editors.MultiPageBookmarkEditorContributor"
             class="de.abg.jreichert.forms.ui.internal.OperaExecutableExtensionFactory:de.abg.jreichert.forms.ui.editors.MultiPageBookmarkEditor"
-            id="de.abg.jreichert.OperaDSL">
+            id="de.abg.jreichert.MultiOperaDSL">
       </editor>
       <editor
             name="Mister Wong Bookmarks Multipage Editor"
@@ -17,6 +17,7 @@
             icon="icons/wong.png"
             contributorClass="de.abg.jreichert.forms.ui.internal.MisterWongExecutableExtensionFactory:de.abg.jreichert.forms.ui.editors.MultiPageBookmarkEditorContributor"
             class="de.abg.jreichert.forms.ui.internal.MisterWongExecutableExtensionFactory:de.abg.jreichert.forms.ui.editors.MultiPageBookmarkEditor"
-            id="de.abg.jreichert.WongDSL">
-      </editor>   </extension>
+            id="de.abg.jreichert.MultiMisterWongDSL">
+      </editor>
+	</extension>
 </plugin>
