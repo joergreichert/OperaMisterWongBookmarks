@@ -7,7 +7,7 @@
             name="Opera Bookmarks Multipage Editor"
             extensions="adr"
             icon="icons/opera.png"
-            contributorClass="de.abg.jreichert.forms.ui.internal.OperaExecutableExtensionFactory:de.abg.jreichert.forms.ui.editors.MultiPageBookmarkEditorContributor"
+            contributorClass="org.eclipse.ui.editors.text.TextEditorActionContributor"
             class="de.abg.jreichert.forms.ui.internal.OperaExecutableExtensionFactory:de.abg.jreichert.forms.ui.editors.MultiPageBookmarkEditor"
             id="de.abg.jreichert.OperaDSL">
       </editor>
