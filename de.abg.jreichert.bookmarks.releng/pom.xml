@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<prerequisites>
+		<maven>3.0</maven>
+	</prerequisites>
+
+	<groupId>de.abg.jreichert.bookmarks</groupId>
+	<artifactId>de.abg.jreichert.bookmarks.releng</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<name>Opera Mister Wong Bookmarks</name>
+
+	<modules>
+		<module>../de.abg.jreichert.bookmarks.targetplatform</module>
+		<module>../de.abg.jreichert.bookmarks.parent</module>
+	</modules>
+	<profiles>
+		<profile>
+			<id>modules-default</id>
+			<activation>
+				<activeByDefault>true</activeByDefault>
+			</activation>
+			<modules>
+				<module>../de.abg.jreichert.operadsl</module>
+				<module>../de.abg.jreichert.operadsl.ui</module>
+				<module>../de.abg.jreichert.wongdsl</module>
+				<module>../de.abg.jreichert.wongdsl.ui</module>
+				<module>../de.abg.jreichert.forms.ui</module>
+				<module>../de.abg.jreichert.operadsl.tests</module>
+				<module>../de.abg.jreichert.wongdsl.tests</module>
+			</modules>
+		</profile>
+		<profile>
+			<id>modules-targetplatform</id>
+			<activation>
+				<property>
+					<name>modules-targetplatform</name>
+				</property>
+			</activation>
+			<modules>
+				<module>../de.abg.jreichert.bookmarks.repository.parent</module>
+				<module>../de.abg.jreichert.bookmarks.repository</module>
+			</modules>
+		</profile>
+		<profile>
+			<id>modules-assembly</id>
+			<activation>
+				<property>
+					<name>modules-assembly</name>
+				</property>
+			</activation>
+			<modules>
+				<module>../de.abg.jreichert.bookmarks.feature</module>
+				<module>../de.abg.jreichert.bookmarks.updatesite</module>
+			</modules>
+		</profile>
+	</profiles>
+</project>

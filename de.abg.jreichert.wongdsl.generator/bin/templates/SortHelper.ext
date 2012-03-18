@@ -1,5 +1,0 @@
-import de::abg::jreichert::misterWongDsl;
-
-Collection[Link] sortLinksByName(Collection[Link] this) :
-	sortBy(e | e.name.toLowerCase())
-;

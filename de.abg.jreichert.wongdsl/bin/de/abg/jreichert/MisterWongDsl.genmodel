@@ -8,19 +8,19 @@
     complianceLevel="5.0" copyrightFields="false" editPluginID="de.abg.jreichert.wongdsl.edit"
     editorPluginID="de.abg.jreichert.wongdsl.editor">
   <genPackages prefix="MisterWongDsl" basePackage="de.abg.jreichert" disposableProviderFactory="true"
-      ecorePackage="platform:/resource/de.abg.jreichert.wongdsl/src-gen/de/abg/jreichert/MisterWongDsl.ecore#/">
-    <genClasses ecoreClass="platform:/resource/de.abg.jreichert.wongdsl/src-gen/de/abg/jreichert/MisterWongDsl.ecore#//BookmarkFile">
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute platform:/resource/de.abg.jreichert.wongdsl/src-gen/de/abg/jreichert/MisterWongDsl.ecore#//BookmarkFile/name"/>
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute platform:/resource/de.abg.jreichert.wongdsl/src-gen/de/abg/jreichert/MisterWongDsl.ecore#//BookmarkFile/header"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference platform:/resource/de.abg.jreichert.wongdsl/src-gen/de/abg/jreichert/MisterWongDsl.ecore#//BookmarkFile/links"/>
+      ecorePackage="MisterWongDsl.ecore#/">
+    <genClasses ecoreClass="MisterWongDsl.ecore#//BookmarkFile">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MisterWongDsl.ecore#//BookmarkFile/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MisterWongDsl.ecore#//BookmarkFile/header"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference MisterWongDsl.ecore#//BookmarkFile/links"/>
     </genClasses>
-    <genClasses ecoreClass="platform:/resource/de.abg.jreichert.wongdsl/src-gen/de/abg/jreichert/MisterWongDsl.ecore#//Link">
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute platform:/resource/de.abg.jreichert.wongdsl/src-gen/de/abg/jreichert/MisterWongDsl.ecore#//Link/url"/>
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute platform:/resource/de.abg.jreichert.wongdsl/src-gen/de/abg/jreichert/MisterWongDsl.ecore#//Link/addDate"/>
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute platform:/resource/de.abg.jreichert.wongdsl/src-gen/de/abg/jreichert/MisterWongDsl.ecore#//Link/lastModified"/>
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute platform:/resource/de.abg.jreichert.wongdsl/src-gen/de/abg/jreichert/MisterWongDsl.ecore#//Link/tags"/>
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute platform:/resource/de.abg.jreichert.wongdsl/src-gen/de/abg/jreichert/MisterWongDsl.ecore#//Link/name"/>
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute platform:/resource/de.abg.jreichert.wongdsl/src-gen/de/abg/jreichert/MisterWongDsl.ecore#//Link/description"/>
+    <genClasses ecoreClass="MisterWongDsl.ecore#//Link">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MisterWongDsl.ecore#//Link/url"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MisterWongDsl.ecore#//Link/addDate"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MisterWongDsl.ecore#//Link/lastModified"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MisterWongDsl.ecore#//Link/tags"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MisterWongDsl.ecore#//Link/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MisterWongDsl.ecore#//Link/description"/>
     </genClasses>
   </genPackages>
 </genmodel:GenModel>

@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: de.abg.jreichert.wongdsl
 Bundle-Vendor: My Company
-Bundle-Version: 1.0.0
+Bundle-Version: 1.0.0.qualifier
 Bundle-SymbolicName: de.abg.jreichert.wongdsl; singleton:=true
 Bundle-ActivationPolicy: lazy
 Require-Bundle: org.eclipse.xtext;bundle-version="2.0.0";visibility:=reexport,
@@ -20,7 +20,8 @@ Require-Bundle: org.eclipse.xtext;bundle-version="2.0.0";visibility:=reexport,
 Import-Package: org.apache.log4j,
  org.apache.commons.logging,
  org.eclipse.xtext.xbase.lib,
- org.eclipse.xtext.xtend2.lib
+ org.eclipse.xtext.xtend2.lib,
+ org.eclipse.xtend2.lib
 Bundle-RequiredExecutionEnvironment: J2SE-1.5
 Export-Package: de.abg.jreichert,
  de.abg.jreichert.services,
@@ -30,4 +31,6 @@ Export-Package: de.abg.jreichert,
  de.abg.jreichert.serializer,
  de.abg.jreichert.parser.antlr,
  de.abg.jreichert.parser.antlr.internal,
- de.abg.jreichert.validation
+ de.abg.jreichert.validation,
+ de.abg.jreichert.generator,
+ de.abg.jreichert.formatting

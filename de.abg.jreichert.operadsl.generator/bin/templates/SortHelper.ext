@@ -1,9 +1,0 @@
-import de::abg::jreichert::operaDSL;
-
-Collection[Link] sortLinksByName(Collection[Link] this) :
-	sortBy(e | e.name.toLowerCase())
-;
-
-Collection[Folder] sortFoldersByName(Collection[Folder] this) :
-	sortBy(e | e.name.toLowerCase())
-;
