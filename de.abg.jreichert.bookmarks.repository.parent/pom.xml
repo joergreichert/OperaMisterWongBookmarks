@@ -294,4 +294,17 @@
 		<system>Cloudbees Jenkins</system>
 		<url>https://joergreichert.ci.cloudbees.com/</url>
 	</ciManagement>
+	
+	<distributionManagement>
+		<repository>
+			<id>cloudbees-release</id>
+			<name>Cloudbees Private Repository</name>
+			<url>dav:https://repository-joergreichert.forge.cloudbees.com/release</url>
+		</repository>
+		<snapshotRepository>
+			<id>cloudbees-snapshot</id>
+			<name>Cloudbees Private Repository</name>
+			<url>dav:https://repository-joergreichert.forge.cloudbees.com/snapshot</url>
+		</snapshotRepository>
+	</distributionManagement>	
 </project>
