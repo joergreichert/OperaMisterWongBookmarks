@@ -76,6 +76,21 @@
                 </repository>
             </repositories>
         </profile>
+        <profile>
+            <id>remote-build</id>
+            <activation>
+                <property>
+                    <name>remote-build</name>
+                </property>
+            </activation>
+            <repositories>
+                <repository>
+                    <id>bookmarks-dependencies</id>
+                    <layout>p2</layout>
+                    <url>https://joergreichert.ci.cloudbees.com/job/OperaMisterWongBookmarksRepository/lastSuccessfulBuild/artifact/de.abg.jreichert.bookmarks.repository/target/repository/</url>
+                </repository>
+            </repositories>
+        </profile>
 		<profile>
 			<id>skipUITests</id>
 			<activation>
