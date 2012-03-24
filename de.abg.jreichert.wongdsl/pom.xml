@@ -10,7 +10,7 @@
 		<relativePath>../de.abg.jreichert.bookmarks.parent/pom.xml</relativePath>
 	</parent>
 
-	<artifactId>de.abg.jreichert.operadsl</artifactId>
+	<artifactId>de.abg.jreichert.wongdsl</artifactId>
 	<packaging>eclipse-plugin</packaging>
 
 	<build>
