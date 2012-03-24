@@ -87,7 +87,7 @@
                 <repository>
                     <id>bookmarks-dependencies</id>
                     <layout>p2</layout>
-                    <url>https://joergreichert.ci.cloudbees.com/job/OperaMisterWongBookmarksRepository/lastSuccessfulBuild/artifact/de.abg.jreichert.bookmarks.repository/target/repository/</url>
+                    <url>file:/home/joergreichert/hudson_home/jobs/OperaMisterWongBookmarksRepository/workspace/releng/org.eclipselabs.spray.repository/target/repository/</url>
                 </repository>
             </repositories>
         </profile>
