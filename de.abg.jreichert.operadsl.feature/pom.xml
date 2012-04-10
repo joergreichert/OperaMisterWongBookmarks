@@ -10,7 +10,7 @@
 	</parent>
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>de.abg.jreichert.bookmarks</groupId>
-	<artifactId>de.abg.jreichert.junit4runner.feature</artifactId>
+	<artifactId>de.abg.jreichert.operadsl.feature</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>eclipse-feature</packaging>
 </project>
