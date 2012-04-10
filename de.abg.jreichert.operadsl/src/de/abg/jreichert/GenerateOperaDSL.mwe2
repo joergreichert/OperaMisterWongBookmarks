@@ -70,7 +70,7 @@ Workflow {
 
             // scoping and exporting API
             // fragment = scoping.ImportURIScopingFragment {}
-            fragment = de.abg.jreichert.naming.OperaSimpleNamesFragment {}
+			fragment = exporting.SimpleNamesFragment {}
 
             // scoping and exporting API
             // fragment = scoping.ImportNamespacesScopingFragment {}

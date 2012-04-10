@@ -18,7 +18,7 @@ class OperaDSLGenerator implements IGenerator {
 	@Inject extension SortHelper sortHelper
 	
 	override void doGenerate(Resource resource, IFileSystemAccess fsa) {
-		for(file : resource.allContentsIterable.filter(typeof(BookmarkFile)))
+		for(file : resource.allContents.toIterable.filter(typeof(BookmarkFile)))
 			fsa.generateFile(file.eResource.URI.trimFileExtension.lastSegment + "_opera.txt", addressFile(file))
 	}
 	

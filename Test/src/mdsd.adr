@@ -1,1451 +1,1451 @@
 Opera Hotlist version 2.0
-Options: encoding = utf8, version=3
+Options: encoding=utf8, version=3
 
 #FOLDER
 	ID=17316
-	NAME=Modelgetriebene Entwicklung
+	NAME=Modelgetriebene Entwicklung 
 	CREATED=1194635727
 	EXPANDED=YES
-	UNIQUEID=C47551BE51CFE24BA7A4ECD696C6B29D
+	UNIQUEID=C47551BE51CFE24BA7A4ECD696C6B29D 
 
 #FOLDER
 	ID=17317
-	NAME=AADL
+	NAME=AADL 
 	CREATED=1194635727
-	UNIQUEID=D4977AF872A1084D9AFB354EA6405CCD
+	UNIQUEID=D4977AF872A1084D9AFB354EA6405CCD 
 
 #URL
 	ID=17318
-	NAME=Axlog - AADL (Architecture Analysis & Design Language)
-	URL=http://www.axlog.fr/aadl/aadl_en.html
+	NAME=Axlog - AADL (Architecture Analysis & Design Language) 
+	URL=http://www.axlog.fr/aadl/aadl_en.html 
 	CREATED=1194635727
-	UNIQUEID=5FDD28B55C816F428D7D7A61F81B2AB6
+	UNIQUEID=5FDD28B55C816F428D7D7A61F81B2AB6 
 
 #URL
 	ID=17319
-	NAME=The SAE AADL Standard Info Site
-	URL=http://www.aadl.info/
+	NAME=The SAE AADL Standard Info Site 
+	URL=http://www.aadl.info/ 
 	CREATED=1194635727
-	UNIQUEID=60EFACE1A695F24B98DA95D2837C45CF
+	UNIQUEID=60EFACE1A695F24B98DA95D2837C45CF 
 
 #URL
 	ID=17320
-	NAME=Architecture Description Languages
-	URL=http://www.sei.cmu.edu/architecture/adl.html
+	NAME=Architecture Description Languages 
+	URL=http://www.sei.cmu.edu/architecture/adl.html 
 	CREATED=1212940808
-	UNIQUEID=2D8FFEE71868AF4DA25F7AF2DC3A435F
+	UNIQUEID=2D8FFEE71868AF4DA25F7AF2DC3A435F 
 
 #URL
 	ID=17321
-	NAME=Architecture Expert (ArchE) Tool
-	URL=http://www.sei.cmu.edu/architecture/arche.html
+	NAME=Architecture Expert (ArchE) Tool 
+	URL=http://www.sei.cmu.edu/architecture/arche.html 
 	CREATED=1212940863
-	DESCRIPTION=The Software Engineering Institute's "Software Architecture for Software-Intensive Systems" Web site is a leading source of software architecture evaluations, documentation, reconstruction, and definition.
-	UNIQUEID=5FDE6FACC368934F830065D398A75537
+	DESCRIPTION=The Software Engineering Institute's "Software Architecture for Software-Intensive Systems" Web site is a leading source of software architecture evaluations, documentation, reconstruction, and definition. 
+	UNIQUEID=5FDE6FACC368934F830065D398A75537 
 
--
+- 
 
 #FOLDER
 	ID=17322
-	NAME=openArchitectureWare
+	NAME=openArchitectureWare 
 	CREATED=1194635727
-	UNIQUEID=82CA2B37B173744F95A8B5B0754A042C
+	UNIQUEID=82CA2B37B173744F95A8B5B0754A042C 
 
 #URL
 	ID=17323
-	NAME=Die deutschsprachige Supportseite für openArchitectureWare
-	URL=http://oaw.itemis.de/
+	NAME=Die deutschsprachige Supportseite für openArchitectureWare 
+	URL=http://oaw.itemis.de/ 
 	CREATED=1194635727
-	UNIQUEID=2065CE9215365B40AC8AC05A3995BB3E
+	UNIQUEID=2065CE9215365B40AC8AC05A3995BB3E 
 
 #URL
 	ID=17324
-	NAME=Fornax-Platform
-	URL=http://www.fornax-platform.org/cp/display/fornax/Fornax
+	NAME=Fornax-Platform 
+	URL=http://www.fornax-platform.org/cp/display/fornax/Fornax 
 	CREATED=1194635727
-	UNIQUEID=9DF0C35225184F41AA8B6A953397D251
+	UNIQUEID=9DF0C35225184F41AA8B6A953397D251 
 
 #URL
 	ID=17325
-	NAME=Maven EMF Generator Plugin
-	URL=http://mapasuta.sourceforge.net/maven/site/maven-emfgen-plugin/genmodel-mojo.html
+	NAME=Maven EMF Generator Plugin 
+	URL=http://mapasuta.sourceforge.net/maven/site/maven-emfgen-plugin/genmodel-mojo.html 
 	CREATED=1194635727
-	UNIQUEID=4766752A2D3E6746843AF50183705E87
+	UNIQUEID=4766752A2D3E6746843AF50183705E87 
 
 #URL
 	ID=17326
-	NAME=open ArchitectureWare - API Documentation (core), Version 4.0
-	URL=http://www.oaw-dev.de/api/javadoc-core/index.html
+	NAME=open ArchitectureWare - API Documentation (core), Version 4.0 
+	URL=http://www.oaw-dev.de/api/javadoc-core/index.html 
 	CREATED=1194635727
-	UNIQUEID=92516C4B68E0464F8F72202B26DCDB5E
+	UNIQUEID=92516C4B68E0464F8F72202B26DCDB5E 
 
 #URL
 	ID=17327
-	NAME=openArchitectureWare API Referenz
-	URL=http://www.openarchitectureware.org/api/oaw4/4.1.0/core/
+	NAME=openArchitectureWare API Referenz 
+	URL=http://www.openarchitectureware.org/api/oaw4/4.1.0/core/ 
 	CREATED=1194635727
-	UNIQUEID=D5617F88270EF54CA3C2C056AFA26055
+	UNIQUEID=D5617F88270EF54CA3C2C056AFA26055 
 
 #URL
 	ID=17328
-	NAME=openArchitectureWare Dateien
-	URL=http://openarchitectureware.org/filemgmt/index.php
+	NAME=openArchitectureWare Dateien 
+	URL=http://openarchitectureware.org/filemgmt/index.php 
 	CREATED=1194635727
-	UNIQUEID=BD3651FBFB05864AA75518AE484FCC7F
+	UNIQUEID=BD3651FBFB05864AA75518AE484FCC7F 
 
 #URL
 	ID=17329
-	NAME=openArchitectureWare Branch Plugin-Builder
-	URL=http://oawbranch.pluginbuilder.org/
+	NAME=openArchitectureWare Branch Plugin-Builder 
+	URL=http://oawbranch.pluginbuilder.org/ 
 	CREATED=1207666029
-	UNIQUEID=DB6590C24C52E64481ECD21A1415503E
+	UNIQUEID=DB6590C24C52E64481ECD21A1415503E 
 
 #URL
 	ID=17330
-	NAME=planet openArchitectureWare
-	URL=http://www.openarchitectureware.org/planet/
+	NAME=planet openArchitectureWare 
+	URL=http://www.openarchitectureware.org/planet/ 
 	CREATED=1207995782
-	UNIQUEID=362AFE48D2735D498ADA131BC6AD12A2
+	UNIQUEID=362AFE48D2735D498ADA131BC6AD12A2 
 
 #URL
 	ID=17331
-	NAME=Martin Fowler nutzt Xtext
-	URL=http://gallery.mac.com/sven.efftinge
+	NAME=Martin Fowler nutzt Xtext 
+	URL=http://gallery.mac.com/sven.efftinge 
 	CREATED=1213256255
-	UNIQUEID=C70D51D3D023FA4C8F899367EDF2973B
+	UNIQUEID=C70D51D3D023FA4C8F899367EDF2973B 
 
 #URL
 	ID=17332
-	NAME=Witchcraft
-	URL=http://witchcraft.sourceforge.net/
+	NAME=Witchcraft 
+	URL=http://witchcraft.sourceforge.net/ 
 	CREATED=1224931839
-	DESCRIPTION=_your description goes here_
-	UNIQUEID=C4CDA62ABDEFF349B6A5286B7197F0D2
+	DESCRIPTION=_your description goes here_ 
+	UNIQUEID=C4CDA62ABDEFF349B6A5286B7197F0D2 
 
 #URL
 	ID=17333
-	NAME=GeneSEZ
-	URL=http://www.genesez.de/
+	NAME=GeneSEZ 
+	URL=http://www.genesez.de/ 
 	CREATED=1236934059
-	UNIQUEID=B95A52B0BB82431D9E5D0E0998606F37
+	UNIQUEID=B95A52B0BB82431D9E5D0E0998606F37 
 
 #URL
 	ID=17334
-	NAME=Sculptor
-	URL=http://fornax-platform.org/cp/display/fornax/Sculptor+(CSC)
+	NAME=Sculptor 
+	URL=http://fornax-platform.org/cp/display/fornax/Sculptor+(CSC) 
 	CREATED=1235912772
-	UNIQUEID=A6B9A91315DD48FDBB3BF9385E3EE8B9
+	UNIQUEID=A6B9A91315DD48FDBB3BF9385E3EE8B9 
 
 #URL
 	ID=17335
-	NAME=DSL Variant Management
-	URL=http://code.google.com/p/dslvariantmanagement/
+	NAME=DSL Variant Management 
+	URL=http://code.google.com/p/dslvariantmanagement/ 
 	CREATED=1237991721
-	UNIQUEID=43169591F182BF4C9179856947C90971
+	UNIQUEID=43169591F182BF4C9179856947C90971 
 
 #URL
 	ID=17336
-	NAME=fit4oaw
-	URL=http://fit4oaw.sourceforge.net/
+	NAME=fit4oaw 
+	URL=http://fit4oaw.sourceforge.net/ 
 	CREATED=1238223656
-	UNIQUEID=F20305CE84EDA94F88930B9F43BEDC04
+	UNIQUEID=F20305CE84EDA94F88930B9F43BEDC04 
 
 #URL
 	ID=17337
-	NAME=components 4 oaw
-	URL=http://components4oaw.sourceforge.net/
+	NAME=components 4 oaw 
+	URL=http://components4oaw.sourceforge.net/ 
 	CREATED=1241964745
-	UNIQUEID=320D8BECA454634183CDCCCD3CAAE347
+	UNIQUEID=320D8BECA454634183CDCCCD3CAAE347 
 
 #URL
 	ID=17338
-	NAME=Visual QVT/R
-	URL=http://page.mi.fu-berlin.de/bureck/
+	NAME=Visual QVT/R 
+	URL=http://page.mi.fu-berlin.de/bureck/ 
 	CREATED=1246114307
-	UNIQUEID=9A6800E962D9A74EB577CFEA83DC1806
+	UNIQUEID=9A6800E962D9A74EB577CFEA83DC1806 
 
 #URL
 	ID=17339
-	NAME=Txt2UML
-	URL=http://www.fornax-platform.org/cp/display/fornax/Txt2UML+(TTU)
+	NAME=Txt2UML 
+	URL=http://www.fornax-platform.org/cp/display/fornax/Txt2UML+(TTU) 
 	CREATED=1239792722
-	UNIQUEID=1EEB399834F28945972A0AC2ED8DB34E
+	UNIQUEID=1EEB399834F28945972A0AC2ED8DB34E 
 
 #URL
 	ID=17340
-	NAME=Internet Application Modelling Language (IAML)
-	URL=http://openiaml.org/
+	NAME=Internet Application Modelling Language (IAML) 
+	URL=http://openiaml.org/ 
 	CREATED=1247325429
-	UNIQUEID=8AE39FB6D1B6E44E8537B2E8278810E8
+	UNIQUEID=8AE39FB6D1B6E44E8537B2E8278810E8 
 
 #URL
 	ID=17341
-	NAME=oAW4 Component Migration
-	URL=http://architecturware.wiki.sourceforge.net/oAW4+Component+Migration
+	NAME=oAW4 Component Migration 
+	URL=http://architecturware.wiki.sourceforge.net/oAW4+Component+Migration 
 	CREATED=1247396714
-	UNIQUEID=BF9341A6911C5B42A48203A9987A7B82
+	UNIQUEID=BF9341A6911C5B42A48203A9987A7B82 
 
 #URL
 	ID=17342
-	NAME=openArchitectureWare Working Group
-	URL=http://www.eclipse.org/workinggroups/oaw/
+	NAME=openArchitectureWare Working Group 
+	URL=http://www.eclipse.org/workinggroups/oaw/ 
 	CREATED=1245787318
-	UNIQUEID=710528630EF4694D9129B29F5E41ADBC
+	UNIQUEID=710528630EF4694D9129B29F5E41ADBC 
 
 #URL
 	ID=17343
-	NAME=Maven Repository Seite von openArchitectureWare
-	URL=http://www.openarchitectureware.org/m2/
+	NAME=Maven Repository Seite von openArchitectureWare 
+	URL=http://www.openarchitectureware.org/m2/ 
 	CREATED=1247410850
-	UNIQUEID=16FC267D597108458CE0793F1AFA8DB4
+	UNIQUEID=16FC267D597108458CE0793F1AFA8DB4 
 
 #URL
 	ID=17344
-	NAME=TMF Xtext Additions
-	URL=http://code.google.com/p/tmf-xtext-additions/
+	NAME=TMF Xtext Additions 
+	URL=http://code.google.com/p/tmf-xtext-additions/ 
 	CREATED=1247986711
-	UNIQUEID=A8A2E8B2B545944E8B65473CEBE85563
+	UNIQUEID=A8A2E8B2B545944E8B65473CEBE85563 
 
 #URL
 	ID=17345
-	NAME=Galileo Podcast Series: Creating DSLs With Xtext
-	URL=http://eclipse.dzone.com/podcasts/galileo-podcast-series-0
+	NAME=Galileo Podcast Series: Creating DSLs With Xtext 
+	URL=http://eclipse.dzone.com/podcasts/galileo-podcast-series-0 
 	CREATED=1251535792
-	UNIQUEID=ED24D47A05BC3A40B4F5AA7082D31AEF
+	UNIQUEID=ED24D47A05BC3A40B4F5AA7082D31AEF 
 
 #URL
 	ID=17346
-	NAME=iPhonical
-	URL=http://code.google.com/p/iphonical/
+	NAME=iPhonical 
+	URL=http://code.google.com/p/iphonical/ 
 	CREATED=1251543800
-	UNIQUEID=5186FA846BBC134C910AE5033AA28E8E
+	UNIQUEID=5186FA846BBC134C910AE5033AA28E8E 
 
 #URL
 	ID=17347
-	NAME=HowTo migrate from oaw4 to oaw5
-	URL=http://ekkescorner.wordpress.com/blog-series/modeling-oaw/
+	NAME=HowTo migrate from oaw4 to oaw5 
+	URL=http://ekkescorner.wordpress.com/blog-series/modeling-oaw/ 
 	CREATED=1251634869
-	UNIQUEID=C537B47F02AA86458C7CB86AB5D7822D
+	UNIQUEID=C537B47F02AA86458C7CB86AB5D7822D 
 
 #URL
 	ID=17348
-	NAME=recipe2
-	URL=http://code.google.com/p/recipe2/
+	NAME=recipe2 
+	URL=http://code.google.com/p/recipe2/ 
 	CREATED=1255871601
-	UNIQUEID=C0F451537F98164B8B230ED189D1D179
+	UNIQUEID=C0F451537F98164B8B230ED189D1D179 
 
 #FOLDER
 	ID=17349
-	NAME=Xtext
+	NAME=Xtext 
 	CREATED=1262961856
-	UNIQUEID=DC20FC57E3CF4C37B0926B1F97FBADC5
+	UNIQUEID=DC20FC57E3CF4C37B0926B1F97FBADC5 
 
 #URL
 	ID=17350
-	NAME=Xtext - New & Noteworthy
-	URL=http://www.eclipse.org/Xtext/documentation/0_8_0/new_and_noteworthy.php
+	NAME=Xtext - New & Noteworthy 
+	URL=http://www.eclipse.org/Xtext/documentation/0_8_0/new_and_noteworthy.php 
 	CREATED=1261249613
-	UNIQUEID=E518C939C8B24F3F940657D2521C7CB2
+	UNIQUEID=E518C939C8B24F3F940657D2521C7CB2 
 
 #URL
 	ID=17351
-	NAME=Xtext
-	URL=http://wiki.eclipse.org/Xtext
+	NAME=Xtext 
+	URL=http://wiki.eclipse.org/Xtext 
 	CREATED=1227292284
-	UNIQUEID=60D09FFA149603409A58E707583D7ECE
+	UNIQUEID=60D09FFA149603409A58E707583D7ECE 
 
 #URL
 	ID=17352
-	NAME=Xtext
-	URL=http://www.eclipse.org/Xtext/
+	NAME=Xtext 
+	URL=http://www.eclipse.org/Xtext/ 
 	CREATED=1245050609
-	UNIQUEID=B7AFF299FC644ED89D54B3A8864D5ADE
+	UNIQUEID=B7AFF299FC644ED89D54B3A8864D5ADE 
 
 #URL
 	ID=17353
-	NAME=Xtext User Guide
-	URL=http://www.eclipse.org/Xtext/documentation/latest/xtext.html
+	NAME=Xtext User Guide 
+	URL=http://www.eclipse.org/Xtext/documentation/latest/xtext.html 
 	CREATED=1259755840
-	UNIQUEID=799038140588434ABBA2647BE788E805
+	UNIQUEID=799038140588434ABBA2647BE788E805 
 
 #URL
 	ID=17354
-	NAME=Xtext: Developing Domain Specific Languages
-	URL=http://live.eclipse.org/node/705
+	NAME=Xtext: Developing Domain Specific Languages 
+	URL=http://live.eclipse.org/node/705 
 	CREATED=1251535399
-	UNIQUEID=51E12098822A1946AF60755C8618F8E3
+	UNIQUEID=51E12098822A1946AF60755C8618F8E3 
 
 #URL
 	ID=17355
-	NAME=DLTGen
-	URL=http://www.lancs.ac.uk/ug/leed2/
+	NAME=DLTGen 
+	URL=http://www.lancs.ac.uk/ug/leed2/ 
 	CREATED=1276958885
-	UNIQUEID=BCAF0DB31EAF4973BC05DF852BA97E9D
+	UNIQUEID=BCAF0DB31EAF4973BC05DF852BA97E9D 
 
 #URL
 	ID=17356
-	NAME=Xtext in der Automobil-Industrie
-	URL=http://blog.efftinge.de/2010/05/screencast-xtext-in-automotive-industry.html
+	NAME=Xtext in der Automobil-Industrie 
+	URL=http://blog.efftinge.de/2010/05/screencast-xtext-in-automotive-industry.html 
 	CREATED=1276970292
-	UNIQUEID=F2DAD51BAB3F4511AC4D7DBFC96297EF
+	UNIQUEID=F2DAD51BAB3F4511AC4D7DBFC96297EF 
 
 #URL
 	ID=17357
-	NAME=Xtext and Papyrus
-	URL=http://5ise.quanxinquanyi.de/2010/06/04/xtext-and-papyrus-uml/
+	NAME=Xtext and Papyrus 
+	URL=http://5ise.quanxinquanyi.de/2010/06/04/xtext-and-papyrus-uml/ 
 	CREATED=1275674633
-	UNIQUEID=8BF778E71C4B4464A37E69FF621842FA
+	UNIQUEID=8BF778E71C4B4464A37E69FF621842FA 
 
 #URL
 	ID=17358
-	NAME=mod4j
-	URL=http://www.mod4j.org/
+	NAME=mod4j 
+	URL=http://www.mod4j.org/ 
 	CREATED=1282663071
-	UNIQUEID=DC47D01418A9FD4EA0EA50566B059A66
+	UNIQUEID=DC47D01418A9FD4EA0EA50566B059A66 
 
 #URL
 	ID=17359
-	NAME=Xtext-Forms-Integration
-	URL=http://code.google.com/a/eclipselabs.org/p/xtext-forms-integration/
+	NAME=Xtext-Forms-Integration 
+	URL=http://code.google.com/a/eclipselabs.org/p/xtext-forms-integration/ 
 	CREATED=1282813874
 	VISITED=1313579411
-	UNIQUEID=9F6930C111C68C4B8195E664DA4C785F
+	UNIQUEID=9F6930C111C68C4B8195E664DA4C785F 
 
 #URL
 	ID=17360
-	NAME=Xtext-Typsystem
-	URL=http://code.google.com/a/eclipselabs.org/p/xtext-typesystem/
+	NAME=Xtext-Typsystem 
+	URL=http://code.google.com/a/eclipselabs.org/p/xtext-typesystem/ 
 	CREATED=1282814931
-	UNIQUEID=3F48062CC7DB3440B3B3B7C2EFC6FF88
+	UNIQUEID=3F48062CC7DB3440B3B3B7C2EFC6FF88 
 
--
+- 
 
 #URL
 	ID=17361
-	NAME=Xtend Tools
-	URL=http://fornax.itemis.de/confluence/display/fornax/Xtend+Tools
+	NAME=Xtend Tools 
+	URL=http://fornax.itemis.de/confluence/display/fornax/Xtend+Tools 
 	CREATED=1270189420
-	UNIQUEID=C6FD1E0F47954B23947AF7078F7DAB68
+	UNIQUEID=C6FD1E0F47954B23947AF7078F7DAB68 
 
 #URL
 	ID=17362
-	NAME=Sculptor
-	URL=http://sites.google.com/site/fornaxsculptor/
+	NAME=Sculptor 
+	URL=http://sites.google.com/site/fornaxsculptor/ 
 	CREATED=1276971255
-	UNIQUEID=079ECD2C959549C5BB1D2609F5DBBDAF
+	UNIQUEID=079ECD2C959549C5BB1D2609F5DBBDAF 
 
 #URL
 	ID=17363
-	NAME=Sculptor Team Blog
-	URL=http://fornax-sculptor.blogspot.com/
+	NAME=Sculptor Team Blog 
+	URL=http://fornax-sculptor.blogspot.com/ 
 	CREATED=1276971265
-	UNIQUEID=7B895E3274C14463AFBE77D7074B8756
+	UNIQUEID=7B895E3274C14463AFBE77D7074B8756 
 
--
+- 
 
 #FOLDER
 	ID=17364
-	NAME=Software
+	NAME=Software 
 	CREATED=1194635727
-	UNIQUEID=741AB49D436C79458D0314F2A17E73DA
+	UNIQUEID=741AB49D436C79458D0314F2A17E73DA 
 
 #URL
 	ID=17365
-	NAME=The Umple Language
-	URL=http://cruise.site.uottawa.ca/umple/
+	NAME=The Umple Language 
+	URL=http://cruise.site.uottawa.ca/umple/ 
 	CREATED=1290682682
-	UNIQUEID=B89454301A3040FCA387AE9AA849E56D
+	UNIQUEID=B89454301A3040FCA387AE9AA849E56D 
 
 #FOLDER
 	ID=17366
-	NAME=JMatter
+	NAME=JMatter 
 	CREATED=1194635727
-	UNIQUEID=4C7ACC0B9E8D204381610CBF37200529
+	UNIQUEID=4C7ACC0B9E8D204381610CBF37200529 
 
 #URL
 	ID=17367
-	NAME=JMatter
-	URL=http://jmatter.org/pages/main
+	NAME=JMatter 
+	URL=http://jmatter.org/pages/main 
 	CREATED=1194635727
-	UNIQUEID=5BAE0A8EC287DF4FB6C9FBF1B7CD8A54
+	UNIQUEID=5BAE0A8EC287DF4FB6C9FBF1B7CD8A54 
 
 #URL
 	ID=17368
-	NAME=UltraViolet
-	URL=http://ryan.ramage.googlepages.com/ultravioletandumlc2
+	NAME=UltraViolet 
+	URL=http://ryan.ramage.googlepages.com/ultravioletandumlc2 
 	CREATED=1194635727
-	UNIQUEID=C18A17C6D7DEC841ABA1D07D8FA2E51C
+	UNIQUEID=C18A17C6D7DEC841ABA1D07D8FA2E51C 
 
--
+- 
 
 #FOLDER
 	ID=17369
-	NAME=Zustandsmaschinen
+	NAME=Zustandsmaschinen 
 	CREATED=1194635727
-	UNIQUEID=21DE9A9605E8FF4491CBEA39DF8FCAB5
+	UNIQUEID=21DE9A9605E8FF4491CBEA39DF8FCAB5 
 
 #URL
 	ID=17370
-	NAME=FSMGenerator
-	URL=http://fsmgenerator.sourceforge.net
+	NAME=FSMGenerator 
+	URL=http://fsmgenerator.sourceforge.net 
 	CREATED=1194635727
-	UNIQUEID=B3B43206457E514898EB9A55AD1EE1EC
+	UNIQUEID=B3B43206457E514898EB9A55AD1EE1EC 
 
 #URL
 	ID=17371
-	NAME=Java Finite State Machine Framework
-	URL=http://unimod.sourceforge.net/fsm-framework.html
+	NAME=Java Finite State Machine Framework 
+	URL=http://unimod.sourceforge.net/fsm-framework.html 
 	CREATED=1194635727
-	UNIQUEID=2F05036E068E624D846BFF93E5D02984
+	UNIQUEID=2F05036E068E624D846BFF93E5D02984 
 
--
+- 
 
 #URL
 	ID=17372
-	NAME=Acceleo
-	URL=http://www.acceleo.org/pages/home/en
+	NAME=Acceleo 
+	URL=http://www.acceleo.org/pages/home/en 
 	CREATED=1194635727
-	UNIQUEID=39EADC885FBD8249A9CFFE4B9DC218C7
+	UNIQUEID=39EADC885FBD8249A9CFFE4B9DC218C7 
 
 #URL
 	ID=17373
-	NAME=Adaptive
-	URL=http://www.adaptive.com/homelinks/modelmgt.html
+	NAME=Adaptive 
+	URL=http://www.adaptive.com/homelinks/modelmgt.html 
 	CREATED=1194635727
-	UNIQUEID=B215DAAA8D1FCE4AB482D282905363AB
+	UNIQUEID=B215DAAA8D1FCE4AB482D282905363AB 
 
 #URL
 	ID=17374
-	NAME=ArchGenXML
-	URL=http://plone.org/products/archgenxml
+	NAME=ArchGenXML 
+	URL=http://plone.org/products/archgenxml 
 	CREATED=1194635727
-	UNIQUEID=26D1A613F6C3DC45B1BC3EF3129A4BA0
+	UNIQUEID=26D1A613F6C3DC45B1BC3EF3129A4BA0 
 
 #URL
 	ID=17375
-	NAME=ATLAS Model Weaver (AMW)
-	URL=http://www.eclipse.org/gmt/amw/
+	NAME=ATLAS Model Weaver (AMW) 
+	URL=http://www.eclipse.org/gmt/amw/ 
 	CREATED=1194635727
-	UNIQUEID=B0AAD4BFE7C73A41A49C916C6B864490
+	UNIQUEID=B0AAD4BFE7C73A41A49C916C6B864490 
 
 #URL
 	ID=17376
-	NAME=CM3
-	URL=http://cm3.sourceforge.net/
+	NAME=CM3 
+	URL=http://cm3.sourceforge.net/ 
 	CREATED=1194635727
-	UNIQUEID=F792A3688530D5449F8AD531E3F634FA
+	UNIQUEID=F792A3688530D5449F8AD531E3F634FA 
 
 #URL
 	ID=17377
-	NAME=Codagen Architect
-	URL=http://www.codagen.com/products/architect/default.htm
+	NAME=Codagen Architect 
+	URL=http://www.codagen.com/products/architect/default.htm 
 	CREATED=1194635727
-	UNIQUEID=0C45AA3A285B6745B2A8D2016C1BF46A
+	UNIQUEID=0C45AA3A285B6745B2A8D2016C1BF46A 
 
 #URL
 	ID=17378
-	NAME=Constraint-Specification Aspect Weaver (C-SAW)
-	URL=http://www.cis.uab.edu/gray/Research/C-SAW/
+	NAME=Constraint-Specification Aspect Weaver (C-SAW) 
+	URL=http://www.cis.uab.edu/gray/Research/C-SAW/ 
 	CREATED=1194635727
-	UNIQUEID=449E391CCB26A242983C61B167885A2E
+	UNIQUEID=449E391CCB26A242983C61B167885A2E 
 
 #URL
 	ID=17379
-	NAME=CoSMIC
-	URL=http://www.dre.vanderbilt.edu/cosmic/
+	NAME=CoSMIC 
+	URL=http://www.dre.vanderbilt.edu/cosmic/ 
 	CREATED=1194635727
-	UNIQUEID=6B18C64A9A051D40A028E4C95C6380F4
+	UNIQUEID=6B18C64A9A051D40A028E4C95C6380F4 
 
 #URL
 	ID=17380
-	NAME=Cubetto Toolset
-	URL=http://www.semture.de/cubetto
+	NAME=Cubetto Toolset 
+	URL=http://www.semture.de/cubetto 
 	CREATED=1194635727
-	UNIQUEID=0D19BF85B058E84C88BD46C0CBF60910
+	UNIQUEID=0D19BF85B058E84C88BD46C0CBF60910 
 
 #URL
 	ID=17381
-	NAME=Domain-Specific Language Tools
-	URL=http://msdn2.microsoft.com/en-us/vstudio/aa718368.aspx
+	NAME=Domain-Specific Language Tools 
+	URL=http://msdn2.microsoft.com/en-us/vstudio/aa718368.aspx 
 	CREATED=1194635727
-	UNIQUEID=B5EF5C233313914FBC1D3C36322BC4AF
+	UNIQUEID=B5EF5C233313914FBC1D3C36322BC4AF 
 
 #URL
 	ID=17382
-	NAME=E2E
-	URL=http://www.e2e.ch/live/en/Home/default.asp
+	NAME=E2E 
+	URL=http://www.e2e.ch/live/en/Home/default.asp 
 	CREATED=1194635727
-	UNIQUEID=40B53A5A88AC0647BB27D0F45BE808FD
+	UNIQUEID=40B53A5A88AC0647BB27D0F45BE808FD 
 
 #URL
 	ID=17383
-	NAME=Generic Eclipse Modeling System (GEMS)
-	URL=http://www.eclipse.org/gmt/gems/
+	NAME=Generic Eclipse Modeling System (GEMS) 
+	URL=http://www.eclipse.org/gmt/gems/ 
 	CREATED=1194635727
-	UNIQUEID=5FE5B9C2F4E7B643AEAC5A19740F3CF6
+	UNIQUEID=5FE5B9C2F4E7B643AEAC5A19740F3CF6 
 
 #URL
 	ID=17384
-	NAME=inferData Model Component Compiler (MCC)
-	URL=http://www.inferdata.com/products/mcc/mdac.html
+	NAME=inferData Model Component Compiler (MCC) 
+	URL=http://www.inferdata.com/products/mcc/mdac.html 
 	CREATED=1194635727
-	UNIQUEID=8D9A42E960C5714A99848A9080F41DE9
+	UNIQUEID=8D9A42E960C5714A99848A9080F41DE9 
 
 #URL
 	ID=17385
-	NAME=Jamda
-	URL=http://jamda.sourceforge.net/
+	NAME=Jamda 
+	URL=http://jamda.sourceforge.net/ 
 	CREATED=1194635727
-	UNIQUEID=384A4F077514CF4D833D69D6AF37200B
+	UNIQUEID=384A4F077514CF4D833D69D6AF37200B 
 
 #URL
 	ID=17386
-	NAME=Join Point Designation Diagrams (JPDDs)
-	URL=http://dawis.icb.uni-due.de/research/aosd/join_point_designation_diagrams_jpdds/
+	NAME=Join Point Designation Diagrams (JPDDs) 
+	URL=http://dawis.icb.uni-due.de/research/aosd/join_point_designation_diagrams_jpdds/ 
 	CREATED=1194635727
-	UNIQUEID=A86897939AF4B54894873DB97BB5664D
+	UNIQUEID=A86897939AF4B54894873DB97BB5664D 
 
 #URL
 	ID=17387
-	NAME=Kermeta
-	URL=http://www.kermeta.org/
+	NAME=Kermeta 
+	URL=http://www.kermeta.org/ 
 	CREATED=1194635727
-	UNIQUEID=F21E94707A54EB4D8F23F9B4668741EA
+	UNIQUEID=F21E94707A54EB4D8F23F9B4668741EA 
 
 #URL
 	ID=17388
-	NAME=Maven EMF Generator Plugin
-	URL=http://mapasuta.sourceforge.net/maven/site/maven-emfgen-plugin/introduction.html
+	NAME=Maven EMF Generator Plugin 
+	URL=http://mapasuta.sourceforge.net/maven/site/maven-emfgen-plugin/introduction.html 
 	CREATED=1194635727
-	UNIQUEID=ECDB9A0F52479A4EB43B91D54E95DAF3
+	UNIQUEID=ECDB9A0F52479A4EB43B91D54E95DAF3 
 
 #URL
 	ID=17389
-	NAME=MDE Studio
-	URL=http://www.m1global.org/projects/mde_studio.html
+	NAME=MDE Studio 
+	URL=http://www.m1global.org/projects/mde_studio.html 
 	CREATED=1194635727
-	UNIQUEID=90C34E4695AE974FBD62058950CE7543
+	UNIQUEID=90C34E4695AE974FBD62058950CE7543 
 
 #URL
 	ID=17390
-	NAME=MDWorkbench
-	URL=http://www.mdworkbench.com/
+	NAME=MDWorkbench 
+	URL=http://www.mdworkbench.com/ 
 	CREATED=1194635727
-	UNIQUEID=4B103C63CDCAD449BE09E650BACB618A
+	UNIQUEID=4B103C63CDCAD449BE09E650BACB618A 
 
 #URL
 	ID=17391
-	NAME=MoDisco Toolbox
-	URL=http://www.eclipse.org/gmt/modisco/toolBox/
+	NAME=MoDisco Toolbox 
+	URL=http://www.eclipse.org/gmt/modisco/toolBox/ 
 	CREATED=1194635727
-	UNIQUEID=74780472C2C8C3449FC08189A8322CCE
+	UNIQUEID=74780472C2C8C3449FC08189A8322CCE 
 
 #URL
 	ID=17392
-	NAME=MoTMoT
-	URL=http://motmot.sourceforge.net/
+	NAME=MoTMoT 
+	URL=http://motmot.sourceforge.net/ 
 	CREATED=1194635727
-	UNIQUEID=ADEED993464302488F63C6AB3BE37053
+	UNIQUEID=ADEED993464302488F63C6AB3BE37053 
 
 #URL
 	ID=17393
-	NAME=Objecteering
-	URL=http://www.objecteering.com/
+	NAME=Objecteering 
+	URL=http://www.objecteering.com/ 
 	CREATED=1194635727
-	UNIQUEID=6F800DDCEA50734897FB0D3840E36855
+	UNIQUEID=6F800DDCEA50734897FB0D3840E36855 
 
 #URL
 	ID=17394
-	NAME=OOMEGA
-	URL=http://www.oomega.net/
+	NAME=OOMEGA 
+	URL=http://www.oomega.net/ 
 	CREATED=1194635727
-	UNIQUEID=6D5D18A38DF9B646956B502A8363DCB7
+	UNIQUEID=6D5D18A38DF9B646956B502A8363DCB7 
 
 #URL
 	ID=17395
-	NAME=Pathfinder Solutions White Papers and User Guides
-	URL=http://www.pathfindermda.com/resources/whitepapers.php
+	NAME=Pathfinder Solutions White Papers and User Guides 
+	URL=http://www.pathfindermda.com/resources/whitepapers.php 
 	CREATED=1194635727
-	UNIQUEID=EB01369D3BAC034EAE223B177897A637
+	UNIQUEID=EB01369D3BAC034EAE223B177897A637 
 
 #URL
 	ID=17396
-	NAME=Projekt MINT
-	URL=http://www.mint-projekt.de/
+	NAME=Projekt MINT 
+	URL=http://www.mint-projekt.de/ 
 	CREATED=1194635727
-	UNIQUEID=2CA01580163FC64E87A7980637C81939
+	UNIQUEID=2CA01580163FC64E87A7980637C81939 
 
 #URL
 	ID=17397
-	NAME=QIQU
-	URL=http://www.aloba.ch/qiqu/home_en.html
+	NAME=QIQU 
+	URL=http://www.aloba.ch/qiqu/home_en.html 
 	CREATED=1194635727
-	UNIQUEID=D4FB397815A9154F8FE18885D633F0B9
+	UNIQUEID=D4FB397815A9154F8FE18885D633F0B9 
 
 #URL
 	ID=17398
-	NAME=Taylor
-	URL=http://taylor.sourceforge.net/index.php/Overview
+	NAME=Taylor 
+	URL=http://taylor.sourceforge.net/index.php/Overview 
 	CREATED=1194635727
-	UNIQUEID=68CD4B0FF99A6642B4B6F038DC867945
+	UNIQUEID=68CD4B0FF99A6642B4B6F038DC867945 
 
 #URL
 	ID=17399
-	NAME=Telelogic TAU
-	URL=http://www.telelogic.de/products/tau/
+	NAME=Telelogic TAU 
+	URL=http://www.telelogic.de/products/tau/ 
 	CREATED=1194635727
-	UNIQUEID=BC40CDBA6FA04B458A2CDFB397DB53D8
+	UNIQUEID=BC40CDBA6FA04B458A2CDFB397DB53D8 
 
 #URL
 	ID=17400
-	NAME=Topcased
-	URL=http://topcased-mm.gforge.enseeiht.fr/website/index.html
+	NAME=Topcased 
+	URL=http://topcased-mm.gforge.enseeiht.fr/website/index.html 
 	CREATED=1194635727
-	UNIQUEID=BC75CAEB6465F24E889164D7AF76897E
+	UNIQUEID=BC75CAEB6465F24E889164D7AF76897E 
 
 #URL
 	ID=17401
-	NAME=Xactium
-	URL=http://www.xactium.com/
+	NAME=Xactium 
+	URL=http://www.xactium.com/ 
 	CREATED=1194635727
-	UNIQUEID=B20A962FF427F340981F925E53DDA3E9
+	UNIQUEID=B20A962FF427F340981F925E53DDA3E9 
 
 #URL
 	ID=17402
-	NAME=Xholon Project
-	URL=http://www.primordion.com/Xholon/
+	NAME=Xholon Project 
+	URL=http://www.primordion.com/Xholon/ 
 	CREATED=1194635727
-	UNIQUEID=CCF759AAE2B28F439588D7CD8B80CE3A
+	UNIQUEID=CCF759AAE2B28F439588D7CD8B80CE3A 
 
 #URL
 	ID=17403
-	NAME=Roma Framework
-	URL=http://www.romaframework.org/
+	NAME=Roma Framework 
+	URL=http://www.romaframework.org/ 
 	CREATED=1194963248
-	UNIQUEID=DF34A6CE83B5D6418C8DF9B99D61436E
+	UNIQUEID=DF34A6CE83B5D6418C8DF9B99D61436E 
 
 #URL
 	ID=17404
-	NAME=Xcarecrows 4 MDA
-	URL=http://www.xcarecrows.com/xcarecrows/index.php?option=com_content&task=view&id=9
+	NAME=Xcarecrows 4 MDA 
+	URL=http://www.xcarecrows.com/xcarecrows/index.php?option=com_content&task=view&id=9 
 	CREATED=1194629767
-	UNIQUEID=4BAB31A38C468647944A3D7A31850540
+	UNIQUEID=4BAB31A38C468647944A3D7A31850540 
 
 #URL
 	ID=17405
-	NAME=Metawidget
-	URL=http://metawidget.sourceforge.net/
+	NAME=Metawidget 
+	URL=http://metawidget.sourceforge.net/ 
 	CREATED=1207996888
-	DESCRIPTION=Metawidget takes your domain objects and automatically creates, at runtime, native User Interface components for them - saving you handcoding your UIs
-	UNIQUEID=A3C71C9CD1085047BC93F1058167E032
+	DESCRIPTION=Metawidget takes your domain objects and automatically creates, at runtime, native User Interface components for them - saving you handcoding your UIs 
+	UNIQUEID=A3C71C9CD1085047BC93F1058167E032 
 
 #URL
 	ID=17406
-	NAME=Tigerstripe
-	URL=http://www.eclipse.org/tigerstripe/
+	NAME=Tigerstripe 
+	URL=http://www.eclipse.org/tigerstripe/ 
 	CREATED=1207996320
-	UNIQUEID=8FADAC174D8D7B4F96A8B2E62C758A61
+	UNIQUEID=8FADAC174D8D7B4F96A8B2E62C758A61 
 
 #URL
 	ID=17407
-	NAME=Intelliun
-	URL=http://www.intelliun.com/
+	NAME=Intelliun 
+	URL=http://www.intelliun.com/ 
 	CREATED=1230124012
-	UNIQUEID=BE619B5A7E212C45A77751DCF370D369
+	UNIQUEID=BE619B5A7E212C45A77751DCF370D369 
 
 #URL
 	ID=17408
-	NAME=JetBrains :: Meta Programming System
-	URL=http://www.jetbrains.com/mps/
+	NAME=JetBrains :: Meta Programming System 
+	URL=http://www.jetbrains.com/mps/ 
 	CREATED=1229022655
-	UNIQUEID=DAF380C9DCD9D547B227891913685636
+	UNIQUEID=DAF380C9DCD9D547B227891913685636 
 
 #URL
 	ID=17409
-	NAME=Wazaabi
-	URL=http://wiki.wazaabi.org/index.php?title=Main_Page
+	NAME=Wazaabi 
+	URL=http://wiki.wazaabi.org/index.php?title=Main_Page 
 	CREATED=1227292149
-	UNIQUEID=7DE68947A0DC41479FBD2C6D8BCCE5FC
+	UNIQUEID=7DE68947A0DC41479FBD2C6D8BCCE5FC 
 
 #URL
 	ID=17410
-	NAME=opensource at urszeidler.de
-	URL=http://opensource.urszeidler.de/
+	NAME=opensource at urszeidler.de 
+	URL=http://opensource.urszeidler.de/ 
 	CREATED=1229941328
-	DESCRIPTION=living and working with MDE
-	UNIQUEID=73D205C1E83D8547916491ED97467CFF
+	DESCRIPTION=living and working with MDE 
+	UNIQUEID=73D205C1E83D8547916491ED97467CFF 
 
 #URL
 	ID=17411
-	NAME=openXMA
-	URL=http://openxma.codehaus.org/
+	NAME=openXMA 
+	URL=http://openxma.codehaus.org/ 
 	CREATED=1227859938
-	UNIQUEID=16865139171A4D47B2FC220431B0B0C3
+	UNIQUEID=16865139171A4D47B2FC220431B0B0C3 
 
 #URL
 	ID=17412
-	NAME=Presentation Modeling Framework
-	URL=http://www.eclipse.org/proposals/pmf/
+	NAME=Presentation Modeling Framework 
+	URL=http://www.eclipse.org/proposals/pmf/ 
 	CREATED=1229690323
-	UNIQUEID=A5D43E598FF96643849F19BB42C5D43D
+	UNIQUEID=A5D43E598FF96643849F19BB42C5D43D 
 
 #URL
 	ID=17413
-	NAME=EuGENia
-	URL=http://epsilonlabs.wiki.sourceforge.net/EuGENia
+	NAME=EuGENia 
+	URL=http://epsilonlabs.wiki.sourceforge.net/EuGENia 
 	CREATED=1227733334
-	DESCRIPTION=The world's largest development and download repository of Open Source code and applications
-	UNIQUEID=48B32247B737C34094AFBD53A1ECDFC9
+	DESCRIPTION=The world's largest development and download repository of Open Source code and applications 
+	UNIQUEID=48B32247B737C34094AFBD53A1ECDFC9 
 
 #URL
 	ID=17414
-	NAME=Epsilon
-	URL=http://www.eclipse.org/gmt/epsilon/
+	NAME=Epsilon 
+	URL=http://www.eclipse.org/gmt/epsilon/ 
 	CREATED=1230305176
-	UNIQUEID=88300B0911992A4080ABDC65BA7E8C28
+	UNIQUEID=88300B0911992A4080ABDC65BA7E8C28 
 
 #URL
 	ID=17415
-	NAME=XCase
-	URL=http://www.codeplex.com/xcase
+	NAME=XCase 
+	URL=http://www.codeplex.com/xcase 
 	CREATED=1230366591
-	DESCRIPTION=XCase is a case tool for conceptual modeling of XML data based on MDA as it separates the conceptual modeling process to two levels: Platform-Independent and Platform-Specific Model. From each PSM diagram you can derive an XML schema describing a data view.
-	UNIQUEID=EADDF71BC0AABB44A94987754BFAE6AC
+	DESCRIPTION=XCase is a case tool for conceptual modeling of XML data based on MDA as it separates the conceptual modeling process to two levels: Platform-Independent and Platform-Specific Model. From each PSM diagram you can derive an XML schema describing a data view. 
+	UNIQUEID=EADDF71BC0AABB44A94987754BFAE6AC 
 
 #URL
 	ID=17416
-	NAME=flowR
-	URL=http://www.flowr.org/
+	NAME=flowR 
+	URL=http://www.flowr.org/ 
 	CREATED=1235898995
-	DESCRIPTION=flowr.org
-	UNIQUEID=94AD0C97FEFF4EDFB05CB6DCF03B0B0C
+	DESCRIPTION=flowr.org 
+	UNIQUEID=94AD0C97FEFF4EDFB05CB6DCF03B0B0C 
 
 #URL
 	ID=17417
-	NAME=Feature Mapper
-	URL=http://www.featuremapper.org/
+	NAME=Feature Mapper 
+	URL=http://www.featuremapper.org/ 
 	CREATED=1246201574
-	DESCRIPTION=Florian Heidenreich, Jan Kopcsek, and Christian Wende - FeatureMapper: Mapping Features to Models
-	UNIQUEID=55F702780B479A4AB5CA94AF9A39BD49
+	DESCRIPTION=Florian Heidenreich, Jan Kopcsek, and Christian Wende - FeatureMapper: Mapping Features to Models 
+	UNIQUEID=55F702780B479A4AB5CA94AF9A39BD49 
 
 #URL
 	ID=17418
-	NAME=beContent
-	URL=http://www.becontent.org/
+	NAME=beContent 
+	URL=http://www.becontent.org/ 
 	CREATED=1247409483
-	UNIQUEID=7F9C2CFD2296304BB4BFD5600B9C8AEA
+	UNIQUEID=7F9C2CFD2296304BB4BFD5600B9C8AEA 
 
 #URL
 	ID=17419
-	NAME=DEViL
-	URL=http://devil.cs.upb.de/
+	NAME=DEViL 
+	URL=http://devil.cs.upb.de/ 
 	CREATED=1248616617
-	UNIQUEID=0D8F7017DCBEF746A606A81B82146DBC
+	UNIQUEID=0D8F7017DCBEF746A606A81B82146DBC 
 
 #URL
 	ID=17420
-	NAME=Domain-Specific Language (DSL) Testing Studio
-	URL=http://www.cis.uab.edu/wuh/ddf/index.html
+	NAME=Domain-Specific Language (DSL) Testing Studio 
+	URL=http://www.cis.uab.edu/wuh/ddf/index.html 
 	CREATED=1194635727
-	UNIQUEID=DCBF9F79B1AB5E4EA73FF9CD9AF415AF
+	UNIQUEID=DCBF9F79B1AB5E4EA73FF9CD9AF415AF 
 
 #URL
 	ID=17421
-	NAME=VisualLISA
-	URL=http://www.di.uminho.pt/~gepl/VisualLISA/
+	NAME=VisualLISA 
+	URL=http://www.di.uminho.pt/~gepl/VisualLISA/ 
 	CREATED=1255857201
-	UNIQUEID=B9995F462C455247961881CEC0178B65
+	UNIQUEID=B9995F462C455247961881CEC0178B65 
 
 #URL
 	ID=17422
-	NAME=EMF Customizer
-	URL=http://code.google.com/p/emf-customizer/
+	NAME=EMF Customizer 
+	URL=http://code.google.com/p/emf-customizer/ 
 	CREATED=1255865779
-	UNIQUEID=C99CCACB8B511645AF0BA76C38942159
+	UNIQUEID=C99CCACB8B511645AF0BA76C38942159 
 
 #URL
 	ID=17423
-	NAME=flapie
-	URL=http://code.google.com/p/flapie/
+	NAME=flapie 
+	URL=http://code.google.com/p/flapie/ 
 	CREATED=1255867797
-	UNIQUEID=82464489A5D0854E92237FCC2EF40B51
+	UNIQUEID=82464489A5D0854E92237FCC2EF40B51 
 
 #URL
 	ID=17424
-	NAME=AlphaSimple
-	URL=http://alphasimple.com/
+	NAME=AlphaSimple 
+	URL=http://alphasimple.com/ 
 	CREATED=1254860304
-	UNIQUEID=2888D8D27C59EE4ABBF5010AD3918A64
+	UNIQUEID=2888D8D27C59EE4ABBF5010AD3918A64 
 
 #URL
 	ID=17425
-	NAME=OpenModelica Project
-	URL=http://www.ida.liu.se/labs/pelab/modelica/OpenModelica.html
+	NAME=OpenModelica Project 
+	URL=http://www.ida.liu.se/labs/pelab/modelica/OpenModelica.html 
 	CREATED=1262879570
-	UNIQUEID=315514ECCF804F1E81771B1605D6302E
+	UNIQUEID=315514ECCF804F1E81771B1605D6302E 
 
 #URL
 	ID=17426
-	NAME=RISE
-	URL=http://www.risetobloome.com/
+	NAME=RISE 
+	URL=http://www.risetobloome.com/ 
 	CREATED=1269158884
-	UNIQUEID=DB79C1968DC2324592703F45B141C1A1
+	UNIQUEID=DB79C1968DC2324592703F45B141C1A1 
 
 #URL
 	ID=17427
-	NAME=ReMoDD
-	URL=http://www.cs.colostate.edu/remodd/
+	NAME=ReMoDD 
+	URL=http://www.cs.colostate.edu/remodd/ 
 	CREATED=1275327559
-	UNIQUEID=18465312FC044243BCFEAE8EDCD17BC7
+	UNIQUEID=18465312FC044243BCFEAE8EDCD17BC7 
 
 #URL
 	ID=17428
-	NAME=The Spoofax Language Workbench
-	URL=http://strategoxt.org/Spoofax/WebHome
+	NAME=The Spoofax Language Workbench 
+	URL=http://strategoxt.org/Spoofax/WebHome 
 	CREATED=1275327587
-	UNIQUEID=3EDDD8C234BA49288E12EE68BF4DBE4A
+	UNIQUEID=3EDDD8C234BA49288E12EE68BF4DBE4A 
 
 #URL
 	ID=17429
-	NAME=Conrete
-	URL=http://ruby-gen.org/
+	NAME=Conrete 
+	URL=http://ruby-gen.org/ 
 	CREATED=1281251594
-	UNIQUEID=350956A61226CA409E5D46E6F0D18447
+	UNIQUEID=350956A61226CA409E5D46E6F0D18447 
 
 #URL
 	ID=17430
-	NAME=Sphinx
-	URL=http://www.eclipse.org/proposals/sphinx/
+	NAME=Sphinx 
+	URL=http://www.eclipse.org/proposals/sphinx/ 
 	CREATED=1271613267
-	UNIQUEID=2D2E56BFDEF4A74095BC18257E7D90AF
+	UNIQUEID=2D2E56BFDEF4A74095BC18257E7D90AF 
 
 #URL
 	ID=17431
-	NAME=FJ-Eclipse
-	URL=http://fj-eclipse.sourceforge.net/
+	NAME=FJ-Eclipse 
+	URL=http://fj-eclipse.sourceforge.net/ 
 	CREATED=1295126422
-	UNIQUEID=1D6D69C69DC1614783A8175B29516313
+	UNIQUEID=1D6D69C69DC1614783A8175B29516313 
 
--
+- 
 
 #URL
 	ID=17432
-	NAME=AgileDraw
-	URL=http://agiledraw.org/
+	NAME=AgileDraw 
+	URL=http://agiledraw.org/ 
 	CREATED=1194635727
-	UNIQUEID=B7B8CC1B38B68345A389E613F0BA9A42
+	UNIQUEID=B7B8CC1B38B68345A389E613F0BA9A42 
 
 #URL
 	ID=17433
-	NAME=AMPLE
-	URL=http://ample.holos.pt/
+	NAME=AMPLE 
+	URL=http://ample.holos.pt/ 
 	CREATED=1194635727
-	UNIQUEID=9E639CA76E04BF48B196DADE90EEB94B
+	UNIQUEID=9E639CA76E04BF48B196DADE90EEB94B 
 
 #URL
 	ID=17434
-	NAME=AndroMDA
-	URL=http://galaxy.andromda.org/docs-3.1/
+	NAME=AndroMDA 
+	URL=http://galaxy.andromda.org/docs-3.1/ 
 	CREATED=1194635727
-	UNIQUEID=AB65BD507715F648BF4E860F2A6D8406
+	UNIQUEID=AB65BD507715F648BF4E860F2A6D8406 
 
 #URL
 	ID=17435
-	NAME=Applied Abstractions
-	URL=http://www.applied-abstractions.com/
+	NAME=Applied Abstractions 
+	URL=http://www.applied-abstractions.com/ 
 	CREATED=1194635727
-	UNIQUEID=82F02894645D334FB8543B9137C9F71B
+	UNIQUEID=82F02894645D334FB8543B9137C9F71B 
 
 #URL
 	ID=17436
-	NAME=ATL Transformations
-	URL=http://www.eclipse.org/gmt/atl/atlTransformations/
+	NAME=ATL Transformations 
+	URL=http://www.eclipse.org/gmt/atl/atlTransformations/ 
 	CREATED=1194635727
-	UNIQUEID=BC23574073BB9C47BE7DBFB1FAE13B8A
+	UNIQUEID=BC23574073BB9C47BE7DBFB1FAE13B8A 
 
 #URL
 	ID=17437
-	NAME=Code-Generation
-	URL=http://www.codegeneration.net/
+	NAME=Code-Generation 
+	URL=http://www.codegeneration.net/ 
 	CREATED=1194635727
-	UNIQUEID=6BB10651F4857F4B885E0094343A5E02
+	UNIQUEID=6BB10651F4857F4B885E0094343A5E02 
 
 #URL
 	ID=17438
-	NAME=Domain Driven Design am Beispiel
-	URL=http://timeandmoney.domainlanguage.com/
+	NAME=Domain Driven Design am Beispiel 
+	URL=http://timeandmoney.domainlanguage.com/ 
 	CREATED=1194635727
-	UNIQUEID=07872F1058136F45AD3832E93025DC03
+	UNIQUEID=07872F1058136F45AD3832E93025DC03 
 
 #URL
 	ID=17439
-	NAME=Domain-Specific Modeling Forum
-	URL=http://www.dsmforum.org/
+	NAME=Domain-Specific Modeling Forum 
+	URL=http://www.dsmforum.org/ 
 	CREATED=1194635727
-	UNIQUEID=51506661CD6C4A4A8A3F9ECCAD58B8CD
+	UNIQUEID=51506661CD6C4A4A8A3F9ECCAD58B8CD 
 
 #URL
 	ID=17440
-	NAME=Domaindrivendesign.org Artikel
-	URL=http://domaindrivendesign.org/articles/
+	NAME=Domaindrivendesign.org Artikel 
+	URL=http://domaindrivendesign.org/articles/ 
 	CREATED=1194635727
-	UNIQUEID=F32A77833DA04143B7AA38AA1E07BE34
+	UNIQUEID=F32A77833DA04143B7AA38AA1E07BE34 
 
 #URL
 	ID=17441
-	NAME=Eclipse Modeling Project
-	URL=http://www.eclipse.org/modeling/
+	NAME=Eclipse Modeling Project 
+	URL=http://www.eclipse.org/modeling/ 
 	CREATED=1194635727
-	UNIQUEID=E004237B18047B4DBC678A0D9991686C
+	UNIQUEID=E004237B18047B4DBC678A0D9991686C 
 
 #URL
 	ID=17442
-	NAME=Klasse Objecten - OCL Center
-	URL=http://www.klasse.nl/ocl/
+	NAME=Klasse Objecten - OCL Center 
+	URL=http://www.klasse.nl/ocl/ 
 	CREATED=1194635727
-	UNIQUEID=E13B3A2420F98E4F816083641C1482D2
+	UNIQUEID=E13B3A2420F98E4F816083641C1482D2 
 
 #URL
 	ID=17443
-	NAME=Krzysztof Czarnecki
-	URL=http://www.swen.uwaterloo.ca/~kczarnec/
+	NAME=Krzysztof Czarnecki 
+	URL=http://www.swen.uwaterloo.ca/~kczarnec/ 
 	CREATED=1194635727
-	UNIQUEID=7265E287571CB04EBC363746428F8628
+	UNIQUEID=7265E287571CB04EBC363746428F8628 
 
 #URL
 	ID=17444
-	NAME=Magrathea - WebPortal generieren
-	URL=http://bpt.hpi.uni-potsdam.de/twiki/bin/view/Public/BachelorProjectMagrathea
+	NAME=Magrathea - WebPortal generieren 
+	URL=http://bpt.hpi.uni-potsdam.de/twiki/bin/view/Public/BachelorProjectMagrathea 
 	CREATED=1194635727
-	UNIQUEID=1829A9232F0E1B44A8A8B857678D4721
+	UNIQUEID=1829A9232F0E1B44A8A8B857678D4721 
 
 #URL
 	ID=17445
-	NAME=MDDi QVT Tool
-	URL=http://universalis.elibel.tm.fr/qvt/
+	NAME=MDDi QVT Tool 
+	URL=http://universalis.elibel.tm.fr/qvt/ 
 	CREATED=1194635727
-	UNIQUEID=CC06922A44F402448528769F9AD1BADE
+	UNIQUEID=CC06922A44F402448528769F9AD1BADE 
 
 #URL
 	ID=17446
-	NAME=MDQA
-	URL=http://www.mdqa.org
+	NAME=MDQA 
+	URL=http://www.mdqa.org 
 	CREATED=1194635727
-	UNIQUEID=D6E04FFEBC1AC64A9789ADA3131DAB94
+	UNIQUEID=D6E04FFEBC1AC64A9789ADA3131DAB94 
 
 #URL
 	ID=17447
-	NAME=MINT Modellgetriebene Integration von Informationssystemen
-	URL=http://www.d-s-t-g.com/neu/pages/pagesger/common/news_nletter_nl2006_nr56_e56t2_frmset.htm
+	NAME=MINT Modellgetriebene Integration von Informationssystemen 
+	URL=http://www.d-s-t-g.com/neu/pages/pagesger/common/news_nletter_nl2006_nr56_e56t2_frmset.htm 
 	CREATED=1194635727
-	UNIQUEID=771D368EE6F4C24B99AAE4D74E16D243
+	UNIQUEID=771D368EE6F4C24B99AAE4D74E16D243 
 
 #URL
 	ID=17448
-	NAME=Model Driven Development Integration Project
-	URL=http://www.eclipse.org/mddi/
+	NAME=Model Driven Development Integration Project 
+	URL=http://www.eclipse.org/mddi/ 
 	CREATED=1194635727
-	UNIQUEID=15F2FE1DA5E10A4EBD809C7D4952C7F4
+	UNIQUEID=15F2FE1DA5E10A4EBD809C7D4952C7F4 
 
 #URL
 	ID=17449
-	NAME=Model-Based Testing
-	URL=http://www.geocities.com/model_based_testing/
+	NAME=Model-Based Testing 
+	URL=http://www.geocities.com/model_based_testing/ 
 	CREATED=1194635727
-	UNIQUEID=B8030829F5F4DF449106A10A92FDB898
+	UNIQUEID=B8030829F5F4DF449106A10A92FDB898 
 
 #URL
 	ID=17450
-	NAME=Model-Driven Software Development
-	URL=http://www.mdsd.info/mdsd_cm/headlines.php
+	NAME=Model-Driven Software Development 
+	URL=http://www.mdsd.info/mdsd_cm/headlines.php 
 	CREATED=1194635727
-	UNIQUEID=8934267147234649A177649C3809597E
+	UNIQUEID=8934267147234649A177649C3809597E 
 
 #URL
 	ID=17451
-	NAME=modelbased.net
-	URL=http://www.modelbased.net/
+	NAME=modelbased.net 
+	URL=http://www.modelbased.net/ 
 	CREATED=1194635727
-	UNIQUEID=A1EE5192CC9EE340B2163670156F06F4
+	UNIQUEID=A1EE5192CC9EE340B2163670156F06F4 
 
 #URL
 	ID=17452
-	NAME=ModelCVS
-	URL=http://www.modelcvs.org/thirtyminute.html
+	NAME=ModelCVS 
+	URL=http://www.modelcvs.org/thirtyminute.html 
 	CREATED=1194635727
-	UNIQUEID=7143EA9859532E478638A1C1D60071D3
+	UNIQUEID=7143EA9859532E478638A1C1D60071D3 
 
 #URL
 	ID=17453
-	NAME=ModelPlex
-	URL=http://www.modelplex-ist.org/
+	NAME=ModelPlex 
+	URL=http://www.modelplex-ist.org/ 
 	CREATED=1194635727
-	UNIQUEID=ACAF54429364604A9EB542014586195F
+	UNIQUEID=ACAF54429364604A9EB542014586195F 
 
 #URL
 	ID=17454
-	NAME=ModelWare
-	URL=http://www.modelware-ist.org/
+	NAME=ModelWare 
+	URL=http://www.modelware-ist.org/ 
 	CREATED=1194635727
-	UNIQUEID=9B48EDBAA964AD4EB78D3F5213E6587C
+	UNIQUEID=9B48EDBAA964AD4EB78D3F5213E6587C 
 
 #URL
 	ID=17455
-	NAME=Object Architects
-	URL=http://www.objectarchitects.de
+	NAME=Object Architects 
+	URL=http://www.objectarchitects.de 
 	CREATED=1194635727
-	UNIQUEID=1A3802FF7536C645A8334086EFB5190D
+	UNIQUEID=1A3802FF7536C645A8334086EFB5190D 
 
 #URL
 	ID=17456
-	NAME=Open Model CourseWare (OMCW)
-	URL=http://www.eclipse.org/gmt/omcw/resources/
+	NAME=Open Model CourseWare (OMCW) 
+	URL=http://www.eclipse.org/gmt/omcw/resources/ 
 	CREATED=1194635727
-	UNIQUEID=CB0A59CB8C51D249A39470CDA7A0039E
+	UNIQUEID=CB0A59CB8C51D249A39470CDA7A0039E 
 
 #URL
 	ID=17457
-	NAME=planet MDE
-	URL=http://www.planetmde.org/
+	NAME=planet MDE 
+	URL=http://www.planetmde.org/ 
 	CREATED=1194635727
-	UNIQUEID=0FA83DEC7E6B7246AD6A24ACE461B7DF
+	UNIQUEID=0FA83DEC7E6B7246AD6A24ACE461B7DF 
 
 #URL
 	ID=17458
-	NAME=Practical Model-Based Testing A Tools Approach
-	URL=http://www.cs.waikato.ac.nz/~marku/mbt/
+	NAME=Practical Model-Based Testing A Tools Approach 
+	URL=http://www.cs.waikato.ac.nz/~marku/mbt/ 
 	CREATED=1194635727
-	UNIQUEID=548890D1D8C05A498CB92A5272BB0310
+	UNIQUEID=548890D1D8C05A498CB92A5272BB0310 
 
 #URL
 	ID=17459
-	NAME=Program-Transformation
-	URL=http://www.program-transformation.org/Transform/WebHome
+	NAME=Program-Transformation 
+	URL=http://www.program-transformation.org/Transform/WebHome 
 	CREATED=1194635727
-	UNIQUEID=3CDE3FF7B220ED4E8F6AEEEB465A6A83
+	UNIQUEID=3CDE3FF7B220ED4E8F6AEEEB465A6A83 
 
 #URL
 	ID=17460
-	NAME=Share'n Go
-	URL=http://www.sharengo.org/
+	NAME=Share'n Go 
+	URL=http://www.sharengo.org/ 
 	CREATED=1194635727
-	UNIQUEID=03113E4550B4464AA95E72770333500A
+	UNIQUEID=03113E4550B4464AA95E72770333500A 
 
 #URL
 	ID=17461
-	NAME=SoftMetaWare
-	URL=http://www.softmetaware.com/
+	NAME=SoftMetaWare 
+	URL=http://www.softmetaware.com/ 
 	CREATED=1194635727
-	UNIQUEID=7296EFA87E1D0A408E7DB18BFA0CF135
+	UNIQUEID=7296EFA87E1D0A408E7DB18BFA0CF135 
 
 #URL
 	ID=17462
-	NAME=Software Factories
-	URL=http://msdn2.microsoft.com/en-us/teamsystem/aa718951.aspx
+	NAME=Software Factories 
+	URL=http://msdn2.microsoft.com/en-us/teamsystem/aa718951.aspx 
 	CREATED=1194635727
-	UNIQUEID=E1B72D24C15B2B4594C2DC74D1D66D3E
+	UNIQUEID=E1B72D24C15B2B4594C2DC74D1D66D3E 
 
 #URL
 	ID=17463
-	NAME=Software Product Lines
-	URL=http://www.sei.cmu.edu/productlines/index.html
+	NAME=Software Product Lines 
+	URL=http://www.sei.cmu.edu/productlines/index.html 
 	CREATED=1194635727
-	UNIQUEID=326A5648E72AB84C82E4377E0DEB2376
+	UNIQUEID=326A5648E72AB84C82E4377E0DEB2376 
 
 #URL
 	ID=17464
-	NAME=Textual Editing Framework (TEF)
-	URL=http://www2.informatik.hu-berlin.de/sam/meta-tools/tef/tool.html
+	NAME=Textual Editing Framework (TEF) 
+	URL=http://www2.informatik.hu-berlin.de/sam/meta-tools/tef/tool.html 
 	CREATED=1194635727
-	UNIQUEID=3079DE14942AA64188190A2747B06E54
+	UNIQUEID=3079DE14942AA64188190A2747B06E54 
 
 #URL
 	ID=17465
-	NAME=TU Wien Wirtschaftsinformatik Vorlesungen
-	URL=http://www.big.tuwien.ac.at/teaching/offer/
+	NAME=TU Wien Wirtschaftsinformatik Vorlesungen 
+	URL=http://www.big.tuwien.ac.at/teaching/offer/ 
 	CREATED=1194635727
-	UNIQUEID=F6B7EC92BBCC4C4397DE222029A98956
+	UNIQUEID=F6B7EC92BBCC4C4397DE222029A98956 
 
 #URL
 	ID=17466
-	NAME=metamodel.com
-	URL=http://www.metamodel.com/
+	NAME=metamodel.com 
+	URL=http://www.metamodel.com/ 
 	CREATED=1194780318
-	UNIQUEID=4CE1DDB443AB544BB0879537E73C22BE
+	UNIQUEID=4CE1DDB443AB544BB0879537E73C22BE 
 
 #URL
 	ID=17467
-	NAME=ModelDriven.org
-	URL=http://portal.modeldriven.org/web/guest/home
+	NAME=ModelDriven.org 
+	URL=http://portal.modeldriven.org/web/guest/home 
 	CREATED=1194629767
-	UNIQUEID=9DB492C6953E8E4C88F519049ECA8F16
+	UNIQUEID=9DB492C6953E8E4C88F519049ECA8F16 
 
 #URL
 	ID=17468
-	NAME=ModelIntegra
-	URL=http://www.4soft.de/themen/modelintegra/index.html
+	NAME=ModelIntegra 
+	URL=http://www.4soft.de/themen/modelintegra/index.html 
 	CREATED=1207940078
-	UNIQUEID=9EC53EF79213C4428623ED9B872EEA9D
+	UNIQUEID=9EC53EF79213C4428623ED9B872EEA9D 
 
 #URL
 	ID=17469
-	NAME=Modeling Webinars
-	URL=http://live.eclipse.org/category/420
+	NAME=Modeling Webinars 
+	URL=http://live.eclipse.org/category/420 
 	CREATED=1207325018
-	UNIQUEID=4ED2A692AB3E824C944DAE453F61B761
+	UNIQUEID=4ED2A692AB3E824C944DAE453F61B761 
 
 #URL
 	ID=17470
-	NAME=Dynamic Languages Toolkit
-	URL=http://www.eclipse.org/dltk/
+	NAME=Dynamic Languages Toolkit 
+	URL=http://www.eclipse.org/dltk/ 
 	CREATED=1200063955
-	UNIQUEID=0987EE79F0496E4B9290490796B99F56
+	UNIQUEID=0987EE79F0496E4B9290490796B99F56 
 
 #URL
 	ID=17471
-	NAME=ModelIntegra
-	URL=http://www.modelintegra.org/index.php?title=Welcome
+	NAME=ModelIntegra 
+	URL=http://www.modelintegra.org/index.php?title=Welcome 
 	CREATED=1207940030
-	UNIQUEID=3D0678761FB6734A97E0F3007F1E06BB
+	UNIQUEID=3D0678761FB6734A97E0F3007F1E06BB 
 
 #URL
 	ID=17472
-	NAME=Projekte am Institute For Software Integrated Systems
-	URL=http://www.isis.vanderbilt.edu/projects.asp
+	NAME=Projekte am Institute For Software Integrated Systems 
+	URL=http://www.isis.vanderbilt.edu/projects.asp 
 	CREATED=1209891539
-	UNIQUEID=2184F97FCFE67C458F26126A20D26153
+	UNIQUEID=2184F97FCFE67C458F26126A20D26153 
 
 #URL
 	ID=17473
-	NAME=QiM - Quality in Model-Driven Engineering
-	URL=http://quality-mde.org/
+	NAME=QiM - Quality in Model-Driven Engineering 
+	URL=http://quality-mde.org/ 
 	CREATED=1202465106
-	DESCRIPTION=Website short description.
-	UNIQUEID=AEBF09F609EDC1409D18156CB7F832EE
+	DESCRIPTION=Website short description. 
+	UNIQUEID=AEBF09F609EDC1409D18156CB7F832EE 
 
 #URL
 	ID=17474
-	NAME=T4 Editor
-	URL=http://www.t4editor.net/
+	NAME=T4 Editor 
+	URL=http://www.t4editor.net/ 
 	CREATED=1208503596
-	UNIQUEID=176D888A70B9F944B898DEDF31163091
+	UNIQUEID=176D888A70B9F944B898DEDF31163091 
 
 #URL
 	ID=17475
-	NAME=Textual Modeling Framework (TMF)
-	URL=http://www.eclipse.org/proposals/tmf/
+	NAME=Textual Modeling Framework (TMF) 
+	URL=http://www.eclipse.org/proposals/tmf/ 
 	CREATED=1195488898
-	UNIQUEID=80C9CEB94A1C7345A8E86C7295A90FBB
+	UNIQUEID=80C9CEB94A1C7345A8E86C7295A90FBB 
 
 #URL
 	ID=17476
-	NAME=FXL Project
-	URL=http://www.fxl-project.com/
+	NAME=FXL Project 
+	URL=http://www.fxl-project.com/ 
 	CREATED=1207939002
-	DESCRIPTION=The FXL Eclipse Plugin leverages DSLs, AOP, and modeling (MDSD / MDA / EMF). FXL provides transformations and generators from XML Schema 2 Java, ECore 2 Java, etc.
-	UNIQUEID=3134EE388BCDD0418BD27AAD1B913820
+	DESCRIPTION=The FXL Eclipse Plugin leverages DSLs, AOP, and modeling (MDSD / MDA / EMF). FXL provides transformations and generators from XML Schema 2 Java, ECore 2 Java, etc. 
+	UNIQUEID=3134EE388BCDD0418BD27AAD1B913820 
 
 #URL
 	ID=17477
-	NAME=SIG-MDSE
-	URL=http://www.sig-mdse.org/
+	NAME=SIG-MDSE 
+	URL=http://www.sig-mdse.org/ 
 	CREATED=1210330469
-	UNIQUEID=0F0FEBC9BA8CA14781FFA8F41AB18E4D
+	UNIQUEID=0F0FEBC9BA8CA14781FFA8F41AB18E4D 
 
 #URL
 	ID=17478
-	NAME=Eclipse IMP
-	URL=http://eclipse-imp.sourceforge.net/
+	NAME=Eclipse IMP 
+	URL=http://eclipse-imp.sourceforge.net/ 
 	CREATED=1214147020
-	UNIQUEID=BB756D5E04D1F74EA7AFFD3B960FEB75
+	UNIQUEID=BB756D5E04D1F74EA7AFFD3B960FEB75 
 
 #URL
 	ID=17479
-	NAME=Subject to Meta Programming
-	URL=http://mbravenboer.blogspot.com/
+	NAME=Subject to Meta Programming 
+	URL=http://mbravenboer.blogspot.com/ 
 	CREATED=1213965881
-	UNIQUEID=1840734C6F262346A56E9F8A3CADB137
+	UNIQUEID=1840734C6F262346A56E9F8A3CADB137 
 
 #URL
 	ID=17480
-	NAME=UsiXML
-	URL=http://www.usixml.org/index.php?mod=pages&id=2
+	NAME=UsiXML 
+	URL=http://www.usixml.org/index.php?mod=pages&id=2 
 	CREATED=1214149895
-	UNIQUEID=84BA5E75D9125743802CA3BAB4F2E768
+	UNIQUEID=84BA5E75D9125743802CA3BAB4F2E768 
 
 #URL
 	ID=17481
-	NAME=Domain-Specific Modeling needs multi-models
-	URL=http://www.theenterprisearchitect.eu/archive/2008/11/03/domain-specific-modeling-needs-multi-models
+	NAME=Domain-Specific Modeling needs multi-models 
+	URL=http://www.theenterprisearchitect.eu/archive/2008/11/03/domain-specific-modeling-needs-multi-models 
 	CREATED=1226145669
-	UNIQUEID=358234609AFC634483B8E5412F621EB6
+	UNIQUEID=358234609AFC634483B8E5412F621EB6 
 
 #URL
 	ID=17482
-	NAME=Model Driven Developers
-	URL=http://devblog.intelliun.net/
+	NAME=Model Driven Developers 
+	URL=http://devblog.intelliun.net/ 
 	CREATED=1225484129
-	UNIQUEID=11F22A85A2274B4A9A935C586C45D1D0
+	UNIQUEID=11F22A85A2274B4A9A935C586C45D1D0 
 
 #URL
 	ID=17483
-	NAME=qme Software
-	URL=http://www.qme-software.de/web/cms/
+	NAME=qme Software 
+	URL=http://www.qme-software.de/web/cms/ 
 	CREATED=1226232379
-	DESCRIPTION=Startseite
-	UNIQUEID=5E4DABDAF37A5F48B6D5D4F2C53FDC70
+	DESCRIPTION=Startseite 
+	UNIQUEID=5E4DABDAF37A5F48B6D5D4F2C53FDC70 
 
 #URL
 	ID=17484
-	NAME=SASyLF (gesprochen "Sassy Elf")
-	URL=http://www.cs.cmu.edu/~aldrich/SASyLF/
+	NAME=SASyLF (gesprochen "Sassy Elf") 
+	URL=http://www.cs.cmu.edu/~aldrich/SASyLF/ 
 	CREATED=1228587544
-	DESCRIPTION=SASyLF is a proof assistant specialized for education in the area of programming languages and logics.
-	UNIQUEID=8BF177A71C8C6B408C274D42DD4831AA
+	DESCRIPTION=SASyLF is a proof assistant specialized for education in the area of programming languages and logics. 
+	UNIQUEID=8BF177A71C8C6B408C274D42DD4831AA 
 
 #URL
 	ID=17485
-	NAME=Model Transformation
-	URL=http://www.model-transformation.org/index.php
+	NAME=Model Transformation 
+	URL=http://www.model-transformation.org/index.php 
 	CREATED=1232306353
-	DESCRIPTION=Model Transformation website
-	UNIQUEID=8B2F0C6EAA9756439E88E3D284F0748D
+	DESCRIPTION=Model Transformation website 
+	UNIQUEID=8B2F0C6EAA9756439E88E3D284F0748D 
 
 #URL
 	ID=17486
-	NAME=Softeam Research and Development Team
-	URL=http://rd.softeam.com/
+	NAME=Softeam Research and Development Team 
+	URL=http://rd.softeam.com/ 
 	CREATED=1232288211
-	DESCRIPTION=SOFTEAM's R&D Team Site
-	UNIQUEID=D38A37703512C3478BFDA03FAF92A3B1
+	DESCRIPTION=SOFTEAM's R&D Team Site 
+	UNIQUEID=D38A37703512C3478BFDA03FAF92A3B1 
 
 #URL
 	ID=17487
-	NAME=The Model Driven Software Network - Raise your level of abstraction
-	URL=http://www.modeldrivensoftware.net/
+	NAME=The Model Driven Software Network - Raise your level of abstraction 
+	URL=http://www.modeldrivensoftware.net/ 
 	CREATED=1231411708
-	DESCRIPTION=The place for Model Driven Software Development
-	UNIQUEID=79DB3FEC1310324881D28F6E7FD36476
+	DESCRIPTION=The place for Model Driven Software Development 
+	UNIQUEID=79DB3FEC1310324881D28F6E7FD36476 
 
 #URL
 	ID=17488
-	NAME=External DSL vs. Internal DSL Smack Down
-	URL=http://bradfordcross.blogspot.com/2009/01/external-dsl-vs-internal-dsl-smack-down_24.html
+	NAME=External DSL vs. Internal DSL Smack Down 
+	URL=http://bradfordcross.blogspot.com/2009/01/external-dsl-vs-internal-dsl-smack-down_24.html 
 	CREATED=1233299093
-	UNIQUEID=516BD023C1258F409CC5F5213EEF40A9
+	UNIQUEID=516BD023C1258F409CC5F5213EEF40A9 
 
 #URL
 	ID=17489
-	NAME=Eclipse Training Alliance
-	URL=http://www.eclipse-training.net
+	NAME=Eclipse Training Alliance 
+	URL=http://www.eclipse-training.net 
 	CREATED=1237965861
-	UNIQUEID=CB95D6BCEAC33C41839A1055BB1C8C07
+	UNIQUEID=CB95D6BCEAC33C41839A1055BB1C8C07 
 
 #URL
 	ID=17490
-	NAME=Agent Modeling Platform (AMP)
-	URL=http://www.eclipse.org/proposals/amp/
+	NAME=Agent Modeling Platform (AMP) 
+	URL=http://www.eclipse.org/proposals/amp/ 
 	CREATED=1237739257
-	UNIQUEID=761347DD2CDC494F9422BA39F34CA5A0
+	UNIQUEID=761347DD2CDC494F9422BA39F34CA5A0 
 
 #URL
 	ID=17491
-	NAME=Palladio Component Model
-	URL=http://sdqweb.ipd.uka.de/wiki/Palladio_Component_Model
+	NAME=Palladio Component Model 
+	URL=http://sdqweb.ipd.uka.de/wiki/Palladio_Component_Model 
 	CREATED=1246095370
-	UNIQUEID=E6ED7404231EDE4994C6E6076729517A
+	UNIQUEID=E6ED7404231EDE4994C6E6076729517A 
 
 #URL
 	ID=17492
-	NAME=EMF Model Visualizer
-	URL=http://code.google.com/p/emfmodelvisualizer/
+	NAME=EMF Model Visualizer 
+	URL=http://code.google.com/p/emfmodelvisualizer/ 
 	CREATED=1239952307
-	UNIQUEID=96DED57AEEA2B145A7E9F4C4E9929D35
+	UNIQUEID=96DED57AEEA2B145A7E9F4C4E9929D35 
 
 #URL
 	ID=17493
-	NAME=No Magic Training and Information Portal
-	URL=http://training.nomagic.com/
+	NAME=No Magic Training and Information Portal 
+	URL=http://training.nomagic.com/ 
 	CREATED=1246122660
-	UNIQUEID=3E87461F53F13A47BEBF1189ADCF3304
+	UNIQUEID=3E87461F53F13A47BEBF1189ADCF3304 
 
 #URL
 	ID=17494
-	NAME=MOdeling LAnguages
-	URL=http://modeling-languages.com/
+	NAME=MOdeling LAnguages 
+	URL=http://modeling-languages.com/ 
 	CREATED=1246202573
-	UNIQUEID=B75B96004F43E94A8347C53B80AB70EE
+	UNIQUEID=B75B96004F43E94A8347C53B80AB70EE 
 
 #URL
 	ID=17495
-	NAME=JaMoPP - The Java Model Parser and Printer
-	URL=http://jamopp.inf.tu-dresden.de/
+	NAME=JaMoPP - The Java Model Parser and Printer 
+	URL=http://jamopp.inf.tu-dresden.de/ 
 	CREATED=1246201690
-	UNIQUEID=1A7CA012790DF0429A688D8C1D27B97D
+	UNIQUEID=1A7CA012790DF0429A688D8C1D27B97D 
 
 #URL
 	ID=17496
-	NAME=medini QVT
-	URL=http://projects.ikv.de/qvt/
+	NAME=medini QVT 
+	URL=http://projects.ikv.de/qvt/ 
 	CREATED=1246102790
-	UNIQUEID=3041E4E3BA18234497FE80BE2FDD41FB
+	UNIQUEID=3041E4E3BA18234497FE80BE2FDD41FB 
 
 #URL
 	ID=17497
-	NAME=metaABM
-	URL=http://metaabm.org/
+	NAME=metaABM 
+	URL=http://metaabm.org/ 
 	CREATED=1241012100
-	UNIQUEID=26D85EB49F9BC444B61ADCE8833F1E21
+	UNIQUEID=26D85EB49F9BC444B61ADCE8833F1E21 
 
 #URL
 	ID=17498
-	NAME=Reuseware
-	URL=http://www.reuseware.org/index.php/Main_Page
+	NAME=Reuseware 
+	URL=http://www.reuseware.org/index.php/Main_Page 
 	CREATED=1246201554
-	UNIQUEID=C9969C61F96D904CBFC61479E336BDDE
+	UNIQUEID=C9969C61F96D904CBFC61479E336BDDE 
 
 #URL
 	ID=17499
-	NAME=Eclipse Prolog EMF Transformation Engine (PETE)
-	URL=http://www4.informatik.tu-muenchen.de/~schaetz/PETE/PETEFrame.html
+	NAME=Eclipse Prolog EMF Transformation Engine (PETE) 
+	URL=http://www4.informatik.tu-muenchen.de/~schaetz/PETE/PETEFrame.html 
 	CREATED=1240826390
-	UNIQUEID=C19372630E7D6E4BAC2A6CA4E8DEC712
+	UNIQUEID=C19372630E7D6E4BAC2A6CA4E8DEC712 
 
 #URL
 	ID=17500
-	NAME=WebML
-	URL=http://www.webml.org/webml/page1.do
+	NAME=WebML 
+	URL=http://www.webml.org/webml/page1.do 
 	CREATED=1241952650
-	UNIQUEID=6EBAD84F3FEB0C46B3929C1A0ACEA3C3
+	UNIQUEID=6EBAD84F3FEB0C46B3929C1A0ACEA3C3 
 
 #URL
 	ID=17501
-	NAME=unicase
-	URL=http://unicase.org/
+	NAME=unicase 
+	URL=http://unicase.org/ 
 	CREATED=1247402313
-	UNIQUEID=059B2BBF1961B747A4B9C5DF45CF789E
+	UNIQUEID=059B2BBF1961B747A4B9C5DF45CF789E 
 
 #URL
 	ID=17502
-	NAME=Visio-EMF Bridge
-	URL=http://sourceforge.net/projects/visioemfbridge/
+	NAME=Visio-EMF Bridge 
+	URL=http://sourceforge.net/projects/visioemfbridge/ 
 	CREATED=1244492582
-	DESCRIPTION=Get Visio-EMF Bridge at SourceForge.net. Fast, secure and free downloads from the largest Open Source applications and software directory. The Visio-EMF Bridge offers the transformation of Visio stencils and Visio models into EMF metamodels and EMF models, respectively. The bridge enables the processing of Visio models with EMF tools, such as, openArchitectureWare or Eclipse Epsilon.
-	UNIQUEID=65B6ADDA21A56B4EBD3414CB06F3D608
+	DESCRIPTION=Get Visio-EMF Bridge at SourceForge.net. Fast, secure and free downloads from the largest Open Source applications and software directory. The Visio-EMF Bridge offers the transformation of Visio stencils and Visio models into EMF metamodels and EMF models, respectively. The bridge enables the processing of Visio models with EMF tools, such as, openArchitectureWare or Eclipse Epsilon. 
+	UNIQUEID=65B6ADDA21A56B4EBD3414CB06F3D608 
 
 #URL
 	ID=17503
-	NAME=Compositional Variability Management (CVM)
-	URL=http://www.cvm-framework.org/index.html
+	NAME=Compositional Variability Management (CVM) 
+	URL=http://www.cvm-framework.org/index.html 
 	CREATED=1247403817
-	UNIQUEID=1957C3AEEA1C2C44AFBE288CF1D14187
+	UNIQUEID=1957C3AEEA1C2C44AFBE288CF1D14187 
 
 #URL
 	ID=17504
-	NAME=Open System Engineering Environment (OSEE)
-	URL=http://www.eclipse.org/osee/
+	NAME=Open System Engineering Environment (OSEE) 
+	URL=http://www.eclipse.org/osee/ 
 	CREATED=1247407455
-	UNIQUEID=F56A34DA4811A64ABA6F0A587DCC6A37
+	UNIQUEID=F56A34DA4811A64ABA6F0A587DCC6A37 
 
 #URL
 	ID=17505
-	NAME=Diplom-Informatiker Jonas Helming
-	URL=http://wwwbruegge.informatik.tu-muenchen.de/Lehrstuhl/JonasHelming
+	NAME=Diplom-Informatiker Jonas Helming 
+	URL=http://wwwbruegge.informatik.tu-muenchen.de/Lehrstuhl/JonasHelming 
 	CREATED=1247411632
-	UNIQUEID=4A4D438603B8114F99A10A7E47D07CC1
+	UNIQUEID=4A4D438603B8114F99A10A7E47D07CC1 
 
 #URL
 	ID=17506
-	NAME=Monticore
-	URL=http://www.monticore.de/
+	NAME=Monticore 
+	URL=http://www.monticore.de/ 
 	CREATED=1248272611
-	DESCRIPTION=Monticore Software Development Tool
-	UNIQUEID=6E0E3C6DC6CCED45A8099213541DDB41
+	DESCRIPTION=Monticore Software Development Tool 
+	UNIQUEID=6E0E3C6DC6CCED45A8099213541DDB41 
 
 #URL
 	ID=17507
-	NAME=Domain-Specific Language (DSL) Testing Studio
-	URL=http://www.cis.uab.edu/softcom/DDF/
+	NAME=Domain-Specific Language (DSL) Testing Studio 
+	URL=http://www.cis.uab.edu/softcom/DDF/ 
 	CREATED=1255852604
-	UNIQUEID=4811D77162A27E4FA7EA46CE02B65F40
+	UNIQUEID=4811D77162A27E4FA7EA46CE02B65F40 
 
 #URL
 	ID=17508
-	NAME=LISA
-	URL=http://labraj.uni-mb.si/lisa/
+	NAME=LISA 
+	URL=http://labraj.uni-mb.si/lisa/ 
 	CREATED=1253519648
-	DESCRIPTION=Home page of LISA tool
-	UNIQUEID=E96ACA4598E1124A9107DA0E9CDD73E4
+	DESCRIPTION=Home page of LISA tool 
+	UNIQUEID=E96ACA4598E1124A9107DA0E9CDD73E4 
 
 #URL
 	ID=17509
-	NAME=Electronic Business und Integration Engineering (EBIE)
-	URL=http://www.integration-engineering.de/
+	NAME=Electronic Business und Integration Engineering (EBIE) 
+	URL=http://www.integration-engineering.de/ 
 	CREATED=1255870043
-	UNIQUEID=E162B6AD3DA602439EA9578302091E73
+	UNIQUEID=E162B6AD3DA602439EA9578302091E73 
 
 #URL
 	ID=17510
-	NAME=Platform Independent Language (PIL)
-	URL=http://pil-lang.org/
+	NAME=Platform Independent Language (PIL) 
+	URL=http://pil-lang.org/ 
 	CREATED=1256481503
-	UNIQUEID=EB3137244397D64AACF43E57B0B28ED0
+	UNIQUEID=EB3137244397D64AACF43E57B0B28ED0 
 
 #URL
 	ID=17511
-	NAME=Chilifreak's Blog
-	URL=http://chilifreak.wordpress.com/
+	NAME=Chilifreak's Blog 
+	URL=http://chilifreak.wordpress.com/ 
 	CREATED=1257612035
-	UNIQUEID=90F9418C86898D4F8998D406F607EE23
+	UNIQUEID=90F9418C86898D4F8998D406F607EE23 
 
 #URL
 	ID=17512
-	NAME=Architecture as Language: A story
-	URL=http://www.infoq.com/articles/architecture-as-language-a-story
+	NAME=Architecture as Language: A story 
+	URL=http://www.infoq.com/articles/architecture-as-language-a-story 
 	CREATED=1269157323
-	UNIQUEID=CAEE2E217F76824EA67B09AD3D09C6E5
+	UNIQUEID=CAEE2E217F76824EA67B09AD3D09C6E5 
 
 #URL
 	ID=17513
-	NAME=Komplexe externe DSLs entwickeln
-	URL=http://www.infoq.com/articles/External-DSL-Vaughn-Vernon
+	NAME=Komplexe externe DSLs entwickeln 
+	URL=http://www.infoq.com/articles/External-DSL-Vaughn-Vernon 
 	CREATED=1269157677
-	UNIQUEID=546B17AD50293E41BA7FAAF50916236B
+	UNIQUEID=546B17AD50293E41BA7FAAF50916236B 
 
 #URL
 	ID=17514
-	NAME=AtlanMod Zoos
-	URL=http://www.emn.fr/z-info/atlanmod/index.php/Zoos
+	NAME=AtlanMod Zoos 
+	URL=http://www.emn.fr/z-info/atlanmod/index.php/Zoos 
 	CREATED=1263753727
-	UNIQUEID=5270727767E64945A8CFFBA3E85802C5
+	UNIQUEID=5270727767E64945A8CFFBA3E85802C5 
 
 #URL
 	ID=17515
-	NAME=WebDSL
-	URL=http://webdsl.org/home
+	NAME=WebDSL 
+	URL=http://webdsl.org/home 
 	CREATED=1269171477
-	UNIQUEID=07BD006C682D5941945DE1101FB71DFD
+	UNIQUEID=07BD006C682D5941945DE1101FB71DFD 
 
 #URL
 	ID=17516
-	NAME=Sammlung von DSL Grammatik Beispielen
-	URL=http://modeling-languages.com/blog/content/collection-grammar-samples?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed:+ModelingLanguages+(MOdeling+LAnguages+Portal)
+	NAME=Sammlung von DSL Grammatik Beispielen 
+	URL=http://modeling-languages.com/blog/content/collection-grammar-samples?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed:+ModelingLanguages+(MOdeling+LAnguages+Portal) 
 	CREATED=1276953132
-	UNIQUEID=14FFB31BCE5343A38D5D5A206BBF37FD
+	UNIQUEID=14FFB31BCE5343A38D5D5A206BBF37FD 
 
 #URL
 	ID=17517
-	NAME=7 Ratschläge beim Erstellen Domänen-spezifischer Sprachen
-	URL=http://www.theenterprisearchitect.eu/archive/2009/05/06/dsl-development-7-recommendations-for-domain-specific-language-design-based-on-domain-driven-design
+	NAME=7 Ratschläge beim Erstellen Domänen-spezifischer Sprachen 
+	URL=http://www.theenterprisearchitect.eu/archive/2009/05/06/dsl-development-7-recommendations-for-domain-specific-language-design-based-on-domain-driven-design 
 	CREATED=1276974024
-	UNIQUEID=094C240AAB4442F9821C1F42F5DD3AF4
+	UNIQUEID=094C240AAB4442F9821C1F42F5DD3AF4 
 
 #URL
 	ID=17518
-	NAME=Domain-Specific Language Engineering
-	URL=http://dsl-engineering.org/
+	NAME=Domain-Specific Language Engineering 
+	URL=http://dsl-engineering.org/ 
 	CREATED=1294659214
-	UNIQUEID=695D12309329E944AF9485D98D1330CF
+	UNIQUEID=695D12309329E944AF9485D98D1330CF 
 
--
+- 
 

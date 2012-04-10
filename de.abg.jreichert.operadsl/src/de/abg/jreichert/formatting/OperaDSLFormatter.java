@@ -3,25 +3,112 @@
  */
 package de.abg.jreichert.formatting;
 
+import org.eclipse.xtext.IGrammarAccess;
 import org.eclipse.xtext.formatting.impl.AbstractDeclarativeFormatter;
 import org.eclipse.xtext.formatting.impl.FormattingConfig;
+
+import de.abg.jreichert.services.OperaDSLGrammarAccess;
 
 /**
  * This class contains custom formatting description.
  * 
  * see : http://www.eclipse.org/Xtext/documentation/latest/xtext.html#formatting
- * on how and when to use it 
+ * on how and when to use it
  * 
- * Also see {@link org.eclipse.xtext.xtext.XtextFormattingTokenSerializer} as an example
+ * Also see {@link org.eclipse.xtext.xtext.XtextFormattingTokenSerializer} as an
+ * example
  */
 public class OperaDSLFormatter extends AbstractDeclarativeFormatter {
-	
+
 	@Override
 	protected void configureFormatting(FormattingConfig c) {
-// It's usually a good idea to activate the following three statements.
-// They will add and preserve newlines around comments
-//		c.setLinewrap(0, 1, 2).before(getGrammarAccess().getSL_COMMENTRule());
-//		c.setLinewrap(0, 1, 2).before(getGrammarAccess().getML_COMMENTRule());
-//		c.setLinewrap(0, 1, 1).after(getGrammarAccess().getML_COMMENTRule());
+		OperaDSLGrammarAccess oga = (OperaDSLGrammarAccess) getGrammarAccess();
+
+		c.setNoSpace().after(
+				oga.getBookmarkFileAccess().getVersionAssignment_3());
+
+		c.setNoSpace().before(oga.getOptionsAccess().getColonKeyword_1());
+		c.setNoSpace().before(oga.getOptionsAccess().getCommaKeyword_5());
+		c.setNoSpace().around(oga.getOptionsAccess().getEqualsSignKeyword_3());
+		c.setNoSpace().around(oga.getOptionsAccess().getEqualsSignKeyword_7());
+		c.setNoSpace().after(oga.getOptionsAccess().getINTTerminalRuleCall_8());
+
+		c.setIndentationIncrement().after(
+				oga.getFolderAccess().getNLTerminalRuleCall_1());
+		c.setIndentationDecrement().after(
+				oga.getFolderAccess().getUniqueIdAssignment_25());
+
+		c.setNoSpace().around(oga.getFolderAccess().getEqualsSignKeyword_3());
+		c.setNoSpace().around(oga.getFolderAccess().getEqualsSignKeyword_7());
+		c.setNoSpace().around(oga.getFolderAccess().getEqualsSignKeyword_11());
+		c.setNoSpace()
+				.around(oga.getFolderAccess().getEqualsSignKeyword_14_1());
+		c.setNoSpace()
+				.around(oga.getFolderAccess().getEqualsSignKeyword_15_1());
+		c.setNoSpace()
+				.around(oga.getFolderAccess().getEqualsSignKeyword_16_1());
+		c.setNoSpace()
+				.around(oga.getFolderAccess().getEqualsSignKeyword_17_2());
+		c.setNoSpace()
+				.around(oga.getFolderAccess().getEqualsSignKeyword_18_1());
+		c.setNoSpace()
+				.around(oga.getFolderAccess().getEqualsSignKeyword_19_1());
+		c.setNoSpace()
+				.around(oga.getFolderAccess().getEqualsSignKeyword_20_1());
+		c.setNoSpace()
+				.around(oga.getFolderAccess().getEqualsSignKeyword_21_1());
+		c.setNoSpace()
+				.around(oga.getFolderAccess().getEqualsSignKeyword_22_1());
+		c.setNoSpace().around(oga.getFolderAccess().getEqualsSignKeyword_24());
+
+		c.setNoSpace().after(oga.getFolderAccess().getFOLDERKeyword_0());
+		c.setNoSpace().after(oga.getFolderAccess().getIdAssignment_4());
+		c.setNoSpace().after(oga.getFolderAccess().getNameAssignment_8());
+		c.setNoSpace().after(oga.getFolderAccess().getCreatedAssignment_12());
+		c.setNoSpace().after(oga.getFolderAccess().getTargetAssignment_14_2());
+		c.setNoSpace().after(oga.getFolderAccess().getMoveIsCopyAssignment_15_2());
+		c.setNoSpace().after(oga.getFolderAccess().getSeparatorAllowedAssignment_16_2());
+		c.setNoSpace().after(oga.getFolderAccess().getTrashFolderAssignment_17_3());
+		c.setNoSpace().after(oga.getFolderAccess().getDeletableAssignment_18_2());
+		c.setNoSpace().after(oga.getFolderAccess().getExpandedAssignment_19_2());
+		c.setNoSpace().after(oga.getFolderAccess().getActiveAssignment_20_2());
+		c.setNoSpace().after(oga.getFolderAccess().getPartnerIdAssignment_21_2());
+		c.setNoSpace().after(oga.getFolderAccess().getDescriptionAssignment_22_2());
+		c.setNoSpace().after(oga.getFolderAccess().getUniqueIdAssignment_25());
+		c.setNoSpace().after(oga.getFolderAccess().getHyphenMinusKeyword_28());
+		
+		c.setLinewrap(1, 2, 2).between(oga.getFolderAccess().getUniqueIdAssignment_25(), oga.getFolderAccess().getHyphenMinusKeyword_28());
+		c.setLinewrap(1, 2, 2).after(oga.getFolderAccess().getHyphenMinusKeyword_28());
+		
+		c.setIndentationIncrement().after(
+				oga.getLinkAccess().getNLTerminalRuleCall_1());
+		c.setIndentationDecrement().after(oga.getLinkRule());
+
+		c.setNoSpace().around(oga.getLinkAccess().getEqualsSignKeyword_3());
+		c.setNoSpace().around(oga.getLinkAccess().getEqualsSignKeyword_6_1());
+		c.setNoSpace().around(oga.getLinkAccess().getEqualsSignKeyword_7_1());
+		c.setNoSpace().around(oga.getLinkAccess().getEqualsSignKeyword_8_2());
+		c.setNoSpace().around(oga.getLinkAccess().getEqualsSignKeyword_10());
+		c.setNoSpace().around(oga.getLinkAccess().getEqualsSignKeyword_13_2());
+		c.setNoSpace().around(oga.getLinkAccess().getEqualsSignKeyword_14_1());
+		c.setNoSpace().around(oga.getLinkAccess().getEqualsSignKeyword_15_2());
+		c.setNoSpace().around(oga.getLinkAccess().getEqualsSignKeyword_16_1());
+		c.setNoSpace().around(oga.getLinkAccess().getEqualsSignKeyword_17_1());
+		c.setNoSpace().around(oga.getLinkAccess().getEqualsSignKeyword_18_1());
+		c.setNoSpace().around(oga.getLinkAccess().getEqualsSignKeyword_20());
+		c.setNoSpace().around(oga.getLinkAccess().getEqualsSignKeyword_22_2());
+		
+		c.setNoSpace().after(oga.getLinkAccess().getURLKeyword_0());
+		c.setNoSpace().after(oga.getLinkAccess().getIdAssignment_4());
+		c.setNoSpace().after(oga.getLinkAccess().getNameAssignment_6_2());
+		c.setNoSpace().after(oga.getLinkAccess().getUrlAssignment_7_2());
+		c.setNoSpace().after(oga.getLinkAccess().getDisplayUrlAssignment_8_3());
+		c.setNoSpace().after(oga.getLinkAccess().getCreatedAssignment_11());
+		c.setNoSpace().after(oga.getLinkAccess().getPersonalBarPosAssignment_14_2());
+		c.setNoSpace().after(oga.getLinkAccess().getInPanelAssignment_15_3());
+		c.setNoSpace().after(oga.getLinkAccess().getVisitedAssignment_17_2());
+		c.setNoSpace().after(oga.getLinkAccess().getDescriptionAssignment_18_2());
+		c.setNoSpace().after(oga.getLinkAccess().getUniqueIdAssignment_21());
+		c.setNoSpace().after(oga.getLinkAccess().getPartnerIdAssignment_22_3());
 	}
 }

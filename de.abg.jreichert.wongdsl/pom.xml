@@ -100,7 +100,7 @@
 						</goals>
 						<configuration>
 							<workflowEngine>mwe2</workflowEngine>
-							<workflowDescriptor>de.abg.jreichert.GenerateOperaDSL</workflowDescriptor>
+							<workflowDescriptor>de.abg.jreichert.GenerateMisterWongDsl</workflowDescriptor>
 							<timestampFileName>xtext-generator.timestamp</timestampFileName>
 							<jvmSettings>
 								<fork>true</fork>

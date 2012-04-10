@@ -14,9 +14,9 @@
 	<properties>
 		<tycho-version>0.14.1</tycho-version>
 		<junit-version>4.8.1</junit-version>
+		<platform-version-name>indigo</platform-version-name>
 		<eclipse-site>http://download.eclipse.org/releases/${platform-version-name}</eclipse-site>
 		<orbit-site>http://download.eclipse.org/tools/orbit/downloads/drops/R20110523182458/repository</orbit-site>
-		<platform-version-name>indigo</platform-version-name>
 		<platform-version>[3.7,3.8)</platform-version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<target-platform-version>1.0.0-SNAPSHOT</target-platform-version>
@@ -27,7 +27,7 @@
 		<maven-assembly-plugin-version>2.3</maven-assembly-plugin-version>
 		<build-helper-maven-plugin-version>1.7</build-helper-maven-plugin-version>
 		<fornax-oaw-m2-plugin-version>3.3.1</fornax-oaw-m2-plugin-version>
-		<xtend-maven-plugin-version>2.2.1</xtend-maven-plugin-version>
+		<xtend-maven-plugin-version>2.2.2</xtend-maven-plugin-version>
 	</properties>
 
 	<build>

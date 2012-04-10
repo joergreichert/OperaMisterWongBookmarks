@@ -6,6 +6,7 @@ package de.abg.jreichert;
 import org.eclipse.xtext.conversion.IValueConverterService;
 
 import de.abg.jreichert.conversion.MisterWongValueConverterService;
+import de.abg.jreichert.naming.WongSimpleNameProvider;
 
 /**
  * Use this class to register components to be used at runtime / without the
@@ -17,5 +18,9 @@ public class MisterWongDslRuntimeModule extends
 	@Override
 	public Class<? extends IValueConverterService> bindIValueConverterService() {
 		return MisterWongValueConverterService.class;
+	}
+	
+	public Class<? extends org.eclipse.xtext.naming.IQualifiedNameProvider> bindIQualifiedNameProvider() {
+		return WongSimpleNameProvider.class;
 	}
 }

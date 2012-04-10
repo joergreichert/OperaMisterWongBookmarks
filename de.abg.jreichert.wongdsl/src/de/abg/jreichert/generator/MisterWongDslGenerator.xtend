@@ -3,27 +3,25 @@
  */
 package de.abg.jreichert.generator
 
+import de.abg.jreichert.misterWongDsl.BookmarkFile
+import de.abg.jreichert.misterWongDsl.Link
+import de.abg.jreichert.misterWongDsl.MisterWongDslFactory
+import java.io.IOException
+import java.util.Collection
+import java.util.Collections
+import org.eclipse.emf.common.util.URI
 import org.eclipse.emf.ecore.resource.Resource
-import org.eclipse.xtext.generator.IGenerator
+import org.eclipse.xtext.EcoreUtil2
 import org.eclipse.xtext.generator.IFileSystemAccess
+import org.eclipse.xtext.generator.IGenerator
 
 import static extension org.eclipse.xtext.xtend2.lib.ResourceExtensions.*
-import static extension org.eclipse.xtext.xbase.lib.IterableExtensions.*
-import de.abg.jreichert.misterWongDsl.BookmarkFile
-import java.util.ArrayList
-import java.util.Collection
-import de.abg.jreichert.misterWongDsl.Link
-import org.eclipse.emf.common.util.URI
-import org.eclipse.xtext.EcoreUtil2
-import de.abg.jreichert.misterWongDsl.MisterWongDslFactory
-import java.util.Collections
-import java.io.IOException
 
 
 class MisterWongDslGenerator implements IGenerator {
-	
+		
 	override void doGenerate(Resource resource, IFileSystemAccess fsa) {
-		for(file : resource.allContentsIterable.filter(typeof(BookmarkFile))) {
+		for(file : resource.allContents.toIterable.filter(typeof(BookmarkFile))) {
 			fsa.generateFile(file.eResource.URI.trimFileExtension.lastSegment + "_wong.txt", addressFile(file))
 			mdsdFiltered(resource)
 		}
@@ -57,23 +55,25 @@ class MisterWongDslGenerator implements IGenerator {
 	
 	def mdsdFiltered(Resource resource) {
 		try {
-			val newUriStr = resource.URI.path
-				.replace(".wong", "_filtered.wong")
-				.replace("/resource", "")
-				.replace("src", "src-gen")
-			val newUri = URI::createPlatformResourceURI(newUriStr, true)
-			val newRes = resource.resourceSet.createResource(newUri)
-			val root = resource.allContentsIterable.filter(typeof(BookmarkFile)).head
-			val newRoot = MisterWongDslFactory::eINSTANCE.createBookmarkFile
-			newRoot.name = root.name
-			newRoot.header = root.header
-			newRoot.links.addAll(
-				root.links.filter(link | 
-					link.tags.split(" ").contains("modellgetriebene_entwicklung")
-				).map(link | EcoreUtil2::clone(link))
-			)
-			newRes.contents.add(newRoot)
-			newRes.save(Collections::EMPTY_MAP)
+			if(!resource.URI.path.contains("src-gen")) {
+				val newUriStr = resource.URI.path
+					.replace(".wong", "_filtered.wong")
+					.replace("/resource", "")
+					.replace("src", "src-gen")
+				val newUri = URI::createPlatformResourceURI(newUriStr, true)
+				val newRes = resource.resourceSet.createResource(newUri)
+				val root = resource.allContents.toIterable.filter(typeof(BookmarkFile)).head
+				val newRoot = MisterWongDslFactory::eINSTANCE.createBookmarkFile
+				newRoot.name = root.name
+				newRoot.header = root.header
+				newRoot.links.addAll(
+					root.links.filter(link | 
+						link.tags.split(" ").contains("modellgetriebene_entwicklung")
+					).map(link | EcoreUtil2::clone(link))
+				)
+				newRes.contents.add(newRoot)
+				newRes.save(Collections::EMPTY_MAP)
+			}
 		} catch(IOException ioe) {
 			ioe.printStackTrace
 		}

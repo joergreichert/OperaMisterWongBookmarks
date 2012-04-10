@@ -70,7 +70,7 @@ Workflow {
 
             // scoping and exporting API
             // fragment = scoping.ImportURIScopingFragment {}
-            fragment = de.abg.jreichert.naming.WongSimpleNamesFragment {}
+			fragment = exporting.SimpleNamesFragment {}
 
             // scoping and exporting API
             // fragment = scoping.ImportNamespacesScopingFragment {}
@@ -121,7 +121,7 @@ Workflow {
             fragment = templates.CodetemplatesGeneratorFragment {}
 
             // rename refactoring
-            fragment = refactoring.RefactorElementNameFragment {}
+            //fragment = refactoring.RefactorElementNameFragment {}
 
             // provides a compare view
             fragment = compare.CompareFragment {
