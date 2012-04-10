@@ -52,7 +52,9 @@
 				</property>
 			</activation>
 			<modules>
-				<module>../de.abg.jreichert.bookmarks.feature</module>
+				<module>../de.abg.jreichert.operadsl.feature</module>
+				<module>../de.abg.jreichert.wongdsl.feature</module>
+				<module>../de.abg.jreichert.forms.feature</module>
 				<module>../de.abg.jreichert.bookmarks.updatesite</module>
 			</modules>
 		</profile>
