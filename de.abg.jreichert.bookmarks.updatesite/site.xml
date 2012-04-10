@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/de.abg.jreichert.forms.feature_1.0.0.qualifier.jar" id="de.abg.jreichert.forms.feature" version="1.0.0.qualifier">
+      <category name="Bookmarks"/>
+   </feature>
+   <feature url="features/de.abg.jreichert.operadsl.feature_1.0.0.qualifier.jar" id="de.abg.jreichert.operadsl.feature" version="1.0.0.qualifier">
+      <category name="Bookmarks"/>
+   </feature>
+   <feature url="features/de.abg.jreichert.wongdsl.feature_1.0.0.qualifier.jar" id="de.abg.jreichert.wongdsl.feature" version="1.0.0.qualifier">
+      <category name="Bookmarks"/>
+   </feature>
+   <category-def name="Bookmarks" label="Bookmarks"/>
+</site>
