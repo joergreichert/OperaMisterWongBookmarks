@@ -282,7 +282,7 @@
 				<sonar.jacoco.reportPath>${jacoco.destFile}</sonar.jacoco.reportPath>
 				<sonar.jacoco.itReportPath>${jacoco.destFile}</sonar.jacoco.itReportPath>
 
-				<sonar.jdbc.url>jdbc:mysql://localhost:3306/sonar?useUnicode=true&amp;characterEncoding=utf8</sonar.jdbc.url>
+				<sonar.jdbc.url>jdbc:mysql://ec2-174-129-80-78.compute-1.amazonaws.com:3306/sonar?useUnicode=true&amp;characterEncoding=utf8</sonar.jdbc.url>
 				<sonar.jdbc.driverClassName>com.mysql.jdbc.Driver</sonar.jdbc.driverClassName>
 				<sonar.jdbc.username>sonar</sonar.jdbc.username>
 				<sonar.jdbc.password>sonar</sonar.jdbc.password>
