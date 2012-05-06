@@ -14,7 +14,6 @@
 	<packaging>eclipse-plugin</packaging>
 
 	<build>
-		<sourceDirectory>src</sourceDirectory>
 		<resources>
 			<resource>
 				<directory>${project.build.directory}/xtext</directory>
@@ -51,36 +50,24 @@
 					<filesets>
 						<fileset>
 							<directory>src-gen</directory>
-							<includes>
-								<include>**</include>
-							</includes>
 							<excludes>
 								<exclude>.gitignore</exclude>
 							</excludes>
 						</fileset>
 						<fileset>
 							<directory>xtend-gen</directory>
-							<includes>
-								<include>**</include>
-							</includes>
 							<excludes>
 								<exclude>.gitignore</exclude>
 							</excludes>
 						</fileset>
 						<fileset>
 							<directory>../${project.artifactId}.ui/src-gen</directory>
-							<includes>
-								<include>**</include>
-							</includes>
 							<excludes>
 								<exclude>.gitignore</exclude>
 							</excludes>
 						</fileset>
 						<fileset>
 							<directory>../${project.artifactId}.tests/src-gen</directory>
-							<includes>
-								<include>**</include>
-							</includes>
 							<excludes>
 								<exclude>.gitignore</exclude>
 							</excludes>
@@ -103,7 +90,7 @@
 							<workflowDescriptor>de.abg.jreichert.GenerateOperaDSL</workflowDescriptor>
 							<timestampFileName>xtext-generator.timestamp</timestampFileName>
 							<jvmSettings>
-								<fork>true</fork>
+								<fork>false</fork>
 								<jvmArgs>
 									<jvmArg>-Xms100m</jvmArg>
 									<jvmArg>-Xmx700m</jvmArg>
@@ -125,7 +112,93 @@
 						</goals>
 					</execution>
 				</executions>
+
+				<dependencies>
+					<!-- these dependencies are contributed in Eclipse by the "Xtend Library" classpath container -->
+					<dependency>
+						<groupId>org.eclipse.xtend</groupId>
+						<artifactId>xtend-library</artifactId>
+						<version>2.2.2</version>
+						<type>pom</type>
+					</dependency>
+				</dependencies>
 			</plugin>
 		</plugins>
 	</build>
+	
+	
+<dependencies>
+ <dependency>
+ <groupId>org.eclipse.xtend2</groupId>
+ <artifactId>org.eclipse.xtend2.lib</artifactId>
+ <version>2.2.1</version>
+ </dependency>
+ <dependency>
+ <groupId>org.eclipse.xtext</groupId>
+ <artifactId>org.eclipse.xtext.xtend2.lib</artifactId>
+ <version>2.2.0.v201112121625</version>
+ </dependency> 
+ <dependency>
+ <groupId>com.google.inject</groupId>
+ <artifactId>com.google.inject</artifactId>
+ <version>3.0.0.no_aop</version>
+ </dependency>
+ <dependency>
+ <groupId>org.eclipse.xtext</groupId>
+ <artifactId>org.eclipse.xtext.xbase</artifactId> 
+ <version>2.2.0.v201112121625</version>
+ </dependency> 
+ <dependency>
+ <groupId>org.eclipse.emf</groupId>
+ <artifactId>org.eclipse.emf.mwe2.launch</artifactId>
+ <version>2.2.0.v201112121737</version> 
+ </dependency> 
+ <dependency>
+ <groupId>log4j</groupId>
+ <artifactId>log4j</artifactId>
+ <version>1.2.14</version>
+ </dependency>
+ <dependency>
+ <groupId>org.eclipse.emf</groupId>
+ <artifactId>org.eclipse.emf.mwe.core</artifactId>
+ <version>1.2.1.v201112120646</version> 
+ </dependency> 
+ <dependency>
+ <groupId>commons-logging</groupId>
+ <artifactId>commons-logging-api</artifactId>
+ <version>1.1</version>
+ </dependency>
+ <dependency>
+ <groupId>org.eclipse.emf</groupId>
+ <artifactId>codegen</artifactId>
+ <version>2.3.0-v200706262000</version>
+ </dependency> 
+ </dependencies>
+
+ <repositories>
+ <repository>
+ <id>maven.eclipse.org</id>
+ <url>http://maven.eclipse.org/nexus/content/groups/public/</url>
+ </repository>
+ <repository>
+ <id>xtend</id>
+ <url>http://build.eclipse.org/common/xtend/maven/</url>
+ </repository>
+ <repository>
+ <id>xtext</id>
+ <url>http://build.eclipse.org/common/xtext/maven/maven-snapshot/final/</url>
+ </repository>
+ </repositories>
+
+ <pluginRepositories>
+ <pluginRepository>
+ <id>fornax.plugin.repository</id>
+ <name>Fornax Plugin Repository</name>
+ <url>http://www.fornax-platform.org/m2/repository</url> 
+ </pluginRepository> 
+ <pluginRepository>
+ <id>xtend</id>
+ <url>http://build.eclipse.org/common/xtend/maven/</url>
+ </pluginRepository>
+ </pluginRepositories>	
 </project>

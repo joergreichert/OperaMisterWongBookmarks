@@ -13,8 +13,8 @@
 	<name>Opera Mister Wong Bookmarks</name>
 
 	<modules>
-		<module>../de.abg.jreichert.bookmarks.repository.parent</module>
 		<module>../de.abg.jreichert.bookmarks.targetplatform</module>
+		<module>../de.abg.jreichert.bookmarks.repository.parent</module>
 		<module>../de.abg.jreichert.bookmarks.parent</module>
 	</modules>
 	<profiles>
