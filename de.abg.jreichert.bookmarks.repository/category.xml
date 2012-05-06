@@ -60,7 +60,7 @@
    <feature url="features/org.eclipse.swtbot.forms_2.0.5.20111003_1754-3676ac8-dev-e36.jar" id="org.eclipse.swtbot.forms" version="2.0.5.20111003_1754-3676ac8-dev-e36">
       <category name="3rdparty"/>
    </feature>
-   <feature url="features/org.eclipselabs.xtext.utils.unittesting.feature_0.9.2.jar" id="org.eclipselabs.xtext.utils.unittesting.feature" version="0.9.2">
+   <feature url="features/org.eclipselabs.xtext.utils.unittesting.feature_0.9.3.jar" id="org.eclipselabs.xtext.utils.unittesting.feature" version="0.9.3">
       <category name="3rdparty"/>
    </feature>
    <feature url="features/org.eclipse.sdk_3.7.2.r37x_v20111213-7Q7xALDPb32vCjY6UACVPdFTz-icPtJkUadz0lMmk4z-8.jar" id="org.eclipse.sdk" version="3.7.2.r37x_v20111213-7Q7xALDPb32vCjY6UACVPdFTz-icPtJkUadz0lMmk4z-8">
