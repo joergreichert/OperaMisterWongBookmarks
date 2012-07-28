@@ -15,9 +15,6 @@ import org.eclipse.xtext.EcoreUtil2
 import org.eclipse.xtext.generator.IFileSystemAccess
 import org.eclipse.xtext.generator.IGenerator
 
-import static extension org.eclipse.xtext.xtend2.lib.ResourceExtensions.*
-
-
 class MisterWongDslGenerator implements IGenerator {
 		
 	override void doGenerate(Resource resource, IFileSystemAccess fsa) {

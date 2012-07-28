@@ -6,7 +6,7 @@
 	<parent>
 		<groupId>de.abg.jreichert.bookmarks</groupId>
 		<artifactId>de.abg.jreichert.bookmarks.parent</artifactId>
-		<version>1.0.0-SNAPSHOT</version>
+		<version>1.0.1-SNAPSHOT</version>
 		<relativePath>../de.abg.jreichert.bookmarks.parent/pom.xml</relativePath>
 	</parent>
 
@@ -103,7 +103,7 @@
 				</executions>
 			</plugin>
 			<plugin>
-				<groupId>org.eclipse.xtend2</groupId>
+				<groupId>org.eclipse.xtend</groupId>
 				<artifactId>xtend-maven-plugin</artifactId>
 				<executions>
 					<execution>
@@ -112,93 +112,7 @@
 						</goals>
 					</execution>
 				</executions>
-
-				<dependencies>
-					<!-- these dependencies are contributed in Eclipse by the "Xtend Library" classpath container -->
-					<dependency>
-						<groupId>org.eclipse.xtend</groupId>
-						<artifactId>xtend-library</artifactId>
-						<version>2.2.2</version>
-						<type>pom</type>
-					</dependency>
-				</dependencies>
-			</plugin>
+			</plugin>			
 		</plugins>
 	</build>
-	
-	
-<dependencies>
- <dependency>
- <groupId>org.eclipse.xtend2</groupId>
- <artifactId>org.eclipse.xtend2.lib</artifactId>
- <version>2.2.1</version>
- </dependency>
- <dependency>
- <groupId>org.eclipse.xtext</groupId>
- <artifactId>org.eclipse.xtext.xtend2.lib</artifactId>
- <version>2.2.0.v201112121625</version>
- </dependency> 
- <dependency>
- <groupId>com.google.inject</groupId>
- <artifactId>com.google.inject</artifactId>
- <version>3.0.0.no_aop</version>
- </dependency>
- <dependency>
- <groupId>org.eclipse.xtext</groupId>
- <artifactId>org.eclipse.xtext.xbase</artifactId> 
- <version>2.2.0.v201112121625</version>
- </dependency> 
- <dependency>
- <groupId>org.eclipse.emf</groupId>
- <artifactId>org.eclipse.emf.mwe2.launch</artifactId>
- <version>2.2.0.v201112121737</version> 
- </dependency> 
- <dependency>
- <groupId>log4j</groupId>
- <artifactId>log4j</artifactId>
- <version>1.2.14</version>
- </dependency>
- <dependency>
- <groupId>org.eclipse.emf</groupId>
- <artifactId>org.eclipse.emf.mwe.core</artifactId>
- <version>1.2.1.v201112120646</version> 
- </dependency> 
- <dependency>
- <groupId>commons-logging</groupId>
- <artifactId>commons-logging-api</artifactId>
- <version>1.1</version>
- </dependency>
- <dependency>
- <groupId>org.eclipse.emf</groupId>
- <artifactId>codegen</artifactId>
- <version>2.3.0-v200706262000</version>
- </dependency> 
- </dependencies>
-
- <repositories>
- <repository>
- <id>maven.eclipse.org</id>
- <url>http://maven.eclipse.org/nexus/content/groups/public/</url>
- </repository>
- <repository>
- <id>xtend</id>
- <url>http://build.eclipse.org/common/xtend/maven/</url>
- </repository>
- <repository>
- <id>xtext</id>
- <url>http://build.eclipse.org/common/xtext/maven/maven-snapshot/final/</url>
- </repository>
- </repositories>
-
- <pluginRepositories>
- <pluginRepository>
- <id>fornax.plugin.repository</id>
- <name>Fornax Plugin Repository</name>
- <url>http://www.fornax-platform.org/m2/repository</url> 
- </pluginRepository> 
- <pluginRepository>
- <id>xtend</id>
- <url>http://build.eclipse.org/common/xtend/maven/</url>
- </pluginRepository>
- </pluginRepositories>	
 </project>

@@ -8,18 +8,18 @@
 
 	<groupId>de.abg.jreichert.bookmarks</groupId>
 	<artifactId>de.abg.jreichert.bookmarks.repository.parent</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
+	<version>1.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<properties>
-		<tycho-version>0.14.1</tycho-version>
+		<tycho-version>0.15.0</tycho-version>
 		<junit-version>4.8.1</junit-version>
 		<platform-version-name>indigo</platform-version-name>
 		<eclipse-site>http://download.eclipse.org/releases/${platform-version-name}</eclipse-site>
 		<orbit-site>http://download.eclipse.org/tools/orbit/downloads/drops/R20110523182458/repository</orbit-site>
 		<platform-version>[3.7,3.8)</platform-version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<target-platform-version>1.0.0-SNAPSHOT</target-platform-version>
+		<target-platform-version>1.0.1-SNAPSHOT</target-platform-version>
 		<maven-resources-plugin-version>2.5</maven-resources-plugin-version>
 		<maven-antrun-plugin-version>1.7</maven-antrun-plugin-version>
 		<maven-surefire-plugin-version>2.9</maven-surefire-plugin-version>
@@ -27,7 +27,7 @@
 		<maven-assembly-plugin-version>2.2.1</maven-assembly-plugin-version>
 		<build-helper-maven-plugin-version>1.7</build-helper-maven-plugin-version>
 		<fornax-oaw-m2-plugin-version>3.3.1</fornax-oaw-m2-plugin-version>
-		<xtend-maven-plugin-version>2.2.2</xtend-maven-plugin-version>
+		<xtend-maven-plugin-version>2.3.0</xtend-maven-plugin-version>
 	</properties>
 
 	<build>
@@ -185,10 +185,18 @@
 					<version>${fornax-oaw-m2-plugin-version}</version>
 				</plugin>
 				<plugin>
-					<groupId>org.eclipse.xtend2</groupId>
+					<groupId>org.eclipse.xtend</groupId>
 					<artifactId>xtend-maven-plugin</artifactId>
 					<version>${xtend-maven-plugin-version}</version>
+					<executions>
+						<execution>
+							<goals>
+								<goal>compile</goal>
+							</goals>
+						</execution>
+					</executions>
 					<configuration>
+						<!-- need to prefix by basedir to generate to currently built module -->
 						<outputDirectory>${basedir}/xtend-gen</outputDirectory>
 					</configuration>
 				</plugin>
@@ -294,7 +302,7 @@
 				<jacoco.propertyName>coverageAgent</jacoco.propertyName>
 				<jacoco.destFile>../../plugins/org.eclipselabs.spray.generator.graphiti/target/jacoco.exec</jacoco.destFile>
 				<jacoco.append>true</jacoco.append>
-				<jacoco.includes>org.eclipselabs.spray.*</jacoco.includes>
+				<jacoco.includes>de.abg.jreichert.*</jacoco.includes>
 				<!--jacoco.excludes>java.*</jacoco.excludes-->
 				<!--jacoco.exclClassLoaders>sun.reflect.DelegatingClassLoader:MyClassLoader</jacoco.exclClassLoaders-->
 				<!--jacoco.sessionId>junit4runnerSession</jacoco.sessionId-->

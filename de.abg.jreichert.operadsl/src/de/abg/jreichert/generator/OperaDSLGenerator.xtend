@@ -4,7 +4,6 @@ import org.eclipse.emf.ecore.resource.Resource
 import org.eclipse.xtext.generator.IGenerator
 import org.eclipse.xtext.generator.IFileSystemAccess
 import de.abg.jreichert.operaDSL.Element
-import static extension org.eclipse.xtext.xtend2.lib.ResourceExtensions.*
 import de.abg.jreichert.operaDSL.Link
 import de.abg.jreichert.operaDSL.Folder
 import de.abg.jreichert.operaDSL.BookmarkFile

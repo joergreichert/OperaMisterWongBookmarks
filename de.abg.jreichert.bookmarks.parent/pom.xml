@@ -5,13 +5,13 @@
 	<parent>
 		<groupId>de.abg.jreichert.bookmarks</groupId>
 		<artifactId>de.abg.jreichert.bookmarks.repository.parent</artifactId>
-		<version>1.0.0-SNAPSHOT</version>
+		<version>1.0.1-SNAPSHOT</version>
 		<relativePath>../de.abg.jreichert.bookmarks.repository.parent/pom.xml</relativePath>
 	</parent>	
 
 	<groupId>de.abg.jreichert.bookmarks</groupId>
 	<artifactId>de.abg.jreichert.bookmarks.parent</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
+	<version>1.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<build>

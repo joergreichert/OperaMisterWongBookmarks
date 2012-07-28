@@ -2,7 +2,7 @@
 <feature
       id="de.abg.jreichert.forms.feature"
       label="Bookmarks Forms Feature"
-      version="1.0.0.qualifier"
+      version="1.0.1.qualifier"
       provider-name="Joerg Reichert">
 
    <description url="http://www.example.com/description">
