@@ -4,6 +4,8 @@
 package de.abg.jreichert.ui;
 
 import org.eclipse.ui.plugin.AbstractUIPlugin;
+import org.eclipse.xtext.builder.DerivedResourceMarkers;
+import org.eclipse.xtext.generator.IDerivedResourceMarkers;
 import org.eclipse.xtext.ui.editor.syntaxcoloring.IHighlightingConfiguration;
 import org.eclipse.xtext.ui.editor.syntaxcoloring.ISemanticHighlightingCalculator;
 
@@ -27,5 +29,8 @@ public class OperaDSLUiModule extends
 		super.configure(binder);
 		binder.bind(IHighlightingConfiguration.class).toInstance(new OperaHighlightingConfiguration());
 		binder.bind(ISemanticHighlightingCalculator.class).toInstance(new OperaHighlightingCalculator());
+		binder.bind(IDerivedResourceMarkers.class).toInstance(new DerivedResourceMarkers());
 	}
+	
+	
 }
