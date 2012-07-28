@@ -14,6 +14,7 @@ import org.eclipse.emf.ecore.resource.Resource
 import org.eclipse.xtext.EcoreUtil2
 import org.eclipse.xtext.generator.IFileSystemAccess
 import org.eclipse.xtext.generator.IGenerator
+import java.io.File
 
 class MisterWongDslGenerator implements IGenerator {
 		
@@ -58,6 +59,10 @@ class MisterWongDslGenerator implements IGenerator {
 					.replace("/resource", "")
 					.replace("src", "src-gen")
 				val newUri = URI::createPlatformResourceURI(newUriStr, true)
+				if(new File(newUriStr).exists) {
+					val res = resource.resourceSet.getResource(newUri, true)
+					res.delete(Collections::EMPTY_MAP)
+				}
 				val newRes = resource.resourceSet.createResource(newUri)
 				val root = resource.allContents.toIterable.filter(typeof(BookmarkFile)).head
 				val newRoot = MisterWongDslFactory::eINSTANCE.createBookmarkFile
