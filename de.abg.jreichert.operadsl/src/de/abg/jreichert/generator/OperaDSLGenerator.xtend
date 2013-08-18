@@ -44,7 +44,7 @@ class OperaDSLGenerator implements IGenerator {
 	def dispatch void print(StringBuilder sb, Collection<String> spaces, Link link) {
 		for (space : spaces) 
 			sb.append(space) 
-		sb.append("* " + link.name + ": " + link.url + "\n");
+		sb.append("* [" + link.url + " " + link.name + "]\n");
 	}
 
 	def dispatch void print(StringBuilder sb, Collection<String> spaces, Element folder) {

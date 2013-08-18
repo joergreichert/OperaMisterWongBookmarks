@@ -1,0 +1,37 @@
+TargetDefinition "Opera Mister Wong Bookmarks Target Platform"
+
+	targetFile = de.abg.jreichert.bookmarks.targetplatform
+	
+	"Kepler" http://download.eclipse.org/releases/kepler {
+		org.eclipse.sdk 4.3.0.v20130605-2000,
+		org.eclipse.pde 3.9.0.v20130605-2000,
+		org.eclipse.emf.sdk 2.9.0.v20130610-0406,
+		org.eclipse.emf.mwe2.language.sdk 2.4.0.v201306110940,
+		org.eclipse.emf.mwe2.runtime.sdk 2.4.0.v201306110341,
+		org.eclipse.xtext.sdk 2.4.2.v201306120542,
+		org.eclipse.xtend.sdk 2.4.2.v201306120542,
+		org.eclipse.swt noFeature 3.102.0.v20130605-1539,
+		org.eclipse.emf.compare.ide.ui 2.1.0.201306101322,
+		org.eclipse.wb.rcp.feature 1.6.0.r43x201305212028,
+		org.eclipse.wb.swt.feature 1.6.0.r43x201305212024,
+		org.eclipse.wb.xwt.feature 1.6.0.r43x201305212050,
+		org.eclipse.wb.core.feature 1.6.0.r43x201305211944,
+		org.eclipse.wb.doc.user.feature 1.6.0.r43x201305212003,
+		org.eclipse.wb.core.ui.feature 1.6.0.r43x201305211950,
+		org.eclipse.wb.layout.group.feature 1.6.0.r43x201305212007,
+		org.eclipse.wb.core.xml.feature 1.6.0.r43x201305211955
+	}
+	
+	"Xtext ANTLR" http://download.itemis.com/updates/releases/2.0.0/ {
+		de.itemis.xtext.antlr.sdk 2.0.0.v201108011202,
+		de.itemis.xtext.antlr.feature 2.0.0.v201108011202
+	}
+	
+	"SWTBot" http://download.eclipse.org/technology/swtbot/releases/latest/ {
+		org.eclipse.swtbot.eclipse 2.1.1.201307101628,
+		org.eclipse.swtbot.eclipse.gef 2.1.1.201307101628
+	}
+	
+	"Xpect" http://www.xpect-tests.org/updatesite/nightly/ {
+		org.xpect.sdk 0.1.0.201308161707
+	}

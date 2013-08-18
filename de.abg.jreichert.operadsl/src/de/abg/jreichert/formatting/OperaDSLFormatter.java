@@ -3,7 +3,6 @@
  */
 package de.abg.jreichert.formatting;
 
-import org.eclipse.xtext.IGrammarAccess;
 import org.eclipse.xtext.formatting.impl.AbstractDeclarativeFormatter;
 import org.eclipse.xtext.formatting.impl.FormattingConfig;
 
@@ -48,11 +47,11 @@ public class OperaDSLFormatter extends AbstractDeclarativeFormatter {
 		c.setNoSpace()
 				.around(oga.getFolderAccess().getEqualsSignKeyword_16_1());
 		c.setNoSpace()
-				.around(oga.getFolderAccess().getEqualsSignKeyword_17_2());
+				.around(oga.getFolderAccess().getEqualsSignKeyword_17_1());
 		c.setNoSpace()
 				.around(oga.getFolderAccess().getEqualsSignKeyword_18_1());
 		c.setNoSpace()
-				.around(oga.getFolderAccess().getEqualsSignKeyword_19_1());
+				.around(oga.getFolderAccess().getEqualsSignKeyword_19_2());
 		c.setNoSpace()
 				.around(oga.getFolderAccess().getEqualsSignKeyword_20_1());
 		c.setNoSpace()
@@ -68,10 +67,10 @@ public class OperaDSLFormatter extends AbstractDeclarativeFormatter {
 		c.setNoSpace().after(oga.getFolderAccess().getTargetAssignment_14_2());
 		c.setNoSpace().after(oga.getFolderAccess().getMoveIsCopyAssignment_15_2());
 		c.setNoSpace().after(oga.getFolderAccess().getSeparatorAllowedAssignment_16_2());
-		c.setNoSpace().after(oga.getFolderAccess().getTrashFolderAssignment_17_3());
-		c.setNoSpace().after(oga.getFolderAccess().getDeletableAssignment_18_2());
-		c.setNoSpace().after(oga.getFolderAccess().getExpandedAssignment_19_2());
-		c.setNoSpace().after(oga.getFolderAccess().getActiveAssignment_20_2());
+		c.setNoSpace().after(oga.getFolderAccess().getTrashFolderAssignment_19_3());
+		c.setNoSpace().after(oga.getFolderAccess().getDeletableAssignment_20_2());
+		c.setNoSpace().after(oga.getFolderAccess().getExpandedAssignment_17_2());
+		c.setNoSpace().after(oga.getFolderAccess().getActiveAssignment_18_2());
 		c.setNoSpace().after(oga.getFolderAccess().getPartnerIdAssignment_21_2());
 		c.setNoSpace().after(oga.getFolderAccess().getDescriptionAssignment_22_2());
 		c.setNoSpace().after(oga.getFolderAccess().getUniqueIdAssignment_25());

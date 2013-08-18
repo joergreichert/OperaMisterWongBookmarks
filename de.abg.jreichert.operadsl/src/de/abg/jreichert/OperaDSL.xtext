@@ -33,10 +33,10 @@ Folder :
 	('TARGET' '=' target = StringWithoutQuotes NL)?
 	('MOVE_IS_COPY' '=' moveIsCopy = YESORNO NL)?
 	('SEPARATOR_ALLOWED' '=' separatorAllowed = YESORNO NL)?
-	('TRASH' 'FOLDER' '=' trashFolder = YESORNO NL)?
-	('DELETABLE' '=' deletable=YESORNO NL)?
 	('EXPANDED' '=' expanded = YESORNO NL)?
 	('ACTIVE' '=' active = YESORNO NL)?
+	('TRASH' 'FOLDER' '=' trashFolder = YESORNO NL)?
+	('DELETABLE' '=' deletable=YESORNO NL)?
 	('PARTNERID' '=' partnerId = StringWithoutQuotes NL)?
 	('DESCRIPTION' '=' description = StringWithoutQuotes NL)?
 	'UNIQUEID' '=' uniqueId = StringWithoutQuotes NL // ('A'..'Z'|'0'..'9')+
