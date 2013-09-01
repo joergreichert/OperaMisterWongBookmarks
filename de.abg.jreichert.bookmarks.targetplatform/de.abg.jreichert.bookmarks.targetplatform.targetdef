@@ -33,5 +33,5 @@ TargetDefinition "Opera Mister Wong Bookmarks Target Platform"
 	}
 	
 	"Xpect" http://www.xpect-tests.org/updatesite/nightly/ {
-		org.xpect.sdk 0.1.0.201308161707
+		org.xpect.sdk 0.1.0.201308231740
 	}

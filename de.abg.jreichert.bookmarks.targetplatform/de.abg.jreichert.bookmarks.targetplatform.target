@@ -34,7 +34,7 @@
 			<repository location="http://download.eclipse.org/technology/swtbot/releases/latest/"/>
 		</location>
 		<location includeAllPlatforms="false" includeMode="planner" includeSource="true" type="InstallableUnit">
-			<unit id="org.xpect.sdk.feature.group" version="0.1.0.201308161707"/>
+			<unit id="org.xpect.sdk.feature.group" version="0.1.0.201308231740"/>
 			<repository location="http://www.xpect-tests.org/updatesite/nightly/"/>
 		</location>
 	</locations>
