@@ -6,6 +6,7 @@ TargetDefinition "Opera Mister Wong Bookmarks Target Platform"
 		org.eclipse.sdk 4.3.0.v20130605-2000,
 		org.eclipse.pde 3.9.0.v20130605-2000,
 		org.eclipse.swt noFeature 3.102.0.v20130605-1539,
+		org.eclipse.emf.sdk 2.9.1.v20130902-0605,
 		org.eclipse.emf.compare.ide.ui 2.1.0.201306101322,
 		org.eclipse.wb.rcp.feature 1.6.0.r43x201305212028,
 		org.eclipse.wb.swt.feature 1.6.0.r43x201305212024,
@@ -18,11 +19,10 @@ TargetDefinition "Opera Mister Wong Bookmarks Target Platform"
 	}
 	
 	"Xtext & Xtend" http://download.eclipse.org/modeling/tmf/xtext/updates/composite/releases/ {
-		org.eclipse.emf.sdk 2.9.1.v20130902-0605,
-		org.eclipse.xtext.sdk 2.4.3.v201309030823,
-		org.eclipse.xtend.sdk 2.4.3.v201309030823,
-		org.eclipse.emf.mwe2.language.sdk 2.4.1.v201309030840,
-		org.eclipse.emf.mwe2.runtime.sdk 2.4.1.v201309030422
+		org.eclipse.xtext.sdk 2.5.0.v201312110906,
+		org.eclipse.xtend.sdk 2.5.0.v201312110906,
+		org.eclipse.emf.mwe2.language.sdk 2.5.0.v201312110944,
+		org.eclipse.emf.mwe2.runtime.sdk 2.5.0.v201312110307
 	}
 
 	"Xtext ANTLR" http://download.itemis.com/updates/releases/2.1.0/ {
@@ -36,5 +36,5 @@ TargetDefinition "Opera Mister Wong Bookmarks Target Platform"
 	}
 	
 	"Xpect" http://www.xpect-tests.org/updatesite/nightly/ {
-		org.xpect.sdk 0.1.0.201308231740
+		org.xpect.sdk 0.1.0.201311301514
 	}

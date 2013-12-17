@@ -8,9 +8,9 @@ Bundle-ActivationPolicy: lazy
 Require-Bundle: de.abg.jreichert.operadsl;bundle-version="[1.0.1,1.0.2)",
  de.abg.jreichert.operadsl.ui;bundle-version="[1.0.1,1.0.2)",
  org.eclipse.core.runtime;bundle-version="[3.8.0,4.3.0)",
- org.eclipse.xtext;bundle-version="[2.4.0,2.5.0)",
- org.eclipse.xtext.junit4;bundle-version="[2.4.0,2.5.0)",
- org.eclipse.xtext.ui.junit;bundle-version="[2.4.0,2.5.0)",
+ org.eclipse.xtext;bundle-version="[2.5.0,2.6.0)",
+ org.eclipse.xtext.junit4;bundle-version="[2.5.0,2.6.0)",
+ org.eclipse.xtext.ui.junit;bundle-version="[2.5.0,2.6.0)",
  org.eclipse.ui.workbench;bundle-version="[3.103.0,4.0.0)";resolution:=optional,
  org.junit;bundle-version="4.11.0"
 Import-Package: org.apache.log4j,

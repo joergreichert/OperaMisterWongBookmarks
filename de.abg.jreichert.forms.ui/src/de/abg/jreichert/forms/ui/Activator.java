@@ -49,12 +49,12 @@ public class Activator extends AbstractUIPlugin {
 	public void start(BundleContext context) throws Exception {
 		super.start(context);
 		plugin = this;
-		operaInjector = Guice.createInjector(Modules2.mixin(new SharedModule(),
+		operaInjector = Guice.createInjector(Modules2.mixin(new SharedModule(context),
 				new IStorage2UriMapperAwareModule(),
 				new OperaDSLRuntimeModule(), new OperaDSLUiModule(this),
 				new BookmarkFormsModule()));
 		misterWongInjector = Guice.createInjector(Modules2.mixin(
-				new SharedModule(), new IStorage2UriMapperAwareModule(),
+				new SharedModule(context), new IStorage2UriMapperAwareModule(),
 				new MisterWongDslRuntimeModule(), new MisterWongDslUiModule(
 						this), new BookmarkFormsModule()));
 	}

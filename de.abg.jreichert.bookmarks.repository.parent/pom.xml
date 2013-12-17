@@ -13,33 +13,11 @@
 		<relativePath>../de.abg.jreichert.bookmarks.config.parent/pom.xml</relativePath>
 	</parent>
 	
-	<groupId>de.abg.jreichert.bookmarks</groupId>
 	<artifactId>de.abg.jreichert.bookmarks.repository.parent</artifactId>
-	<version>1.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
-
-	<properties>
-		<eclipse-site>http://download.eclipse.org/releases/${platform-version-name}</eclipse-site>
-		<platform-version>[4.3,4.4)</platform-version>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<target-platform-version>1.0.1-SNAPSHOT</target-platform-version>
-		<maven-resources-plugin-version>2.6</maven-resources-plugin-version>
-		<maven-antrun-plugin-version>1.7</maven-antrun-plugin-version>
-		<maven-surefire-plugin-version>2.16</maven-surefire-plugin-version>
-		<maven-assembly-plugin-version>2.4</maven-assembly-plugin-version>
-		<build-helper-maven-plugin-version>1.8</build-helper-maven-plugin-version>
-		<fornax-oaw-m2-plugin-version>3.4.0</fornax-oaw-m2-plugin-version>
-		<xtend-maven-plugin-version>2.4.3</xtend-maven-plugin-version>
-	</properties>
 
 	<build>
 		<plugins>
-			<plugin>
-				<groupId>org.eclipse.tycho</groupId>
-				<artifactId>tycho-maven-plugin</artifactId>
-				<version>${tycho-version}</version>
-				<extensions>true</extensions>
-			</plugin>
 			<plugin>
 				<groupId>org.eclipse.tycho</groupId>
 				<artifactId>target-platform-configuration</artifactId>
@@ -51,7 +29,7 @@
 						<artifact>
 							<groupId>de.abg.jreichert.bookmarks</groupId>
 							<artifactId>de.abg.jreichert.bookmarks.targetplatform</artifactId>
-							<version>${target-platform-version}</version>
+							<version>${project.version}</version>
 						</artifact>
 					</target>
 					<environments>
@@ -88,236 +66,15 @@
 					</environments>
 				</configuration>
 			</plugin>
-			<plugin>
-				<groupId>org.eclipse.tycho</groupId>
-				<artifactId>tycho-source-plugin</artifactId>
-				<version>${tycho-version}</version>
-				<executions>
-					<execution>
-						<id>attach-source</id>
-						<goals>
-							<goal>plugin-source</goal>
-						</goals>
-					</execution>
-				</executions>
-			</plugin>
 		</plugins>
 		<pluginManagement>
 			<plugins>
 				<plugin>
 					<groupId>org.eclipse.tycho</groupId>
-					<artifactId>tycho-compiler-plugin</artifactId>
-					<version>${tycho-version}</version>
-					<configuration>
-						<encoding>UTF-8</encoding>
-						<source>6.0</source>
-						<target>6.0</target>
-						<verbose>true</verbose>
-					</configuration>
-				</plugin>
-				<plugin>
-					<groupId>org.eclipse.tycho</groupId>
-					<artifactId>tycho-surefire-plugin</artifactId>
-					<version>${tycho-version}</version>
-				</plugin>
-				<plugin>
-					<groupId>org.eclipse.tycho</groupId>
-					<artifactId>maven-osgi-test-plugin</artifactId>
-					<version>${tycho-version}</version>
-				</plugin>
-				<plugin>
-					<groupId>org.eclipse.tycho</groupId>
 					<artifactId>tycho-p2-repository-plugin</artifactId>
 					<version>${tycho-version}</version>
-				</plugin>
-				<plugin>
-					<groupId>org.apache.maven.plugins</groupId>
-					<artifactId>maven-resources-plugin</artifactId>
-					<version>${maven-resources-plugin-version}</version>
-					<configuration>
-						<encoding>UTF-8</encoding>
-					</configuration>
-				</plugin>
-				<plugin>
-					<groupId>org.apache.maven.plugins</groupId>
-					<artifactId>maven-antrun-plugin</artifactId>
-					<version>${maven-antrun-plugin-version}</version>
-				</plugin>
-				<plugin>
-					<groupId>org.apache.maven.plugins</groupId>
-					<artifactId>maven-surefire-plugin</artifactId>
-					<version>${maven-surefire-plugin-version}</version>
-				</plugin>
-				<plugin>
-					<groupId>org.apache.maven.plugins</groupId>
-					<artifactId>maven-clean-plugin</artifactId>
-					<version>${maven-clean-plugin-version}</version>
-				</plugin>
-				<plugin>
-					<groupId>org.apache.maven.plugins</groupId>
-					<artifactId>maven-assembly-plugin</artifactId>
-					<version>${maven-assembly-plugin-version}</version>
-				</plugin>
-				<plugin>
-					<groupId>org.codehaus.mojo</groupId>
-					<artifactId>build-helper-maven-plugin</artifactId>
-					<version>${build-helper-maven-plugin-version}</version>
-					<executions>
-						<execution>
-							<id>add-source</id>
-							<phase>generate-sources</phase>
-							<goals>
-								<goal>add-source</goal>
-							</goals>
-							<configuration>
-								<sources>
-									<source>src-gen</source>
-								</sources>
-								<sources>
-									<source>${project.build.directory}/xtend-gen</source>
-								</sources>
-							</configuration>
-						</execution>
-					</executions>
-				</plugin>
-				<plugin>
-					<groupId>org.fornax.toolsupport</groupId>
-					<artifactId>fornax-oaw-m2-plugin</artifactId>
-					<version>${fornax-oaw-m2-plugin-version}</version>
-				</plugin>
-				<plugin>
-					<groupId>org.eclipse.xtend</groupId>
-					<artifactId>xtend-maven-plugin</artifactId>
-					<version>${xtend-maven-plugin-version}</version>
-					<executions>
-						<execution>
-							<goals>
-								<goal>compile</goal>
-							</goals>
-						</execution>
-					</executions>
-					<configuration>
-						<!-- need to prefix by basedir to generate to currently built module -->
-						<outputDirectory>${basedir}/xtend-gen</outputDirectory>
-					</configuration>
 				</plugin>
 			</plugins>
 		</pluginManagement>
 	</build>
-	<profiles>
-		<profile>
-			<id>platform-${platform-version-name}</id>
-			<activation>
-				<property>
-					<name>platform-version-name</name>
-					<value>indigo</value>
-				</property>
-			</activation>
-			<properties>
-				<eclipse-site>http://download.eclipse.org/releases/${platform-version-name}</eclipse-site>
-				<platform-version>${platform-version}</platform-version>
-			</properties>
-		</profile>
-		<profile>
-			<id>macosx</id>
-			<activation>
-				<os>
-					<name>mac os x</name>
-					<family>mac</family>
-				</os>
-			</activation>
-			<properties>
-				<ui.test.vmargs>-Xmx512m -XX:MaxPermSize=256m -XstartOnFirstThread</ui.test.vmargs>
-			</properties>
-		</profile>
-		<profile>
-			<id>other-os</id>
-			<activation>
-				<os>
-					<name>not-mac</name>
-					<family>!mac</family>
-				</os>
-			</activation>
-			<properties>
-				<ui.test.vmargs>-Xmx512m -XX:MaxPermSize=256m</ui.test.vmargs>
-			</properties>
-		</profile>
-		<profile>
-			<id>sonarLocal</id>
-			<properties>
-				<sonar.jdbc.url>jdbc:mysql://localhost:3306/sonar?useUnicode=true&amp;characterEncoding=utf8</sonar.jdbc.url>
-				<sonar.jdbc.driverClassName>com.mysql.jdbc.Driver</sonar.jdbc.driverClassName>
-				<sonar.jdbc.username>sonar</sonar.jdbc.username>
-				<sonar.jdbc.password>sonar</sonar.jdbc.password>
-				<sonar.host.url>http://localhost:9000/</sonar.host.url>
-				<sonar.java.source>1.6</sonar.java.source>
-				<sonar.java.target>1.6</sonar.java.target>				
-				<sonar.dynamicAnalysis>reuseReports</sonar.dynamicAnalysis>
-			</properties> 
-		</profile>
-		<profile>
-			<id>sonarRemote</id>
-			<properties>
-				<sonar.jdbc.url>jdbc:mysql://ec2-174-129-80-78.compute-1.amazonaws.com:3306/sonar?useUnicode=true&amp;characterEncoding=utf8</sonar.jdbc.url>
-				<sonar.jdbc.driverClassName>com.mysql.jdbc.Driver</sonar.jdbc.driverClassName>
-				<sonar.jdbc.username>sonar</sonar.jdbc.username>
-				<sonar.jdbc.password>sonar</sonar.jdbc.password>
-				<sonar.host.url>http://ec2-174-129-80-78.compute-1.amazonaws.com:9000/</sonar.host.url>
-				<sonar.java.source>1.6</sonar.java.source>
-				<sonar.java.target>1.6</sonar.java.target>				
-				<sonar.dynamicAnalysis>reuseReports</sonar.dynamicAnalysis>
-			</properties> 
-		</profile>
-		<profile>
-			<id>codeCoverage</id>
-			<properties>
-				<jacoco.version>0.6.3.201306030806</jacoco.version>
-
-				<jacoco.propertyName>coverageAgent</jacoco.propertyName>
-				<jacoco.destFile>../../plugins/org.eclipselabs.spray.generator.graphiti/target/jacoco.exec</jacoco.destFile>
-				<jacoco.append>true</jacoco.append>
-				<jacoco.includes>de.abg.jreichert.*</jacoco.includes>
-				<!--jacoco.excludes>java.*</jacoco.excludes-->
-				<!--jacoco.exclClassLoaders>sun.reflect.DelegatingClassLoader:MyClassLoader</jacoco.exclClassLoaders-->
-				<!--jacoco.sessionId>junit4runnerSession</jacoco.sessionId-->
-				<!--jacoco.dumpOnExit>true</jacoco.dumpOnExit-->
-				<!--jacoco.output>file</jacoco.output-->
-				<!--jacoco.address>localhost</jacoco.address-->
-				<!--jacoco.port>9999</jacoco.port-->
-
-				<sonar.core.codeCoveragePlugin>jacoco</sonar.core.codeCoveragePlugin>
-				<sonar.jacoco.reportPath>${jacoco.destFile}</sonar.jacoco.reportPath>
-				<sonar.jacoco.itReportPath>${jacoco.destFile}</sonar.jacoco.itReportPath>
-			</properties> 
-			<build>
-				<plugins>
-					<plugin>
-						<groupId>org.eclipse.tycho</groupId>
-						<artifactId>tycho-surefire-plugin</artifactId>
-						<version>${tycho-version}</version>
-						<configuration>
-							<argLine>${coverageAgent} -Xms512m -Xmx1024m -XX:MaxPermSize=512m</argLine>
-							<useUIHarness>false</useUIHarness>
-							<includes>
-								<include>**/*Test.java</include>
-							</includes>
-							<forkedProcessTimeoutInSeconds>600</forkedProcessTimeoutInSeconds>
-						</configuration>
-					</plugin>
-					<plugin>
-						<groupId>org.jacoco</groupId>
-						<artifactId>jacoco-maven-plugin</artifactId>
-						<version>${jacoco.version}</version>
-						<executions>
-							<execution>
-								<goals>
-									<goal>prepare-agent</goal>
-								</goals>
-							</execution>
-						</executions>
-					</plugin>
-				</plugins>
-			</build>
-		</profile>				
-	</profiles>
 </project>

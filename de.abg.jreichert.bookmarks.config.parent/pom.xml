@@ -18,12 +18,12 @@
 		<platform-version-name>kepler</platform-version-name>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-		<tycho-version>0.18.1</tycho-version>
+		<tycho-version>0.19.0</tycho-version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<maven-clean-plugin-version>2.5</maven-clean-plugin-version>
-		<maven-deploy-plugin-version>2.7</maven-deploy-plugin-version>
-		<github-site-maven-plugin-version>0.8</github-site-maven-plugin-version>
-		<local-build-platform-version>[3.8,4.3)</local-build-platform-version>		
+		<maven-clean-plugin.version>2.5</maven-clean-plugin.version>
+		<maven-deploy-plugin.version>2.7</maven-deploy-plugin.version>
+		<github-site-maven-plugin.version>0.8</github-site-maven-plugin.version>
+		<local-build-platform.version>[3.8,4.3)</local-build-platform.version>		
 		<ui.test.vmargs></ui.test.vmargs>
 		<coverageAgent></coverageAgent>
 		<it.coverage.argLine></it.coverage.argLine>
@@ -44,7 +44,52 @@
 				<configuration>
 					<filesets>
 						<fileset>
-							<directory>xtend-gen</directory>
+							<directory>${project.basedir}/src-gen</directory>
+							<includes>
+								<include>**</include>
+							</includes>
+							<excludes>
+								<exclude>.gitignore</exclude>
+							</excludes>
+						</fileset>
+						<fileset>
+							<directory>${project.basedir}/xtend-gen</directory>
+							<includes>
+								<include>**</include>
+							</includes>
+							<excludes>
+								<exclude>.gitignore</exclude>
+							</excludes>
+						</fileset>
+						<fileset>
+							<directory>${project.basedir}/../${project.artifactId}.ui/src-gen</directory>
+							<includes>
+								<include>**</include>
+							</includes>
+							<excludes>
+								<exclude>.gitignore</exclude>
+							</excludes>
+						</fileset>
+						<fileset>
+							<directory>${project.basedir}/../${project.artifactId}.ui/xtend-gen</directory>
+							<includes>
+								<include>**</include>
+							</includes>
+							<excludes>
+								<exclude>.gitignore</exclude>
+							</excludes>
+						</fileset>
+						<fileset>
+							<directory>${project.basedir}/../../tests/${project.artifactId}.tests/src-gen</directory>
+							<includes>
+								<include>**</include>
+							</includes>
+							<excludes>
+								<exclude>.gitignore</exclude>
+							</excludes>
+						</fileset>
+						<fileset>
+							<directory>${project.basedir}/../../tests/${project.artifactId}.tests/xtend-gen</directory>
 							<includes>
 								<include>**</include>
 							</includes>
@@ -94,7 +139,7 @@
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-deploy-plugin</artifactId>
-					<version>${maven-deploy-plugin-version}</version>
+					<version>${maven-deploy-plugin.version}</version>
 					<configuration>
 						<skip>true</skip>
 					</configuration>
@@ -102,12 +147,12 @@
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-clean-plugin</artifactId>
-					<version>${maven-clean-plugin-version}</version>
+					<version>${maven-clean-plugin.version}</version>
 				</plugin>
 				<plugin>
 					<groupId>com.github.github</groupId>
 					<artifactId>site-maven-plugin</artifactId>
-					<version>${github-site-maven-plugin-version}</version>
+					<version>${github-site-maven-plugin.version}</version>
 					<configuration>
 						<message>Maven artifacts for ${project.groupId}:${project.artifactId}:${project.version} ~${maven.build.timestamp}</message>
 						<noJekyll>true</noJekyll>
@@ -155,21 +200,6 @@
 			<snapshots>
 				<enabled>true</enabled>
 			</snapshots>
-		</pluginRepository>
-		<!-- Fornax Workflow Runner plugin -->
-		<pluginRepository>
-			<id>fornax</id>
-			<url>http://www.fornax-platform.org/m2/repository</url>
-			<releases>
-				<enabled>true</enabled>
-			</releases>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-		</pluginRepository>
-		<pluginRepository>
-			<id>xtend</id>
-			<url>http://build.eclipse.org/common/xtend/maven/</url>
 		</pluginRepository>
 	</pluginRepositories>
 

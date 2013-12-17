@@ -7,7 +7,7 @@
     <package 
        uri = "http://www.abg.de/jreichert/MisterWongDsl" 
        class = "de.abg.jreichert.misterWongDsl.MisterWongDslPackage"
-       genModel = "de/abg/jreichert/MisterWongDsl.genmodel" /> 
+       genModel = "model/generated/MisterWongDsl.genmodel" /> 
 	
   </extension>
 
