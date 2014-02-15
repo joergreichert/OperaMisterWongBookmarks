@@ -4,26 +4,26 @@
 <target includeMode="feature" name="Opera Mister Wong Bookmarks Target Platform" sequenceNumber="67">
 	<locations>
 		<location includeAllPlatforms="false" includeMode="planner" includeSource="true" type="InstallableUnit">
-			<unit id="org.eclipse.sdk.feature.group" version="4.3.0.v20130605-2000"/>
-			<unit id="org.eclipse.pde.feature.group" version="3.9.0.v20130605-2000"/>
-			<unit id="org.eclipse.swt" version="3.102.0.v20130605-1539"/>
+			<unit id="org.eclipse.sdk.feature.group" version="4.3.1.v20130911-1000"/>
+			<unit id="org.eclipse.pde.feature.group" version="3.9.1.v20130911-1000"/>
+			<unit id="org.eclipse.swt" version="3.102.1.v20130827-2021"/>
 			<unit id="org.eclipse.emf.sdk.feature.group" version="2.9.1.v20130902-0605"/>
-			<unit id="org.eclipse.emf.compare.ide.ui.feature.group" version="2.1.0.201306101322"/>
-			<unit id="org.eclipse.wb.rcp.feature.feature.group" version="1.6.0.r43x201305212028"/>
-			<unit id="org.eclipse.wb.swt.feature.feature.group" version="1.6.0.r43x201305212024"/>
-			<unit id="org.eclipse.wb.xwt.feature.feature.group" version="1.6.0.r43x201305212050"/>
-			<unit id="org.eclipse.wb.core.feature.feature.group" version="1.6.0.r43x201305211944"/>
-			<unit id="org.eclipse.wb.doc.user.feature.feature.group" version="1.6.0.r43x201305212003"/>
-			<unit id="org.eclipse.wb.core.ui.feature.feature.group" version="1.6.0.r43x201305211950"/>
-			<unit id="org.eclipse.wb.layout.group.feature.feature.group" version="1.6.0.r43x201305212007"/>
-			<unit id="org.eclipse.wb.core.xml.feature.feature.group" version="1.6.0.r43x201305211955"/>
+			<unit id="org.eclipse.emf.compare.ide.ui.feature.group" version="2.1.1.201309031318"/>
+			<unit id="org.eclipse.wb.rcp.feature.feature.group" version="1.6.1.r43x201309100008"/>
+			<unit id="org.eclipse.wb.swt.feature.feature.group" version="1.6.1.r43x201309092350"/>
+			<unit id="org.eclipse.wb.xwt.feature.feature.group" version="1.6.1.r43x201309100031"/>
+			<unit id="org.eclipse.wb.core.feature.feature.group" version="1.6.1.r43x201309092314"/>
+			<unit id="org.eclipse.wb.doc.user.feature.feature.group" version="1.6.1.r43x201309092334"/>
+			<unit id="org.eclipse.wb.core.ui.feature.feature.group" version="1.6.1.r43x201309092325"/>
+			<unit id="org.eclipse.wb.layout.group.feature.feature.group" version="1.6.1.r43x201309092345"/>
+			<unit id="org.eclipse.wb.core.xml.feature.feature.group" version="1.6.1.r43x201309092330"/>
 			<repository location="http://download.eclipse.org/releases/kepler"/>
 		</location>
 		<location includeAllPlatforms="false" includeMode="planner" includeSource="true" type="InstallableUnit">
-			<unit id="org.eclipse.xtext.sdk.feature.group" version="2.5.0.v201312110906"/>
-			<unit id="org.eclipse.xtend.sdk.feature.group" version="2.5.0.v201312110906"/>
-			<unit id="org.eclipse.emf.mwe2.language.sdk.feature.group" version="2.5.0.v201312110944"/>
-			<unit id="org.eclipse.emf.mwe2.runtime.sdk.feature.group" version="2.5.0.v201312110307"/>
+			<unit id="org.eclipse.xtext.sdk.feature.group" version="2.5.2.v201402120812"/>
+			<unit id="org.eclipse.xtend.sdk.feature.group" version="2.5.2.v201402120812"/>
+			<unit id="org.eclipse.emf.mwe2.language.sdk.feature.group" version="2.5.1.v201402030750"/>
+			<unit id="org.eclipse.emf.mwe2.runtime.sdk.feature.group" version="2.5.1.v201402030544"/>
 			<repository location="http://download.eclipse.org/modeling/tmf/xtext/updates/composite/releases/"/>
 		</location>
 		<location includeAllPlatforms="false" includeMode="planner" includeSource="true" type="InstallableUnit">
@@ -32,12 +32,12 @@
 			<repository location="http://download.itemis.com/updates/releases/2.1.0/"/>
 		</location>
 		<location includeAllPlatforms="false" includeMode="planner" includeSource="true" type="InstallableUnit">
-			<unit id="org.eclipse.swtbot.eclipse.feature.group" version="2.1.1.201307101628"/>
-			<unit id="org.eclipse.swtbot.eclipse.gef.feature.group" version="2.1.1.201307101628"/>
+			<unit id="org.eclipse.swtbot.eclipse.feature.group" version="2.2.0.201401081015"/>
+			<unit id="org.eclipse.swtbot.eclipse.gef.feature.group" version="2.2.0.201401081015"/>
 			<repository location="http://download.eclipse.org/technology/swtbot/releases/latest/"/>
 		</location>
 		<location includeAllPlatforms="false" includeMode="planner" includeSource="true" type="InstallableUnit">
-			<unit id="org.xpect.sdk.feature.group" version="0.1.0.201311301514"/>
+			<unit id="org.xpect.sdk.feature.group" version="0.1.0.201401101421"/>
 			<repository location="http://www.xpect-tests.org/updatesite/nightly/"/>
 		</location>
 	</locations>
