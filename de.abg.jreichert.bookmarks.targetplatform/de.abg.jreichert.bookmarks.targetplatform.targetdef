@@ -19,15 +19,15 @@ TargetDefinition "Opera Mister Wong Bookmarks Target Platform"
 	}
 	
 	"Xtext & Xtend" http://download.eclipse.org/modeling/tmf/xtext/updates/composite/releases/ {
-		org.eclipse.xtext.sdk 2.5.3.v201402240820,
-		org.eclipse.xtend.sdk 2.5.3.v201402240820,
-		org.eclipse.emf.mwe2.language.sdk 2.5.1.v201402030750,
-		org.eclipse.emf.mwe2.runtime.sdk 2.5.1.v201402030544
+		org.eclipse.xtext.sdk 2.6.0.v201405210727,
+		org.eclipse.xtend.sdk 2.6.0.v201405210727,
+		org.eclipse.emf.mwe2.language.sdk 2.6.0.v201405200939,
+		org.eclipse.emf.mwe2.runtime.sdk 2.6.0.v201405200714
 	}
 
-	"Xtext ANTLR" http://download.itemis.com/updates/releases/2.1.0/ {
-		de.itemis.xtext.antlr.sdk 2.1.0.v201308291703,
-		de.itemis.xtext.antlr.feature 2.1.0.v201308291703
+	"Xtext ANTLR" http://download.itemis.com/updates/releases/2.1.1/ {
+		de.itemis.xtext.antlr.sdk 2.1.1.v201405091103,
+		de.itemis.xtext.antlr.feature 2.1.1.v201405091103
 	}
 	
 	"SWTBot" http://download.eclipse.org/technology/swtbot/releases/latest/ {
