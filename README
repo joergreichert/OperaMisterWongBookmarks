@@ -2,4 +2,4 @@ This project provides Xtext 2.0 based parsers for the opera address file as well
 
 http://joergreichert.github.io/OperaMisterWongBookmarks/
 
-CI: https://travis-ci.org/joergreichert/OperaMisterWongBookmarks
+[![Build Status](https://travis-ci.org/joergreichert/OperaMisterWongBookmarks.png?branch=master)](https://travis-ci.org/joergreichert/OperaMisterWongBookmarks)
