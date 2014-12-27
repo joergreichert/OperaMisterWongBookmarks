@@ -5,4 +5,4 @@ Bundle-SymbolicName: Test
 Bundle-Version: 1.0.1.qualifier
 Require-Bundle: org.eclipse.xtend2.lib;bundle-version="[2.6.0,2.7.0)",
  org.eclipse.xtext.common.types;bundle-version="[2.6.0,2.7.0)"
-Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8

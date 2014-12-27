@@ -1559,6 +1559,9 @@
       <predicate
           xsi:type="predicates:LocationPredicate"
           pattern=".*/*.repository"/>
+      <predicate
+          xsi:type="predicates:LocationPredicate"
+          pattern=".*/*.targetplatform"/>
     </workingSet>
     <workingSet
         name="Plug-ins">
@@ -1616,7 +1619,7 @@
     </setupTask>
     <setupTask
         xsi:type="git:GitCloneTask"
-        id="git.clone.bookmarks"
+        id="git.clone"
         remoteURI="joergreichert/OperaMisterWongBookmarks">
       <annotation
           source="http://www.eclipse.org/oomph/setup/InducedChoices">
@@ -1648,18 +1651,6 @@
     </setupTask>
   </setupTask>
   <setupTask
-      xsi:type="launching:LaunchTask"
-      id="de.abg.jreichert.operadsl.mwe2"
-      launcher="GenerateOperaDSL.mwe2">
-    <description>Opera DSL Grammar Workflow</description>
-  </setupTask>
-  <setupTask
-      xsi:type="launching:LaunchTask"
-      id="de.abg.jreichert.wongdsl.mwe2"
-      launcher="GenerateMisterWongDsl.mwe2">
-    <description>Mister Wong DSL Grammar Workflow</description>
-  </setupTask>
-  <setupTask
       xsi:type="setup.targlets:TargletTask">
     <targlet
         name="${scope.project.label}"
@@ -1668,7 +1659,7 @@
           source="http:/www.eclipse.org/oomph/targlets/TargetDefinitionGenerator">
         <detail
             key="location">
-          <value>${git.clone.bookmarks.location/releng/org.eclipse.xtext.example.knapsack.targetplatform/org.eclipse.xtext.example.knapsack.targetplatform.target}</value>
+          <value>${git.clone.knapsack.location/releng/org.eclipse.xtext.example.knapsack.targetplatform/org.eclipse.xtext.example.knapsack.targetplatform.target}</value>
         </detail>
         <detail
             key="includeAllPlatforms">
@@ -1711,8 +1702,6 @@
       <requirement
           name="org.eclipse.jdt.junit.runners.feature.feature.group"/>
       <requirement
-          name="org.eclipse.wb.rcp.feature.feature.group"/>
-      <requirement
           name="org.eclipse.wb.swt.feature.feature.group"/>
       <requirement
           name="org.eclipse.wb.xwt.feature.feature.group"/>
@@ -1729,7 +1718,7 @@
       <requirement
           name="org.eclipse.swtbot.eclipse.feature.group"/>
       <sourceLocator
-          rootFolder="${git.clone.bookmarks.location}"
+          rootFolder="${git.clone.knapsack.location}"
           locateNestedProjects="true"/>
       <repositoryList
           name="Mars">
@@ -1784,6 +1773,18 @@
             url="http://www.xpect-tests.org/updatesite/nightly/"/>
       </repositoryList>
     </targlet>
+  </setupTask>
+  <setupTask
+      xsi:type="launching:LaunchTask"
+      id="de.abg.jreichert.operadsl.mwe2"
+      launcher="GenerateOperaDSL.mwe2">
+    <description>Opera DSL Grammar Workflow</description>
+  </setupTask>
+  <setupTask
+      xsi:type="launching:LaunchTask"
+      id="de.abg.jreichert.wongdsl.mwe2"
+      launcher="GenerateMisterWongDsl.mwe2">
+    <description>Mister Wong DSL Grammar Workflow</description>
   </setupTask>
   <setupTask
       xsi:type="setup:CompoundTask"

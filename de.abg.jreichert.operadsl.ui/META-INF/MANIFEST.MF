@@ -32,7 +32,7 @@ Require-Bundle: de.abg.jreichert.operadsl;bundle-version="[1.0.1,1.0.2)";visibil
  de.abg.jreichert.wongdsl;bundle-version="[1.0.1,1.0.2)"
 Import-Package: org.apache.log4j,
  org.apache.commons.logging
-Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Export-Package: de.abg.jreichert.ui,
  de.abg.jreichert.ui.contentassist.antlr,
  de.abg.jreichert.ui.internal,

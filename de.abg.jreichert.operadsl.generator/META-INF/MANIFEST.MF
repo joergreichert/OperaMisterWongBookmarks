@@ -14,4 +14,4 @@ Require-Bundle: de.abg.jreichert.operadsl;bundle-version="[1.0.1,1.0.2)";visibil
  org.eclipse.xtend.typesystem.emf;bundle-version="1.4.0";visibility:=reexport,
  org.apache.commons.logging;bundle-version="[1.0.0,2.0.0)"
 Import-Package: org.apache.log4j
-Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
