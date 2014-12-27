@@ -1619,7 +1619,7 @@
     </setupTask>
     <setupTask
         xsi:type="git:GitCloneTask"
-        id="git.clone"
+        id="git.clone.bookmarks"
         remoteURI="joergreichert/OperaMisterWongBookmarks">
       <annotation
           source="http://www.eclipse.org/oomph/setup/InducedChoices">
@@ -1659,7 +1659,7 @@
           source="http:/www.eclipse.org/oomph/targlets/TargetDefinitionGenerator">
         <detail
             key="location">
-          <value>${git.clone.knapsack.location/releng/org.eclipse.xtext.example.knapsack.targetplatform/org.eclipse.xtext.example.knapsack.targetplatform.target}</value>
+          <value>${git.clone.bookmarks.location/de.abg.jreichert.bookmarks.targetplatform/de.abg.jreichert.bookmarks.targetplatform.target}</value>
         </detail>
         <detail
             key="includeAllPlatforms">
@@ -1718,7 +1718,7 @@
       <requirement
           name="org.eclipse.swtbot.eclipse.feature.group"/>
       <sourceLocator
-          rootFolder="${git.clone.knapsack.location}"
+          rootFolder="${git.clone.bookmarks.location}"
           locateNestedProjects="true"/>
       <repositoryList
           name="Mars">
