@@ -8,8 +8,8 @@ Bundle-ActivationPolicy: lazy
 Require-Bundle: de.abg.jreichert.wongdsl;bundle-version="[1.0.1,1.0.2)";visibility:=reexport,
  org.eclipse.xpand;bundle-version="1.4.0";visibility:=reexport,
  org.eclipse.xtend;bundle-version="1.4.0";visibility:=reexport,
- org.eclipse.xtext;bundle-version="[2.6.0,2.7.0)";visibility:=reexport,
- org.eclipse.emf.mwe2.launch;bundle-version="[2.6.0,2.7.0)";resolution:=optional,
+ org.eclipse.xtext;bundle-version="[2.7.0,2.8.0)";visibility:=reexport,
+ org.eclipse.emf.mwe2.launch;bundle-version="[2.7.0,2.8.0)";resolution:=optional,
  org.eclipse.emf.mwe.utils;bundle-version="1.3.0";visibility:=reexport,
  org.eclipse.xtend.typesystem.emf;bundle-version="1.4.0";visibility:=reexport
 Import-Package: org.apache.log4j

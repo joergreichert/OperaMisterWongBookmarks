@@ -10,9 +10,7 @@
 		<relativePath>../de.abg.jreichert.bookmarks.config.parent/pom.xml</relativePath>
 	</parent>
 	
-	<groupId>de.abg.jreichert.bookmarks</groupId>
 	<artifactId>de.abg.jreichert.bookmarks.targetplatform</artifactId>
-	<version>1.0.1-SNAPSHOT</version>
 	<packaging>eclipse-target-definition</packaging>
 
 </project>

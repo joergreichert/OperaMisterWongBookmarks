@@ -13,9 +13,7 @@
 		<relativePath>../de.abg.jreichert.bookmarks.config.parent/pom.xml</relativePath>
 	</parent>
 	
-	<groupId>de.abg.jreichert.bookmarks</groupId>
 	<artifactId>de.abg.jreichert.bookmarks.releng</artifactId>
-	<version>1.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>Opera Mister Wong Bookmarks</name>
 
