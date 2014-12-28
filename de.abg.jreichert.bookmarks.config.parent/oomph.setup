@@ -1742,6 +1742,8 @@
             url="http://download.itemis.com/updates/releases/2.1.1/"/>
         <repository
             url="http://www.xpect-tests.org/updatesite/nightly/"/>
+        <repository
+            url="http://download.eclipse.org/technology/swtbot/releases/latest/"/>
       </repositoryList>
       <repositoryList
           name="Luna">
@@ -1759,6 +1761,8 @@
             url="http://download.itemis.com/updates/releases/2.1.1/"/>
         <repository
             url="http://www.xpect-tests.org/updatesite/nightly/"/>
+        <repository
+            url="http://download.eclipse.org/technology/swtbot/releases/latest/"/>
       </repositoryList>
       <repositoryList
           name="Kepler">
@@ -1776,6 +1780,8 @@
             url="http://download.itemis.com/updates/releases/2.1.1/"/>
         <repository
             url="http://www.xpect-tests.org/updatesite/nightly/"/>
+        <repository
+            url="http://download.eclipse.org/technology/swtbot/releases/latest/"/>
       </repositoryList>
       <repositoryList
           name="Juno">
@@ -1793,6 +1799,8 @@
             url="http://download.itemis.com/updates/releases/2.1.1/"/>
         <repository
             url="http://www.xpect-tests.org/updatesite/nightly/"/>
+        <repository
+            url="http://download.eclipse.org/technology/swtbot/releases/latest/"/>
       </repositoryList>
     </targlet>
   </setupTask>
