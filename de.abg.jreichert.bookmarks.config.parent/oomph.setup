@@ -99,7 +99,7 @@
       <requirement
           name="org.eclipse.wb.xwt.feature.feature.group"/>
       <requirement
-          name="org.eclipse.wst.xml_core.feature.feature.group"/>
+          name="org.eclipse.wst.sse.core"/>
       <requirement
           name="org.eclipse.wb.doc.user.feature.feature.group"/>
       <requirement
@@ -1718,7 +1718,7 @@
       <requirement
           name="org.eclipse.wb.core.xml.feature.feature.group"/>
       <requirement
-          name="org.eclipse.wst.xml_core.feature.feature.group"/>
+          name="org.eclipse.wst.sse.core"/>
       <requirement
           name="org.eclipse.wb.layout.group.feature.feature.group"/>
       <requirement
