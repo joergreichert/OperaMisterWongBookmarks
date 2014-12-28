@@ -83,10 +83,6 @@
       <requirement
           name="org.eclipse.emf.compare.ide.ui.feature.group"/>
       <requirement
-          name="org.eclipse.wb.rcp.feature.feature.group"/>
-      <requirement
-          name="org.eclipse.wb.swt.feature.feature.group"/>
-      <requirement
           name="org.eclipse.wb.xwt.feature.feature.group"/>
       <requirement
           name="org.eclipse.wb.core.feature.feature.group"/>
