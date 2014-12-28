@@ -6,15 +6,15 @@ package de.abg.jreichert.generator
 import de.abg.jreichert.misterWongDsl.BookmarkFile
 import de.abg.jreichert.misterWongDsl.Link
 import de.abg.jreichert.misterWongDsl.MisterWongDslFactory
+import java.io.File
 import java.io.IOException
 import java.util.Collection
 import java.util.Collections
 import org.eclipse.emf.common.util.URI
 import org.eclipse.emf.ecore.resource.Resource
-import org.eclipse.xtext.EcoreUtil2
+import org.eclipse.emf.ecore.util.EcoreUtil
 import org.eclipse.xtext.generator.IFileSystemAccess
 import org.eclipse.xtext.generator.IGenerator
-import java.io.File
 
 class MisterWongDslGenerator implements IGenerator {
 		
@@ -32,7 +32,7 @@ class MisterWongDslGenerator implements IGenerator {
 	'''
 	
 	def Collection<Link> sortByName(Collection<Link> links) {
-		links.sort([ a, b | compareLinks(a,b) ])
+		links.sortWith([ a, b | compareLinks(a,b) ])
 	}
 
 	def int compareLinks(Link a, Link b) {
@@ -58,23 +58,23 @@ class MisterWongDslGenerator implements IGenerator {
 					.replace(".wong", "_filtered.wong")
 					.replace("/resource", "")
 					.replace("src", "src-gen")
-				val newUri = URI::createPlatformResourceURI(newUriStr, true)
+				val newUri = URI.createPlatformResourceURI(newUriStr, true)
 				if(new File(newUriStr).exists) {
 					val res = resource.resourceSet.getResource(newUri, true)
-					res.delete(Collections::EMPTY_MAP)
+					res.delete(Collections.EMPTY_MAP)
 				}
 				val newRes = resource.resourceSet.createResource(newUri)
 				val root = resource.allContents.toIterable.filter(typeof(BookmarkFile)).head
-				val newRoot = MisterWongDslFactory::eINSTANCE.createBookmarkFile
+				val newRoot = MisterWongDslFactory.eINSTANCE.createBookmarkFile
 				newRoot.name = root.name
 				newRoot.header = root.header
 				newRoot.links.addAll(
 					root.links.filter(link | 
 						link.tags.split(" ").contains("modellgetriebene_entwicklung")
-					).map(link | EcoreUtil2::clone(link))
+					).map(link | EcoreUtil.copy(link))
 				)
 				newRes.contents.add(newRoot)
-				newRes.save(Collections::EMPTY_MAP)
+				newRes.save(Collections.EMPTY_MAP)
 			}
 		} catch(IOException ioe) {
 			ioe.printStackTrace

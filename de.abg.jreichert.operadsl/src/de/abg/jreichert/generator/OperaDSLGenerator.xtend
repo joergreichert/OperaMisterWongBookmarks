@@ -1,16 +1,15 @@
 package de.abg.jreichert.generator
 
-import org.eclipse.emf.ecore.resource.Resource
-import org.eclipse.xtext.generator.IGenerator
-import org.eclipse.xtext.generator.IFileSystemAccess
-import de.abg.jreichert.operaDSL.Element
-import de.abg.jreichert.operaDSL.Link
-import de.abg.jreichert.operaDSL.Folder
-import de.abg.jreichert.operaDSL.BookmarkFile
-import java.util.Collection
-import java.util.ArrayList
-import static extension org.eclipse.xtext.xbase.lib.IterableExtensions.*
 import com.google.inject.Inject
+import de.abg.jreichert.operaDSL.BookmarkFile
+import de.abg.jreichert.operaDSL.Element
+import de.abg.jreichert.operaDSL.Folder
+import de.abg.jreichert.operaDSL.Link
+import java.util.ArrayList
+import java.util.Collection
+import org.eclipse.emf.ecore.resource.Resource
+import org.eclipse.xtext.generator.IFileSystemAccess
+import org.eclipse.xtext.generator.IGenerator
 
 class OperaDSLGenerator implements IGenerator {
 	

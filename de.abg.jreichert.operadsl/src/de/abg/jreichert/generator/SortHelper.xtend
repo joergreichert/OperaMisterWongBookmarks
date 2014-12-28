@@ -7,7 +7,7 @@ import de.abg.jreichert.operaDSL.Folder
 class SortHelper {
 	
 	def Collection<Element> sortByTypeAndName(Collection<Element> elements) {
-		elements.sort([ a, b | compareElements(a,b) ])
+		elements.sortWith([ a, b | compareElements(a,b) ])
 	}
 	
 	def int compareElements(Element a, Element b) {
