@@ -1698,8 +1698,6 @@
       <requirement
           name="org.eclipse.jdt.junit.runners.feature.feature.group"/>
       <requirement
-          name="org.eclipse.wb.swt.feature.feature.group"/>
-      <requirement
           name="org.eclipse.wb.xwt.feature.feature.group"/>
       <requirement
           name="org.eclipse.wb.core.feature.feature.group"/>
