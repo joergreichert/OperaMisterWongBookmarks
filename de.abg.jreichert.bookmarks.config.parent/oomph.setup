@@ -99,6 +99,8 @@
       <requirement
           name="org.eclipse.wb.xwt.feature.feature.group"/>
       <requirement
+          name="org.eclipse.wst.xml_core.feature.feature.group"/>
+      <requirement
           name="org.eclipse.wb.doc.user.feature.feature.group"/>
       <requirement
           name="org.eclipse.wb.rcp.doc.user.feature.feature.group"/>
@@ -106,6 +108,8 @@
 		url="http://download.eclipse.org/windowbuilder/WB/integration/4.4/"/>
       <repository
 		url="http://download.eclipse.org/modeling/emf/compare/updates/releases/"/>
+      <repository
+		url="http://download.eclipse.org/webtools/updates/"/>
       <description>Eclipse form builder</description>
     </setupTask>
     <setupTask
@@ -1714,6 +1718,8 @@
       <requirement
           name="org.eclipse.wb.core.xml.feature.feature.group"/>
       <requirement
+          name="org.eclipse.wst.xml_core.feature.feature.group"/>
+      <requirement
           name="org.eclipse.wb.layout.group.feature.feature.group"/>
       <requirement
           name="org.eclipse.wb.rcp.feature.feature.group"/>
@@ -1793,6 +1799,8 @@
             url="http://download.eclipse.org/modeling/emf/emf/updates/releases/"/>
         <repository
 		    url="http://download.eclipse.org/modeling/emf/compare/updates/releases/"/>
+        <repository
+		    url="http://download.eclipse.org/webtools/updates/"/>
         <repository
             url="http://download.eclipse.org/modeling/tmf/xtext/updates/composite/releases/"/>
         <repository
