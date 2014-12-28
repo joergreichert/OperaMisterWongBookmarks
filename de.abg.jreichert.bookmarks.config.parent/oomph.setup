@@ -80,22 +80,32 @@
         id="p2.windowbuilder"
         label="WindowBuilder"
         licenseConfirmationDisabled="true">
-      <requirement
+	  <requirement
           name="org.eclipse.emf.compare.ide.ui.feature.group"/>
-      <requirement
-          name="org.eclipse.wb.xwt.feature.feature.group"/>
       <requirement
           name="org.eclipse.wb.core.feature.feature.group"/>
       <requirement
-          name="org.eclipse.wb.doc.user.feature.feature.group"/>
+          name="org.eclipse.wb.core.java.feature.feature.group"/>
       <requirement
           name="org.eclipse.wb.core.ui.feature.feature.group"/>
       <requirement
+          name="org.eclipse.wb.core.xml.feature.feature.group"/>
+      <requirement
           name="org.eclipse.wb.layout.group.feature.feature.group"/>
       <requirement
-          name="org.eclipse.wb.core.xml.feature.feature.group"/>
+          name="org.eclipse.wb.rcp.feature.feature.group"/>
+      <requirement
+          name="org.eclipse.wb.swt.feature.feature.group"/>
+      <requirement
+          name="org.eclipse.wb.xwt.feature.feature.group"/>
+      <requirement
+          name="org.eclipse.wb.doc.user.feature.feature.group"/>
+      <requirement
+          name="org.eclipse.wb.rcp.doc.user.feature.feature.group"/>
       <repository
-          url="http://download.eclipse.org/eclipse/updates/4.4"/>
+		url="http://download.eclipse.org/windowbuilder/WB/integration/4.4/"/>
+      <repository
+		url="http://download.eclipse.org/modeling/emf/compare/updates/releases/"/>
       <description>Eclipse form builder</description>
     </setupTask>
     <setupTask
@@ -1698,18 +1708,20 @@
       <requirement
           name="org.eclipse.jdt.junit.runners.feature.feature.group"/>
       <requirement
-          name="org.eclipse.wb.xwt.feature.feature.group"/>
-      <requirement
           name="org.eclipse.wb.core.feature.feature.group"/>
       <requirement
-          name="org.eclipse.wb.doc.user.feature.feature.group"/>
-      <requirement
-          name="org.eclipse.wb.core.ui.feature.feature.group"/>
-      <requirement
-          name="org.eclipse.wb.layout.group.feature.feature.group"/>
+          name="org.eclipse.wb.core.java.feature.feature.group"/>
       <requirement
           name="org.eclipse.wb.core.xml.feature.feature.group"/>
       <requirement
+          name="org.eclipse.wb.layout.group.feature.feature.group"/>
+      <requirement
+          name="org.eclipse.wb.rcp.feature.feature.group"/>
+      <requirement
+          name="org.eclipse.wb.swt.feature.feature.group"/>
+      <requirement
+          name="org.eclipse.wb.xwt.feature.feature.group"/>
+	  <requirement
           name="org.eclipse.swtbot.eclipse.feature.group"/>
       <sourceLocator
           rootFolder="${git.clone.bookmarks.location}"
@@ -1719,7 +1731,11 @@
         <repository
             url="http://download.eclipse.org/eclipse/updates/4.5milestones"/>
         <repository
+			url="http://download.eclipse.org/windowbuilder/WB/integration/4.4/"/>
+        <repository
             url="http://download.eclipse.org/modeling/emf/emf/updates/releases/"/>
+        <repository
+		    url="http://download.eclipse.org/modeling/emf/compare/updates/releases/"/>
         <repository
             url="http://download.eclipse.org/modeling/tmf/xtext/updates/composite/releases/"/>
         <repository
@@ -1732,7 +1748,11 @@
         <repository
             url="http://download.eclipse.org/eclipse/updates/4.4"/>
         <repository
+			url="http://download.eclipse.org/windowbuilder/WB/integration/4.4/"/>
+        <repository
             url="http://download.eclipse.org/modeling/emf/emf/updates/releases/"/>
+        <repository
+		    url="http://download.eclipse.org/modeling/emf/compare/updates/releases/"/>
         <repository
             url="http://download.eclipse.org/modeling/tmf/xtext/updates/composite/releases/"/>
         <repository
@@ -1745,7 +1765,11 @@
         <repository
             url="http://download.eclipse.org/eclipse/updates/4.3"/>
         <repository
+			url="http://download.eclipse.org/windowbuilder/WB/integration/4.3/"/>
+        <repository
             url="http://download.eclipse.org/modeling/emf/emf/updates/releases/"/>
+        <repository
+		    url="http://download.eclipse.org/modeling/emf/compare/updates/releases/"/>
         <repository
             url="http://download.eclipse.org/modeling/tmf/xtext/updates/composite/releases/"/>
         <repository
@@ -1758,7 +1782,11 @@
         <repository
             url="http://download.eclipse.org/eclipse/updates/4.2"/>
         <repository
+			url="http://download.eclipse.org/windowbuilder/WB/integration/4.2/"/>
+        <repository
             url="http://download.eclipse.org/modeling/emf/emf/updates/releases/"/>
+        <repository
+		    url="http://download.eclipse.org/modeling/emf/compare/updates/releases/"/>
         <repository
             url="http://download.eclipse.org/modeling/tmf/xtext/updates/composite/releases/"/>
         <repository
