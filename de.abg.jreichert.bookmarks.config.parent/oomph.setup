@@ -99,8 +99,6 @@
       <requirement
           name="org.eclipse.wb.xwt.feature.feature.group"/>
       <requirement
-          name="org.eclipse.wst.sse.core"/>
-      <requirement
           name="org.eclipse.wb.doc.user.feature.feature.group"/>
       <requirement
           name="org.eclipse.wb.rcp.doc.user.feature.feature.group"/>
@@ -108,8 +106,6 @@
 		url="http://download.eclipse.org/windowbuilder/WB/integration/4.4/"/>
       <repository
 		url="http://download.eclipse.org/modeling/emf/compare/updates/releases/"/>
-      <repository
-		url="http://download.eclipse.org/webtools/updates/"/>
       <description>Eclipse form builder</description>
     </setupTask>
     <setupTask
@@ -1718,8 +1714,6 @@
       <requirement
           name="org.eclipse.wb.core.xml.feature.feature.group"/>
       <requirement
-          name="org.eclipse.wst.sse.core"/>
-      <requirement
           name="org.eclipse.wb.layout.group.feature.feature.group"/>
       <requirement
           name="org.eclipse.wb.rcp.feature.feature.group"/>
@@ -1735,6 +1729,8 @@
       <repositoryList
           name="Mars">
         <repository
+            url="http://download.eclipse.org/releases/mars"/>
+        <repository
             url="http://download.eclipse.org/eclipse/updates/4.5milestones"/>
         <repository
 			url="http://download.eclipse.org/windowbuilder/WB/integration/4.4/"/>
@@ -1742,8 +1738,6 @@
             url="http://download.eclipse.org/modeling/emf/emf/updates/releases/"/>
         <repository
 		    url="http://download.eclipse.org/modeling/emf/compare/updates/releases/"/>
-        <repository
-		    url="http://download.eclipse.org/webtools/updates/"/>
         <repository
             url="http://download.eclipse.org/modeling/tmf/xtext/updates/composite/releases/"/>
         <repository
@@ -1756,6 +1750,8 @@
       <repositoryList
           name="Luna">
         <repository
+            url="http://download.eclipse.org/releases/luna"/>
+        <repository
             url="http://download.eclipse.org/eclipse/updates/4.4"/>
         <repository
 			url="http://download.eclipse.org/windowbuilder/WB/integration/4.4/"/>
@@ -1763,8 +1759,6 @@
             url="http://download.eclipse.org/modeling/emf/emf/updates/releases/"/>
         <repository
 		    url="http://download.eclipse.org/modeling/emf/compare/updates/releases/"/>
-        <repository
-		    url="http://download.eclipse.org/webtools/updates/"/>
         <repository
             url="http://download.eclipse.org/modeling/tmf/xtext/updates/composite/releases/"/>
         <repository
@@ -1777,6 +1771,8 @@
       <repositoryList
           name="Kepler">
         <repository
+            url="http://download.eclipse.org/releases/kepler"/>
+        <repository
             url="http://download.eclipse.org/eclipse/updates/4.3"/>
         <repository
 			url="http://download.eclipse.org/windowbuilder/WB/integration/4.3/"/>
@@ -1784,8 +1780,6 @@
             url="http://download.eclipse.org/modeling/emf/emf/updates/releases/"/>
         <repository
 		    url="http://download.eclipse.org/modeling/emf/compare/updates/releases/"/>
-        <repository
-		    url="http://download.eclipse.org/webtools/updates/"/>
         <repository
             url="http://download.eclipse.org/modeling/tmf/xtext/updates/composite/releases/"/>
         <repository
@@ -1798,6 +1792,8 @@
       <repositoryList
           name="Juno">
         <repository
+            url="http://download.eclipse.org/releases/juno"/>
+        <repository
             url="http://download.eclipse.org/eclipse/updates/4.2"/>
         <repository
 			url="http://download.eclipse.org/windowbuilder/WB/integration/4.2/"/>
@@ -1805,8 +1801,6 @@
             url="http://download.eclipse.org/modeling/emf/emf/updates/releases/"/>
         <repository
 		    url="http://download.eclipse.org/modeling/emf/compare/updates/releases/"/>
-        <repository
-		    url="http://download.eclipse.org/webtools/updates/"/>
         <repository
             url="http://download.eclipse.org/modeling/tmf/xtext/updates/composite/releases/"/>
         <repository
