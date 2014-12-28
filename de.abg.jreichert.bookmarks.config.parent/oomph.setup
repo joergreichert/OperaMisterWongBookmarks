@@ -1743,6 +1743,8 @@
         <repository
 		    url="http://download.eclipse.org/modeling/emf/compare/updates/releases/"/>
         <repository
+		    url="http://download.eclipse.org/webtools/updates/"/>
+        <repository
             url="http://download.eclipse.org/modeling/tmf/xtext/updates/composite/releases/"/>
         <repository
             url="http://download.itemis.com/updates/releases/2.1.1/"/>
@@ -1762,6 +1764,8 @@
         <repository
 		    url="http://download.eclipse.org/modeling/emf/compare/updates/releases/"/>
         <repository
+		    url="http://download.eclipse.org/webtools/updates/"/>
+        <repository
             url="http://download.eclipse.org/modeling/tmf/xtext/updates/composite/releases/"/>
         <repository
             url="http://download.itemis.com/updates/releases/2.1.1/"/>
@@ -1780,6 +1784,8 @@
             url="http://download.eclipse.org/modeling/emf/emf/updates/releases/"/>
         <repository
 		    url="http://download.eclipse.org/modeling/emf/compare/updates/releases/"/>
+        <repository
+		    url="http://download.eclipse.org/webtools/updates/"/>
         <repository
             url="http://download.eclipse.org/modeling/tmf/xtext/updates/composite/releases/"/>
         <repository
