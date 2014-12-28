@@ -1695,7 +1695,7 @@
           name="org.eclipse.xtext.sdk.feature.group"
           versionRange="[2.7.3,2.8.0)"/>
       <requirement
-          name="org.eclipse.xtend.sdk"
+          name="org.eclipse.xtend.sdk.feature.group"
           versionRange="[2.7.3,2.8.0)"/>
       <requirement
           name="org.xpect.sdk.feature.group"/>
