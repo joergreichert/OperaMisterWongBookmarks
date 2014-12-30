@@ -2,17 +2,10 @@
 <?eclipse version="3.0"?>
 
 <plugin>
-
   <extension point="org.eclipse.emf.ecore.generated_package">
     <package 
        uri = "http://www.abg.de/jreichert/OperaDSL" 
        class = "de.abg.jreichert.operaDSL.OperaDSLPackage"
-       genModel = "de/abg/jreichert/OperaDSL.genmodel" /> 
-	
+       genModel = "model/generated/OperaDSL.genmodel" /> 
   </extension>
-
-
-
-
-
 </plugin>

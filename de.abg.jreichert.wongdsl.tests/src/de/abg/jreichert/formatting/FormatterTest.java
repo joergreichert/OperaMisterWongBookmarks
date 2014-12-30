@@ -1,58 +1,44 @@
 package de.abg.jreichert.formatting;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.util.Scanner;
-
 import org.eclipse.xtext.formatting.INodeModelFormatter;
 import org.eclipse.xtext.formatting.INodeModelFormatter.IFormattedRegion;
-import org.eclipse.xtext.junit4.InjectWith;
-import org.eclipse.xtext.junit4.parameterized.InjectParameter;
-import org.eclipse.xtext.junit4.parameterized.ParameterizedXtextRunner;
-import org.eclipse.xtext.junit4.parameterized.ResourceURIs;
-import org.eclipse.xtext.junit4.validation.AbstractValidatorTester;
 import org.eclipse.xtext.nodemodel.ICompositeNode;
 import org.eclipse.xtext.resource.XtextResource;
-import org.junit.Ignore;
-import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.xpect.expectation.IStringExpectation;
+import org.xpect.expectation.StringExpectation;
+import org.xpect.parameter.ParameterParser;
+import org.xpect.runner.Xpect;
+import org.xpect.runner.XpectRunner;
+import org.xpect.runner.XpectTestFiles;
+import org.xpect.runner.XpectTestFiles.FileRoot;
+import org.xpect.setup.XpectSetup;
+import org.xpect.xtext.lib.setup.ThisOffset;
+import org.xpect.xtext.lib.setup.ThisResource;
+import org.xpect.xtext.lib.setup.XtextStandaloneSetup;
 
 import com.google.inject.Inject;
 
-import de.abg.jreichert.MisterWongDslInjectorProvider;
+@RunWith(XpectRunner.class)
+@XpectTestFiles(relativeTo = FileRoot.PROJECT, baseDir = "res/formatter", fileExtensions = "wong")
+@XpectSetup(XtextStandaloneSetup.class)
+public class FormatterTest {
 
+    @Inject
+    protected INodeModelFormatter formatter;
 
-@RunWith(ParameterizedXtextRunner.class)
-@InjectWith(MisterWongDslInjectorProvider.class)
-@ResourceURIs(baseDir = "res/formatter/unformatted", fileExtensions = "wong")
-public class FormatterTest extends AbstractValidatorTester {
- 
-	@InjectParameter
-	protected XtextResource resource;
- 
-	@Inject
-	protected INodeModelFormatter formatter;
- 
-	public String formatted() {
-		ICompositeNode rootNode = resource.getParseResult().getRootNode();
-		IFormattedRegion r = formatter.format(rootNode, 0, rootNode.getLength());
-		return r.getFormattedText();
-	}
-	
-	@Ignore
-	@Test
-	public void testFormatter() throws Exception {
-//		String expectedPath = "res/formatter/formatted/mdsd.wong"; 
-//		String expected = getFileContent(expectedPath);
-//		String formatted = formatted();
-//		Assert.assertEquals(expected, formatted);
-	}
-
-	private String getFileContent(String path) throws FileNotFoundException {
-		Scanner scanner = new Scanner(new FileInputStream(new File(path)), "UTF-8");
-		String given = scanner.useDelimiter("\\Z").next();
-		scanner.close();
-		return given;
-	}
+    @ParameterParser(syntax = "('from' offset=OFFSET 'to' to=OFFSET)?")
+    @Xpect
+    public void formatted(@StringExpectation(whitespaceSensitive = true) IStringExpectation expectation,
+            @ThisResource XtextResource resource, @ThisOffset int offset, @ThisOffset int to) {
+        ICompositeNode rootNode = resource.getParseResult().getRootNode();
+        IFormattedRegion r = null;
+        if (offset >= 0 && to > offset) {
+            r = formatter.format(rootNode, offset, to - offset);
+        } else {
+            r = formatter.format(rootNode, rootNode.getOffset(), rootNode.getTotalLength());
+        }
+        String formatted = r.getFormattedText();
+        expectation.assertEquals(formatted);
+    }
 }

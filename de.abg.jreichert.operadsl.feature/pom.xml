@@ -9,8 +9,6 @@
 		<relativePath>../de.abg.jreichert.bookmarks.parent/pom.xml</relativePath>
 	</parent>
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>de.abg.jreichert.bookmarks</groupId>
 	<artifactId>de.abg.jreichert.operadsl.feature</artifactId>
-	<version>1.0.1-SNAPSHOT</version>
 	<packaging>eclipse-feature</packaging>
 </project>
