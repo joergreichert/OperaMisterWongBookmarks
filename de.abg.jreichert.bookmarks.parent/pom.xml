@@ -146,7 +146,6 @@
 					<artifactId>maven-surefire-plugin</artifactId>
 					<version>${maven-surefire-plugin.version}</version>
 					<configuration>
-						<jvm>${env.JAVA_HOME}/bin/java</jvm>
 						<argLine>${coverageAgent}</argLine>
 					</configuration>
 				</plugin>

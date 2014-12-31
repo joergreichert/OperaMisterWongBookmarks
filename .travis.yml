@@ -1,4 +1,6 @@
 language: java
+jdk:
+  - oraclejdk8
 script: cd de.abg.jreichert.bookmarks.releng && mvn clean -B -V deploy -Pmodules-default,modules-assembly -Dgithub.site.dryRun=true
 env:
   global:
