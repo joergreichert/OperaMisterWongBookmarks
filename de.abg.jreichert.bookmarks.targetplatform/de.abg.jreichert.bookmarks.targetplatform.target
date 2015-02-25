@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?pde version="3.8"?>
-<target name="Generated from Bookmarks manager" sequenceNumber="70">
+<target name="Generated from Bookmarks manager" sequenceNumber="71">
   <locations>
     <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="false" type="InstallableUnit">
       <unit id="org.eclipse.emf.compare" version="3.1.1.201408191310"/>
@@ -17,7 +17,7 @@
       <repository location="http://download.eclipse.org/windowbuilder/WB/integration/4.4/"/>
     </location>
     <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="false" type="InstallableUnit">
-      <unit id="org.eclipse.emf.sdk.feature.group" version="2.10.2.v20141013-0308"/>
+      <unit id="org.eclipse.emf.sdk.feature.group" version="2.10.2.v20150123-0452"/>
       <repository location="http://download.eclipse.org/modeling/emf/emf/updates/releases/"/>
     </location>
     <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="false" type="InstallableUnit">
@@ -25,7 +25,7 @@
       <repository location="http://download.eclipse.org/modeling/emf/compare/updates/releases/"/>
     </location>
     <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="false" type="InstallableUnit">
-      <unit id="org.eclipse.emf.sdk.feature.group" version="2.10.2.v20141013-0308"/>
+      <unit id="org.eclipse.emf.sdk.feature.group" version="2.10.2.v20150123-0452"/>
       <unit id="org.eclipse.xtext.sdk.feature.group" version="2.7.3.v201411190455"/>
       <repository location="http://download.eclipse.org/modeling/tmf/xtext/updates/composite/releases/"/>
     </location>
