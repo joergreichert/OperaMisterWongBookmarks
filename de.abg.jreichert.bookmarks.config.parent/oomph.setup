@@ -1872,12 +1872,12 @@
         xsi:type="setup:VariableTask"
         type="URI"
         name="emf.p2.uri"
-        value="http://download.eclipse.org/modeling/emf/emf/updates/latest/"/>
+        value="http://download.eclipse.org/modeling/emf/emf/updates/interim/"/>
     <setupTask
         xsi:type="setup:VariableTask"
         type="URI"
         name="xtext.p2.uri"
-        value="http://download.eclipse.org/modeling/tmf/xtext/updates/composite/interim/"/>
+        value="http://download.eclipse.org/modeling/tmf/xtext/updates/composite/latest/"/>
   </stream>
   <logicalProjectContainer
       xsi:type="setup:Project"
