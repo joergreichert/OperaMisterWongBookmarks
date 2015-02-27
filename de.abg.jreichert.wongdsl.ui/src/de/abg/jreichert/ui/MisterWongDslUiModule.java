@@ -4,8 +4,6 @@
 package de.abg.jreichert.ui;
 
 import org.eclipse.ui.plugin.AbstractUIPlugin;
-import org.eclipse.xtext.builder.DerivedResourceMarkers;
-import org.eclipse.xtext.generator.IDerivedResourceMarkers;
 import org.eclipse.xtext.ui.editor.syntaxcoloring.DefaultHighlightingConfiguration;
 import org.eclipse.xtext.ui.editor.syntaxcoloring.ISemanticHighlightingCalculator;
 
@@ -18,22 +16,21 @@ import de.abg.jreichert.ui.highlighting.WongSemanticHighlightingCalculator;
  * Use this class to register components to be used within the IDE.
  */
 public class MisterWongDslUiModule extends de.abg.jreichert.ui.AbstractMisterWongDslUiModule {
-	
-	public MisterWongDslUiModule(AbstractUIPlugin plugin) {
-		super(plugin);
-	}
-	
-	@Override
-	public void configure(Binder binder) {
-		super.configure(binder);
-		binder.bind(IDerivedResourceMarkers.class).toInstance(new DerivedResourceMarkers());
-	}
-	
-	public Class<? extends ISemanticHighlightingCalculator> bindSemanticHighlightingCalculator() {
-		return WongSemanticHighlightingCalculator.class;
-	}
 
-	public Class<? extends DefaultHighlightingConfiguration> bindHighlightingConfiguration() {
-		return WongHighlightingConfiguration.class;
-	}
+    public MisterWongDslUiModule(AbstractUIPlugin plugin) {
+        super(plugin);
+    }
+
+    @Override
+    public void configure(Binder binder) {
+        super.configure(binder);
+    }
+
+    public Class<? extends ISemanticHighlightingCalculator> bindSemanticHighlightingCalculator() {
+        return WongSemanticHighlightingCalculator.class;
+    }
+
+    public Class<? extends DefaultHighlightingConfiguration> bindHighlightingConfiguration() {
+        return WongHighlightingConfiguration.class;
+    }
 }
