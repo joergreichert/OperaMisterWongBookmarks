@@ -14,7 +14,8 @@ Require-Bundle: de.abg.jreichert.operadsl;bundle-version="[1.0.1,1.0.2)",
  org.eclipse.ui.workbench;bundle-version="[3.103.0,4.0.0)";resolution:=optional,
  org.junit;bundle-version="4.11.0",
  org.objectweb.asm;bundle-version="[5.0.1,6.0.0)";resolution:=optional,
- org.xpect.xtext.lib
+ org.xpect.xtext.lib,
+ org.eclipse.xtext.xbase.lib
 Import-Package: org.apache.log4j,
  org.apache.commons.logging,
  org.hamcrest.core,
