@@ -1,22 +1,16 @@
 package de.abg.jreichert.forms.ui;
 
 import org.eclipse.ui.plugin.AbstractUIPlugin;
-import org.eclipse.xtext.ui.shared.internal.SharedModule;
-import org.eclipse.xtext.util.Modules2;
 import org.osgi.framework.BundleContext;
 
-import com.google.inject.Guice;
 import com.google.inject.Injector;
 
-import de.abg.jreichert.MisterWongDslRuntimeModule;
-import de.abg.jreichert.OperaDSLRuntimeModule;
-import de.abg.jreichert.ui.MisterWongDslUiModule;
-import de.abg.jreichert.ui.OperaDSLUiModule;
+import de.abg.jreichert.ui.internal.MisterWongDslActivator;
+import de.abg.jreichert.ui.internal.OperaDSLActivator;
 
 /**
  * The activator class controls the plug-in life cycle
  */
-@SuppressWarnings("restriction")
 public class Activator extends AbstractUIPlugin {
 
     // The plug-in ID
@@ -42,10 +36,10 @@ public class Activator extends AbstractUIPlugin {
     public void start(BundleContext context) throws Exception {
         super.start(context);
         plugin = this;
-        operaInjector = Guice.createInjector(Modules2.mixin(new SharedModule(context), new OperaDSLRuntimeModule(),
-                new OperaDSLUiModule(this)));
-        misterWongInjector = Guice.createInjector(Modules2.mixin(new SharedModule(context),
-                new MisterWongDslRuntimeModule(), new MisterWongDslUiModule(this)));
+        operaInjector = de.abg.jreichert.ui.internal.OperaDSLActivator.getInstance().getInjector(
+                OperaDSLActivator.DE_ABG_JREICHERT_OPERADSL);
+        misterWongInjector = de.abg.jreichert.ui.internal.MisterWongDslActivator.getInstance().getInjector(
+                MisterWongDslActivator.DE_ABG_JREICHERT_MISTERWONGDSL);
     }
 
     /*
