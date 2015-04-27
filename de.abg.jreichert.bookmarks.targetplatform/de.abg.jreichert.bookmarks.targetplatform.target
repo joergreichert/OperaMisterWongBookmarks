@@ -2,43 +2,43 @@
 <?pde version="3.6"?>
 
 <target includeMode="feature" name="Generated from Bookmarks manager" sequenceNumber="67">
-	<locations>
-		<location includeAllPlatforms="false" includeMode="planner" includeSource="true" type="InstallableUnit">
-			<unit id="org.eclipse.emf.compare" version="3.1.2.201501201328"/>
-			<unit id="org.eclipse.emf.sdk.feature.group" version="2.10.2.v20150123-0452"/>
-			<unit id="org.eclipse.jdt.feature.group" version="3.10.1.v20150204-1700"/>
-			<unit id="org.eclipse.pde.feature.group" version="3.10.1.v20150204-1700"/>
-			<unit id="org.eclipse.platform.feature.group" version="4.4.2.v20150204-1700"/>
-			<unit id="org.eclipse.wst.xml.ui" version="1.1.501.v201501212057"/>
-			<repository location="http://download.eclipse.org/releases/luna"/>
-		</location>
-		<location includeAllPlatforms="false" includeMode="planner" includeSource="true" type="InstallableUnit">
-			<unit id="org.eclipse.wb.xwt.feature.feature.group" version="1.8.0.r44x201412090046"/>
-			<repository location="http://download.eclipse.org/windowbuilder/WB/integration/4.4/"/>
-		</location>
-		<location includeAllPlatforms="false" includeMode="planner" includeSource="true" type="InstallableUnit">
-			<unit id="org.eclipse.xtext.sdk.feature.group" version="2.8.2.v201504100559"/>
-			<repository location="http://download.eclipse.org/modeling/tmf/xtext/updates/composite/releases/"/>
-		</location>
-		<location includeAllPlatforms="false" includeMode="planner" includeSource="true" type="InstallableUnit">
-			<unit id="de.itemis.xtext.antlr" version="2.1.1.v201405091103"/>
-			<repository location="http://download.itemis.com/updates/releases/2.1.1/"/>
-		</location>
-		<location includeAllPlatforms="false" includeMode="planner" includeSource="true" type="InstallableUnit">
-			<unit id="org.eclipse.jdt.junit.runners.feature.feature.group" version="0.1.0.201411181552"/>
-			<unit id="org.xpect.sdk.feature.group" version="0.1.0.201409041611"/>
-			<repository location="http://www.xpect-tests.org/updatesite/nightly/"/>
-		</location>
-		<location includeAllPlatforms="false" includeMode="planner" includeSource="true" type="InstallableUnit">
-			<unit id="org.eclipse.swtbot.eclipse.feature.group" version="2.2.1.201402241301"/>
-			<repository location="http://download.eclipse.org/technology/swtbot/releases/latest/"/>
-		</location>
-	</locations>
-	<environment>
-		<nl>en</nl>
-	</environment>
-	<targetJRE path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
-	<launcherArgs>
-		<vmArgs>-Xmx512m -XX:MaxPermSize=128m</vmArgs>
-	</launcherArgs>
+   <locations>
+      <location includeAllPlatforms="false" includeMode="planner" includeSource="true" type="InstallableUnit">
+         <unit id="org.eclipse.emf.compare" version="3.1.2.201501201328"/>
+         <unit id="org.eclipse.emf.sdk.feature.group" version="2.10.2.v20150123-0452"/>
+         <unit id="org.eclipse.jdt.feature.group" version="3.10.1.v20150204-1700"/>
+         <unit id="org.eclipse.pde.feature.group" version="3.10.1.v20150204-1700"/>
+         <unit id="org.eclipse.platform.feature.group" version="4.4.2.v20150204-1700"/>
+         <unit id="org.eclipse.wst.xml.ui" version="1.1.501.v201501212057"/>
+         <repository location="http://download.eclipse.org/releases/luna"/>
+      </location>
+      <location includeAllPlatforms="false" includeMode="planner" includeSource="true" type="InstallableUnit">
+         <unit id="org.eclipse.wb.xwt.feature.feature.group" version="1.8.0.r44x201412090046"/>
+         <repository location="http://download.eclipse.org/windowbuilder/WB/integration/4.4/"/>
+      </location>
+      <location includeAllPlatforms="false" includeMode="planner" includeSource="true" type="InstallableUnit">
+         <unit id="org.eclipse.xtext.sdk.feature.group" version="2.8.2.v201504100559"/>
+         <repository location="http://download.eclipse.org/modeling/tmf/xtext/updates/composite/releases/"/>
+      </location>
+      <location includeAllPlatforms="false" includeMode="planner" includeSource="true" type="InstallableUnit">
+         <unit id="de.itemis.xtext.antlr" version="2.1.1.v201405091103"/>
+         <repository location="http://download.itemis.com/updates/releases/2.1.1/"/>
+      </location>
+      <location includeAllPlatforms="false" includeMode="planner" includeSource="true" type="InstallableUnit">
+         <unit id="org.eclipse.jdt.junit.runners.feature.feature.group" version="0.1.0.201411181552"/>
+         <unit id="org.xpect.sdk.feature.group" version="0.1.0.201409041611"/>
+         <repository location="http://www.xpect-tests.org/updatesite/nightly/"/>
+      </location>
+      <location includeAllPlatforms="false" includeMode="planner" includeSource="true" type="InstallableUnit">
+         <unit id="org.eclipse.swtbot.eclipse.feature.group" version="2.2.1.201402241301"/>
+         <repository location="http://download.eclipse.org/technology/swtbot/releases/latest/"/>
+      </location>
+   </locations>
+   <environment>
+      <nl>en</nl>
+   </environment>
+   <targetJRE path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+   <launcherArgs>
+      <vmArgs>-Xmx512m -XX:MaxPermSize=128m</vmArgs>
+   </launcherArgs>
 </target>
