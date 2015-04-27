@@ -1,40 +1,33 @@
-TargetDefinition "Opera Mister Wong Bookmarks Target Platform"
+TargetDefinition "Generated from Bookmarks manager"
 
 	targetFile = de.abg.jreichert.bookmarks.targetplatform
-	
-	"Kepler" http://download.eclipse.org/releases/kepler {
-		org.eclipse.sdk 4.3.2.v20140221-1852,
-		org.eclipse.pde 3.9.1.v20140221-1700,
-		org.eclipse.swt noFeature 3.102.1.v20140206-1334,
-		org.eclipse.emf.sdk 2.9.2.v20140203-1126,
-		org.eclipse.emf.compare.ide.ui 2.1.3.201402040808,
-		org.eclipse.wb.rcp.feature 1.6.1.r43x201309100008,
-		org.eclipse.wb.swt.feature 1.6.1.r43x201309092350,
-		org.eclipse.wb.xwt.feature 1.6.1.r43x201309100031,
-		org.eclipse.wb.core.feature 1.6.1.r43x201309092314,
-		org.eclipse.wb.doc.user.feature 1.6.1.r43x201309092334,
-		org.eclipse.wb.core.ui.feature 1.6.1.r43x201309092325,
-		org.eclipse.wb.layout.group.feature 1.6.1.r43x201309092345,
-		org.eclipse.wb.core.xml.feature 1.6.1.r43x201309092330
-	}
-	
-	"Xtext & Xtend" http://download.eclipse.org/modeling/tmf/xtext/updates/composite/releases/ {
-		org.eclipse.xtext.sdk 2.6.0.v201405210727,
-		org.eclipse.xtend.sdk 2.6.0.v201405210727,
-		org.eclipse.emf.mwe2.language.sdk 2.6.0.v201405200939,
-		org.eclipse.emf.mwe2.runtime.sdk 2.6.0.v201405200714
+
+	http://download.eclipse.org/releases/luna {
+		org.eclipse.emf.compare noFeature 3.1.2.201501201328,
+		org.eclipse.emf.sdk 2.10.2.v20150123-0452,
+		org.eclipse.jdt 3.10.1.v20150204-1700,
+		org.eclipse.pde 3.10.1.v20150204-1700,
+		org.eclipse.platform 4.4.2.v20150204-1700,
+		org.eclipse.wst.xml.ui noFeature 1.1.501.v201501212057
 	}
 
-	"Xtext ANTLR" http://download.itemis.com/updates/releases/2.1.1/ {
-		de.itemis.xtext.antlr.sdk 2.1.1.v201405091103,
-		de.itemis.xtext.antlr.feature 2.1.1.v201405091103
+	http://download.eclipse.org/windowbuilder/WB/integration/4.4/ {
+		org.eclipse.wb.xwt.feature 1.8.0.r44x201412090046
 	}
-	
-	"SWTBot" http://download.eclipse.org/technology/swtbot/releases/latest/ {
-		org.eclipse.swtbot.eclipse 2.2.1.201402241301,
-		org.eclipse.swtbot.eclipse.gef 2.2.1.201402241301
+
+	http://download.eclipse.org/modeling/tmf/xtext/updates/composite/releases/ {
+		org.eclipse.xtext.sdk 2.8.2.v201504100559
 	}
-	
-	"Xpect" http://www.xpect-tests.org/updatesite/nightly/ {
-		org.xpect.sdk 0.1.0.201401101421
+
+	http://download.itemis.com/updates/releases/2.1.1/ {
+		de.itemis.xtext.antlr noFeature 2.1.1.v201405091103
+	}
+
+	http://www.xpect-tests.org/updatesite/nightly/ {
+		org.eclipse.jdt.junit.runners.feature 0.1.0.201411181552,
+		org.xpect.sdk 0.1.0.201409041611
+	}
+
+	http://download.eclipse.org/technology/swtbot/releases/latest/ {
+		org.eclipse.swtbot.eclipse 2.2.1.201402241301
 	}
